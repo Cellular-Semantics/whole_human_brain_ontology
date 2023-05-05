@@ -6,7 +6,7 @@
 
 #IMPORTS += simple_human simple_marmoset
 
-JOBS = CS202212140
+JOBS = CS202210140
 #GENE_LIST = ensmusg simple_human simple_marmoset
 GENE_LIST = simple_human
 BDS_BASE = http://purl.obolibrary.org/obo/
@@ -104,7 +104,7 @@ $(PATTERNDIR)/data/default/%_class_curation.txt: $(PATTERNDIR)/data/default/%_cl
 
 
 # merge class template data
-$(TMPDIR)/%_class.tsv: ../patterns/data/default/%_class_base.tsv ../patterns/data/default/%_class_curation.tsv
+$(TMPDIR)/%_class.tsv: $(PATTERNDIR)/data/default/%_class_base.tsv $(PATTERNDIR)/data/default/%_class_curation.tsv
 	python ../scripts/template_runner.py modifier --merge -i=$< -i2=$(word 2, $^) -o=$@
 
 # hard wiring for now.  Work on patsubst later
