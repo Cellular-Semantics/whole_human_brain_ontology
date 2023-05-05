@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/whbo
+
+idspace: WHBO
+base_url: /obo/whbo
+
+products:
+- whbo.owl: https://raw.githubusercontent.com/hkir-dev/whole_human_brain_ontology/main/whbo.owl
+- whbo.obo: https://raw.githubusercontent.com/hkir-dev/whole_human_brain_ontology/main/whbo.obo
+
+term_browser: ontobee
+example_terms:
+- WHBO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/hkir-dev/whole_human_brain_ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/hkir-dev/whole_human_brain_ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/WHBO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/hkir-dev/whole_human_brain_ontology/main/
+
