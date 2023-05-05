@@ -48,6 +48,8 @@ import_group:
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: mba
       mirror_from: https://raw.githubusercontent.com/hkir-dev/mouse_brain_atlas_ontology/main/mba.owl
+    - id: simple_human
+      make_base: TRUE
 components:
   products:
     - filename: all_templates.owl
