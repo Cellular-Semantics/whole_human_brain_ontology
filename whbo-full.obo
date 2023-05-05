@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: whbo/releases/2023-05-05/whbo-full.owl
+ontology: whbo/whbo-full
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
+property_value: owl:versionInfo "2023-05-05" xsd:string
+
+[Term]
+id: WHBO:0000000
+name: root node
+
