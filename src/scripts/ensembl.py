@@ -2,6 +2,7 @@ import os
 import logging
 import csv
 import requests
+import ast
 from pathlib import Path
 import pandas as pd
 from template_generation_utils import read_csv, read_csv_to_dict, read_taxonomy_details_yaml, index_dendrogram
@@ -69,15 +70,7 @@ def normalize_raw_markers(raw_marker):
     else:
         print("Read nomenclature table: " + taxonomy_id)
         nomenclature_indexes = [read_csv_to_dict(NOMENCLATURE.format(taxonomy_id),
-                                                 id_column_name="cell_set_preferred_alias", id_to_lower=True)[1],
-                                read_csv_to_dict(NOMENCLATURE.format(taxonomy_id),
-                                                 id_column_name="cell_set_aligned_alias", id_to_lower=True)[1],
-                                read_csv_to_dict(NOMENCLATURE.format(taxonomy_id),
-                                                 id_column_name="cell_set_accession", id_to_lower=True)[1],
-                                read_csv_to_dict(NOMENCLATURE.format(taxonomy_id),
-                                                 id_column_name="original_label", id_to_lower=True)[1],
-                                read_csv_to_dict(NOMENCLATURE.format(taxonomy_id),
-                                                 id_column_name="cell_set_additional_aliases", id_to_lower=True)[1],
+                                                 id_column_name="cell_set_accession", id_to_lower=True)[1]
                                 ]
 
     gene_db_path = GENE_DB_PATH.format(str(taxonomy_config["Reference_gene_list"][0]).strip().lower())
@@ -92,23 +85,22 @@ def normalize_raw_markers(raw_marker):
     else:
         headers, raw_marker_data = read_csv_to_dict(raw_marker, id_column_name="clusterName", delimiter="\t")
 
-    for cluster_name in raw_marker_data:
+    for cluster_id in raw_marker_data:
         normalized_data = {}
-        row = raw_marker_data[cluster_name]
-        cluster_name_variants = [cluster_name.lower(), cluster_name.lower().replace("-", "/"),
-                                 cluster_name.replace("Micro", "Microglia").lower()]
+        row = raw_marker_data[cluster_id]
+        accession_id = "CS202210140_" + str(int(cluster_id) + 1)
 
-        nomenclature_node = search_terms_in_index(cluster_name_variants, nomenclature_indexes)
+        nomenclature_node = search_terms_in_index([accession_id.lower()], nomenclature_indexes)
         if nomenclature_node:
-            node_id = nomenclature_node["cell_set_accession"]
-            marker_names = get_marker_names(row)
+            node_id = accession_id
+            marker_names = get_marker_names2(row)
             marker_ids = []
             for name in marker_names:
                 if name:
-                    if species_abbv + " " + name.lower() in genes_by_name:
-                        marker_ids.append(str(genes_by_name[species_abbv + " " + name.lower()]["ID"]))
-                    elif species_abbv + " " + name.lower().replace("_", "-") in genes_by_name:
-                        marker_ids.append(str(genes_by_name[species_abbv + " " + name.lower().replace("_", "-")]["ID"]))
+                    if name.lower() + " (" + species_abbv + ")" in genes_by_name:
+                        marker_ids.append(str(genes_by_name[name.lower() + " (" + species_abbv + ")"]["ID"]))
+                    elif name.lower().replace("_", "-") + " (" + species_abbv + ")" in genes_by_name:
+                        marker_ids.append(str(genes_by_name[name.lower().replace("_", "-") + " (" + species_abbv + ")"]["ID"]))
                     else:
                         unmatched_markers.add(name)
 
@@ -118,13 +110,19 @@ def normalize_raw_markers(raw_marker):
 
             normalized_markers.append(normalized_data)
         else:
-            log.error("Node with cluster name '{}' couldn't be found in the nomenclature.".format(cluster_name))
+            log.error("Node with cluster name '{}' couldn't be found in the nomenclature.".format(accession_id))
             # raise Exception("Node with cluster name {} couldn't be found in the nomenclature.".format(cluster_name))
 
     class_robot_template = pd.DataFrame.from_records(normalized_markers)
     class_robot_template.to_csv(OUTPUT_MARKER.format(taxonomy_id.replace("CCN", "").replace("CS", "")), sep="\t", index=False)
     log.error("Following markers could not be found in the db ({}): {}".format(len(unmatched_markers),
                                                                                str(unmatched_markers)))
+
+
+def get_marker_names2(row):
+    names_list_str = row["NSForest_markers"]
+    marker_names = ast.literal_eval(names_list_str)
+    return marker_names
 
 
 def get_marker_names(row):
@@ -140,16 +138,18 @@ def get_marker_names(row):
 
 
 def get_taxonomy_config(raw_marker_path):
-    species_name = Path(raw_marker_path).stem.split("_")[0]
-    nsforest_name = Path(raw_marker_path).stem.split("_NSForest")[0]
-    brain_region = "M1"  # default
+    # species_name = Path(raw_marker_path).stem.split("_")[0]
+    # nsforest_name = Path(raw_marker_path).stem.split("_NSForest")[0]
+    # brain_region = "M1"  # default
+    #
+    # # handles Human_MTG
+    # if species_name != nsforest_name:
+    #     brain_region = nsforest_name.split("_")[1].strip()
+    # elif species_name == "Mouse":
+    #     brain_region = "MOp"
 
-    # handles Human_MTG
-    if species_name != nsforest_name:
-        brain_region = nsforest_name.split("_")[1].strip()
-    elif species_name == "Mouse":
-        brain_region = "MOp"
-
+    species_name = "Human"
+    brain_region = "Hsap"
     taxonomy_configs = read_taxonomy_details_yaml()
 
     taxonomy_config = None
@@ -336,7 +336,7 @@ def encode_gene_list(genes):
 # normalize_raw_markers("../markers/raw/Human_NSForest_Markers.csv")
 # normalize_raw_markers("../markers/raw/Human_MTG_NSForest_Markers.tsv")
 # normalize_raw_markers("../markers/raw/Mouse_NSForest_Markers.csv")
-
+normalize_raw_markers("../markers/raw/NSForest_results_global_cluster_run2.csv")
 
 # generates marker dosdp templates
 # generate_marker_template("201912131", "../patterns/data/bds/ensg_data.tsv")
