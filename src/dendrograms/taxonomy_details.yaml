@@ -6,9 +6,9 @@
 -
   Taxonomy_id: CS202210140
   Description: Human M1 transcriptomics taxonomy
-  Reference: TBD
+  Reference: (Siletti, Kimberly et al. 2022)
   PMID:
-    - PMID:34616066
+    - DOI:10.1101/2022.10.12.511898
   Species:
     - NCBITaxon:9606
   Species_abbv:
@@ -22,40 +22,124 @@
   Reference_gene_list:
     - simple_human
   Root_nodes:
-#    - Node: CS201912131_149
-#      Cell_type: CL:0011005
+#    - Node: CS202210140_463
+#      Cell_type: CL:0000000
 #      Location_relation: has_soma_location
-#      #GABAergic interneuron
-#    - Node: CS201912131_150
-#      Cell_type: CL:0000679
-#      Location_relation: has_soma_location
-#      #glutamatergic neuron
-#    - Node: CS201912131_125
-#      Cell_type: CL:0000115
-#      Location_relation: part_of
-#      #Endothelial
-#    - Node: CS201912131_126
-#      Cell_type: CL:4023051
-#      Location_relation: part_of
-#      #VLMC
+#      # Miscellaneous ?????????
     - Node: CS202210140_464
       Cell_type: CL:0000129
-      Location_relation: part_of
-      #Microglia
-    - Node: CS202210140_470
-      Cell_type: CL:0000127
-      Location_relation: part_of
-      #Astrocyte
-#    - Node: CS201912131_147
-#      Cell_type: CL:0002453
-#      Location_relation: part_of
-#      #OPC
-#    - Node: CS201912131_151
-#      Cell_type: CL:0000125
-#      Location_relation: part_of
-#      # non-neuronal currently mapped as glial cell
+      Location_relation: has_soma_location
+      # Microglia
+    - Node: CS202210140_465
+      Cell_type: CL:4023072
+      Location_relation: has_soma_location
+      # Vascular
+    - Node: CS202210140_466
+      Cell_type: CL:0000057
+      Location_relation: has_soma_location
+      # Fibroblast
+    - Node: CS202210140_467
+      Cell_type: CL:0002453
+      Location_relation: has_soma_location
+      # Oligodendrocyte precursor
+    - Node: CS202210140_468
+      Cell_type: CL:4023059
+      Location_relation: has_soma_location
+      # Committed oligodendrocyte precursor
     - Node: CS202210140_469
       Cell_type: CL:0000128
-      Location_relation: part_of
-      #Oligodendrocyte
+      Location_relation: has_soma_location
+      # Oligodendrocyte
+    - Node: CS202210140_470
+      Cell_type: CL:0000127
+      Location_relation: has_soma_location
+      # Astrocyte
+    - Node: CS202210140_471
+      Cell_type: CL:0000065
+      Location_relation: has_soma_location
+      # Ependymal
+    - Node: CS202210140_472
+      Cell_type: CL:4023073
+      Location_relation: has_soma_location
+      # Choroid plexus
+    - Node: CS202210140_473
+      Cell_type: CL:4023012
+      Location_relation: has_soma_location
+      # Deep-layer near-projecting
+    - Node: CS202210140_474
+      Cell_type: CL:0000679
+      Location_relation: has_soma_location
+      # Deep-layer corticothalamic and 6b  Glutamatergic
+    - Node: CS202210140_475
+      Cell_type: CL:4023060
+      Location_relation: has_soma_location
+      # Hippocampal CA1-3
+    - Node: CS202210140_476
+      Cell_type: CL:4023008
+      Location_relation: has_soma_location
+      # Upper-layer intratelencephalic
+    - Node: CS202210140_477
+      Cell_type: CL:4023008
+      Location_relation: has_soma_location
+      # Deep-layer intratelencephalic
+    - Node: CS202210140_478
+      Cell_type: CL:4023039
+      Location_relation: has_soma_location
+      # Amygdala excitatory
+    - Node: CS202210140_479
+      Cell_type: CL:4023061
+      Location_relation: has_soma_location
+      # Hippocampal CA4
+    - Node: CS202210140_480
+      Cell_type: CL:4023062
+      Location_relation: has_soma_location
+      # Hippocampal dentate gyrus
+    - Node: CS202210140_481
+      Cell_type: CL:1001474
+      Location_relation: has_soma_location
+      # Medium spiny neuron
+    - Node: CS202210140_482
+      Cell_type: CL:1001474
+      Location_relation: has_soma_location
+      # Eccentric medium spiny neuron
+#    - Node: CS202210140_483
+#      Cell_type: CL:0000540
+#      Location_relation: has_soma_location
+#      # Splatter -> Neuron  ???????????????
+    - Node: CS202210140_484
+      Cell_type: CL:4023063
+      Location_relation: has_soma_location
+      # MGE interneuron
+    - Node: CS202210140_485
+      Cell_type: CL:0000402
+      Location_relation: has_soma_location
+      # LAMP5-LHX6 and Chandelier
+    - Node: CS202210140_486
+      Cell_type: CL:4023064
+      Location_relation: has_soma_location
+      # CGE interneuron
+#    - Node: CS202210140_487
+#      Cell_type: CL:0000000
+#      Location_relation: has_soma_location
+#      # Upper rhombic lip  ???????????
+    - Node: CS202210140_488
+      Cell_type: CL:4023057
+      Location_relation: has_soma_location
+      # Cerebellar inhibitory
+#    - Node: CS202210140_489
+#      Cell_type: CL:0000000
+#      Location_relation: has_soma_location
+#      # Lower rhombic lip  ?????????
+    - Node: CS202210140_490
+      Cell_type: CL:4023074
+      Location_relation: has_soma_location
+      # Mammillary body
+    - Node: CS202210140_491
+      Cell_type: CL:4023068
+      Location_relation: has_soma_location
+      # Thalamic excitatory
+    - Node: CS202210140_492
+      Cell_type: CL:4023079
+      Location_relation: has_soma_location
+      # Midbrain-derived inhibitory
   non_taxonomy_roots: []

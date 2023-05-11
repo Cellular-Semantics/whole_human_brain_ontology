@@ -59,10 +59,14 @@ def log_root_nodes(nomenclature_name):
 
     all_internediate_nodes = [x for x in tree.nodes(data=True) if tree.in_degree(x[0]) > 0 and tree.out_degree(x[0]) > 0]
     all_internediate_nodes.sort(key=lambda x: int(str(x[0]).split("_")[1]))
+
+    headers, data = read_csv_to_dict(taxonomy_file_path)
     for int_node in all_internediate_nodes:
         print("    - Node: " + int_node[0])
         print("      Cell_type: CL:0000000")
         print("      Location_relation: has_soma_location")
+        print("      # " + data[int_node[0]]["cell_set_preferred_alias"])
+
 
 
 def list_level2_nodes(nomenclature_name):
@@ -101,6 +105,6 @@ def list_level2_nodes(nomenclature_name):
 
 
 # convert_tsv_to_csv("nomenclature_with_curation.tsv", "nomenclature_table_CS202211210.csv")
-reformat_csv("CCN_nomenclature_table_WMB.csv", "nomenclature_table_CS202212150_original.csv")
-# log_root_nodes("nomenclature_table_CS202212150.csv")
-# list_level2_nodes("nomenclature_table_CS202212150.csv")
+# reformat_csv("CCN_nomenclature_table_WMB.csv", "nomenclature_table_CS202212150_original.csv")
+log_root_nodes("nomenclature_table_CS202210140.csv")
+# list_level2_nodes("nomenclature_table_CS202210140.csv")

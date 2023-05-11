@@ -9,11 +9,11 @@ from template_generation_utils import read_dendrogram_tree, index_dendrogram, ge
 from marker_tools import read_marker_file
 from nomenclature_tools import nomenclature_2_nodes_n_edges
 
-TAXON = "CS202211210"
+TAXON = "CS202210140"
 # TAXON = "CS201912132"
 
 # NODE_LABEL_DISPLACEMENT = 1200
-NODE_LABEL_DISPLACEMENT = 600
+NODE_LABEL_DISPLACEMENT = 400
 
 NODE_Y_DISPLACEMENT = 300
 
@@ -25,7 +25,7 @@ LEAF_NODE_SIZE = 50
 
 PATH_DEND_JSON = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/" + TAXON + ".json")
 
-PATH_NMN_TABLE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/nomenclature_table_CS202211210.csv")
+PATH_NMN_TABLE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/nomenclature_table_CS202210140.csv")
 
 PATH_MARKERS = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../markers/" + TAXON + "_markers.tsv")
 
@@ -244,8 +244,8 @@ def get_min_depth(all_leafs, pos):
     return min_depth
 
 
-target_nodes = ['All cells', 'IT-ET|IT-ET', 'NP-CT-L6b|NP-CT-L6b', 'DG-MOB-IMN', 'CGE', 'MGE', 'CNU GABA', 'LSX', 'TH', 'HY MM Glut', 'CNU-HY GABA', 'CNU-HYa Glut', 'HY Glut', 'MB Glut', 'P Glut', 'MY Glut', 'P Gaba', 'MY Gaba','MB Gaba', 'CB Gaba', 'CB Grandule', 'Neuroglial', 'Vascular', 'Immune', 'Pallium glutamatergic', 'Subpallium GABAergic', 'PAL-sAMY-TH-HY-MB-HB neuronal', 'CBX-MOB-other neuronal', 'CGE-MGE', 'HEAD', 'HEAD-Gaba1', 'HEAD-Gaba2', 'HEAD-Glut', 'MB-HB', 'MB-HB-Gaba', 'MB-HB-Glut', 'NN-IMN-GC', 'Other-Sub-Gaba', 'Pallium_Glut', 'Subpallium-GABA', 'TH-EPI']
-
-visualise_sub_tree(target_nodes)
-# visualise_tree()
+# target_nodes = ['All cells', 'IT-ET|IT-ET', 'NP-CT-L6b|NP-CT-L6b', 'DG-MOB-IMN', 'CGE', 'MGE', 'CNU GABA', 'LSX', 'TH', 'HY MM Glut', 'CNU-HY GABA', 'CNU-HYa Glut', 'HY Glut', 'MB Glut', 'P Glut', 'MY Glut', 'P Gaba', 'MY Gaba','MB Gaba', 'CB Gaba', 'CB Grandule', 'Neuroglial', 'Vascular', 'Immune', 'Pallium glutamatergic', 'Subpallium GABAergic', 'PAL-sAMY-TH-HY-MB-HB neuronal', 'CBX-MOB-other neuronal', 'CGE-MGE', 'HEAD', 'HEAD-Gaba1', 'HEAD-Gaba2', 'HEAD-Glut', 'MB-HB', 'MB-HB-Gaba', 'MB-HB-Glut', 'NN-IMN-GC', 'Other-Sub-Gaba', 'Pallium_Glut', 'Subpallium-GABA', 'TH-EPI']
+#
+# visualise_sub_tree(target_nodes)
+visualise_tree()
 # visualise_tree("CS202211210_5512")
