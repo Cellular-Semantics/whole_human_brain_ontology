@@ -3,35 +3,108 @@
     "id" : "http://purl.obolibrary.org/obo/whbo.json",
     "meta" : {
       "basicPropertyValues" : [ {
-        "pred" : "http://purl.org/dc/terms/description",
-        "val" : "None"
-      }, {
         "pred" : "http://purl.org/dc/terms/license",
-        "val" : "https://creativecommons.org/licenses/unspecified"
+        "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Whole Human Brain Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-05-05"
+        "val" : "2023-05-11"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/whbo/releases/2023-05-05/whbo.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2023-05-11/whbo.json"
     },
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/WHBO_0000000",
-      "lbl" : "root node",
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000028",
+      "lbl" : "symbol",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010001",
+      "lbl" : "Cluster",
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.org/dc/terms/description",
-      "lbl" : "description",
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010002",
+      "lbl" : "Taxonomy",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010051",
+      "lbl" : "cell_type_rank",
       "type" : "PROPERTY"
     }, {
-      "id" : "http://purl.org/dc/terms/license",
-      "lbl" : "license",
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010052",
+      "lbl" : "cell_types_count",
       "type" : "PROPERTY"
     }, {
-      "id" : "http://purl.org/dc/terms/title",
-      "lbl" : "title",
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010053",
+      "lbl" : "cell_subclasses_count",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010054",
+      "lbl" : "cell_classes_count",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010055",
+      "lbl" : "has_age",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010056",
+      "lbl" : "has_sex",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010057",
+      "lbl" : "has_brain_region",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010058",
+      "lbl" : "has nsforest marker",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010059",
+      "lbl" : "cluster id",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010060",
+      "lbl" : "cell_count",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010061",
+      "lbl" : "nuclei_count",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010062",
+      "lbl" : "fbeta_confidence_score",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0010063",
+      "lbl" : "some_soma_located_in",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "lbl" : "has soma location",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "lbl" : "capable of",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002292",
+      "lbl" : "expresses",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0015001",
+      "lbl" : "has exemplar data",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0015002",
+      "lbl" : "exemplar data of",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0015003",
+      "lbl" : "subcluster of",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0015004",
+      "lbl" : "has characterizing marker set",
       "type" : "PROPERTY"
     } ]
   } ]

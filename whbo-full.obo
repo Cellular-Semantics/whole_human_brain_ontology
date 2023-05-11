@@ -1,12 +1,43 @@
 format-version: 1.2
-data-version: whbo/releases/2023-05-05/whbo-full.owl
-ontology: whbo/whbo-full
-property_value: http://purl.org/dc/terms/description "None" xsd:string
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+data-version: pcl/releases/2023-05-11/whbo-full.owl
+ontology: pcl/whbo-full
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2023-05-05" xsd:string
+property_value: owl:versionInfo "2023-05-11" xsd:string
 
 [Term]
-id: WHBO:0000000
-name: root node
+id: PCL:0010001
+name: Cluster
+
+[Term]
+id: PCL:0010002
+name: Taxonomy
+
+[Typedef]
+id: RO:0002100
+name: has soma location
+
+[Typedef]
+id: RO:0002215
+name: capable of
+
+[Typedef]
+id: RO:0002292
+name: expresses
+
+[Typedef]
+id: RO:0015001
+name: has exemplar data
+
+[Typedef]
+id: RO:0015002
+name: exemplar data of
+
+[Typedef]
+id: RO:0015003
+name: subcluster of
+
+[Typedef]
+id: RO:0015004
+name: has characterizing marker set
 
