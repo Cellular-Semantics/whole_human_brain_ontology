@@ -30,7 +30,7 @@ def construct_human_gene_db():
     with open(SIMPLE_HUMAN.replace(".tsv", "_2.tsv"), mode='w') as out:
         writer = csv.writer(out, delimiter="\t", quotechar='"')
         writer.writerow(["ID", "TYPE", "NAME", "SYNONYMS"])
-        writer.writerow(["ID", "SC %", "A rdfs:label", "oboInOwl:hasExactSynonym SPLIT=|"])
+        writer.writerow(["ID", "SC %", "A rdfs:label", "A oboInOwl:hasExactSynonym SPLIT=|"])
 
         for gene in genes:
             synonyms = genes[gene][SYNONYMS]
