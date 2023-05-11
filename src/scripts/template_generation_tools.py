@@ -161,11 +161,11 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                       'part_of',
                       'has_soma_location',
                       'aligned_alias',
-                      'MBA',
-                      'NT',
-                      'CL',
-                      'Nomenclature_Layers',
-                      'Nomenclature_Projection',
+                      # 'MBA',
+                      # 'NT',
+                      # 'CL',
+                      # 'Nomenclature_Layers',
+                      # 'Nomenclature_Projection',
                       'marker_gene_set'
                       ]
         class_template = []
@@ -188,6 +188,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                 if 'cell_set_alias_citation' in o and o['cell_set_alias_citation']:
                     alias_citations = [citation.strip() for citation in str(o["cell_set_alias_citation"]).split("|")
                                        if citation and citation.strip()]
+                    alias_citations = [citation if citation.lower().startswith("doi:") else 'DOI:' + citation for citation in alias_citations]
                     d["Alias_citations"] = "|".join(alias_citations)
                 if o['cell_set_accession'] in minimal_markers:
                     d['Minimal_markers'] = minimal_markers[o['cell_set_accession']]
@@ -216,21 +217,21 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                 if o['cell_set_accession'] in minimal_markers:
                     d['marker_gene_set'] = PCL_PREFIX + get_marker_gene_set_id(o['cell_set_accession'])
 
-                if "MBA" in o and o["MBA"]:
-                    mbas = [mba.strip().replace("http://purl.obolibrary.org/obo/MBA_", "MBA:")
-                            for mba in str(o["MBA"]).split("|") if mba and mba.strip()]
-                    d["MBA"] = "|".join(mbas)
-                    for index, term in enumerate(mbas, start=1):
-                        d["MBA_" + str(index)] = term
-                if "NT" in o and o["NT"]:
-                    neuro_transmitters = [nt.strip() for nt in str(o["NT"]).split("|") if nt and nt.strip()]
-                    d['NT'] = "|".join(neuro_transmitters)
-                if "CL" in o and o["CL"]:
-                    d['CL'] = o["CL"]
-                if "layer" in o and o["layer"]:
-                    d['Nomenclature_Layers'] = o["layer"]
-                if "projection" in o and o["projection"]:
-                    d['Nomenclature_Projection'] = o["projection"]
+                # if "MBA" in o and o["MBA"]:
+                #     mbas = [mba.strip().replace("http://purl.obolibrary.org/obo/MBA_", "MBA:")
+                #             for mba in str(o["MBA"]).split("|") if mba and mba.strip()]
+                #     d["MBA"] = "|".join(mbas)
+                #     for index, term in enumerate(mbas, start=1):
+                #         d["MBA_" + str(index)] = term
+                # if "NT" in o and o["NT"]:
+                #     neuro_transmitters = [nt.strip() for nt in str(o["NT"]).split("|") if nt and nt.strip()]
+                #     d['NT'] = "|".join(neuro_transmitters)
+                # if "CL" in o and o["CL"]:
+                #     d['CL'] = o["CL"]
+                # if "layer" in o and o["layer"]:
+                #     d['Nomenclature_Layers'] = o["layer"]
+                # if "projection" in o and o["projection"]:
+                #     d['Nomenclature_Projection'] = o["projection"]
 
                 for k in class_seed:
                     if not (k in d.keys()):
