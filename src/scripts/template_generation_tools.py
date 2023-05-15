@@ -161,11 +161,6 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                       'part_of',
                       'has_soma_location',
                       'aligned_alias',
-                      # 'MBA',
-                      # 'NT',
-                      # 'CL',
-                      # 'Nomenclature_Layers',
-                      # 'Nomenclature_Projection',
                       'marker_gene_set'
                       ]
         class_template = []
@@ -265,7 +260,9 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                                'Projection_type',
                                'Layers',
                                'Cross_species_text',
-                               'Comment'
+                               'Comment',
+                               'MBA',
+                               'Neurotransmitter',
                                ]
         class_template = []
 
@@ -282,6 +279,9 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                 for k in class_curation_seed:
                     if not (k in d.keys()):
                         d[k] = ''
+                for i in range(6):
+                    d["MBA_" + str(i + 1)] = ''
+
                 class_template.append(d)
 
         class_robot_template = pd.DataFrame.from_records(class_template)
