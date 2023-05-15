@@ -38,7 +38,7 @@ list_vars:
   Allen_markers: "'sequence_feature'"
   Layers: "'layer of neocortex'"
   MBA: "'thing'"
-  NT: "'thing'"
+  Neurotransmitter: "'thing'"
 
 vars:
   Classification: "'cell'"
@@ -233,7 +233,7 @@ logical_axioms:
        clauses:
          - text: "'capable_of' some %s"
            vars:
-             - NT
+             - Neurotransmitter
    - axiom_type: subClassOf
      text: "%s"
      vars:
