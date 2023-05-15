@@ -17,6 +17,7 @@ SYMBOL = 2
 SYNONYMS = 4
 
 SIMPLE_HUMAN = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../templates/simple_human.tsv")
+GENE_METADATA = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../markers/raw/gene_metadata.csv")
 
 
 def construct_human_gene_db():
@@ -40,7 +41,26 @@ def construct_human_gene_db():
                              genes[gene][SYMBOL] + " (Hsap)", synonyms])
 
 
-construct_human_gene_db()
+def construct_human_gene_db_local(metadata_path):
+    genes = dict()
+    with open(metadata_path) as fd:
+        rd = csv.reader(fd, quotechar='"')
+        for row in rd:
+            genes[row[0]] = row
+
+    with open(SIMPLE_HUMAN.replace(".tsv", "_2.tsv"), mode='w') as out:
+        writer = csv.writer(out, delimiter="\t", quotechar='"')
+        writer.writerow(["ID", "TYPE", "NAME", "SYNONYMS"])
+        writer.writerow(["ID", "SC %", "A rdfs:label", "A oboInOwl:hasExactSynonym SPLIT=|"])
+
+        for gene in genes:
+            synonyms = ""
+            writer.writerow(["ensembl:" + gene, "SO:0000704",
+                             genes[gene][7] + " (Hsap)", synonyms])
+
+
+# construct_human_gene_db()
+construct_human_gene_db_local(GENE_METADATA)
 
 
 
