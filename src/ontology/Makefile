@@ -113,7 +113,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  pr go ro uberon pato cl ncbitaxon mba
+IMPORTS =  pr go ro uberon pato cl ncbitaxon mba simple_human
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -469,6 +469,16 @@ mirror-ncbitaxon: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/mba.owl
 mirror-mba: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/hkir-dev/mouse_brain_atlas_ontology/main/mba.owl -o $@.tmp.owl &&\
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+## ONTOLOGY: simple_human
+.PHONY: mirror-simple_human
+.PRECIOUS: $(MIRRORDIR)/simple_human.owl
+mirror-simple_human: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/simple_human.owl --create-dirs -o $(MIRRORDIR)/simple_human.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/simple_human.owl -o $@.tmp.owl && \
+		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/SIMPLE_HUMAN --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))

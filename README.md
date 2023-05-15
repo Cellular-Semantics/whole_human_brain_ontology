@@ -2,7 +2,9 @@
 ![Build Status](https://github.com/hkir-dev/whole_human_brain_ontology/workflows/CI/badge.svg)
 # Whole Human Brain Ontology
 
-Description: None
+The Whole Human Brain Ontology project constructs a data-driven cell-type ontology of the human brain. This project utilizes [high-throughput single-nucleus RNA sequencing (snRNA-seq) data](https://doi.org/10.1101/2022.10.12.511898 ) to build a comprehensive understanding of the molecular and cellular diversity within the human brain.
+
+WHBO aims to construct a robust and hierarchical ontology that organizes brain cell types based on shared gene expression patterns, functional properties, and anatomical locations.
 
 More information can be found at http://obofoundry.org/ontology/whbo
 
