@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: pcl/releases/2023-05-11/whbo-simple.owl
+data-version: pcl/releases/2023-05-15/whbo-simple.owl
 ontology: pcl/whbo-simple
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2023-05-11" xsd:string
+property_value: owl:versionInfo "2023-05-15" xsd:string
 
 [Typedef]
 id: RO:0002100
