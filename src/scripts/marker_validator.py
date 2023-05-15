@@ -29,7 +29,7 @@ def is_whitelist_file(file_name):
 
 
 def get_taxonomy_files():
-    return [f for f in os.listdir(DENDROGRAMS_FOLDER) if re.search("^CCN\\d+\\.json$", f)]
+    return [f for f in os.listdir(DENDROGRAMS_FOLDER) if re.search("^CS\\d+\\.json$", f)]
 
 
 def get_taxonomy_file_name(marker_file_name):
@@ -43,7 +43,7 @@ def get_taxonomy_file_name(marker_file_name):
 
 
 def get_marker_file_name(taxonomy_file_name):
-    return taxonomy_file_name.replace(".json", "_markers.tsv") .replace("CCN", "CS")
+    return taxonomy_file_name.replace(".json", "_markers.tsv").replace("CCN", "CS")
 
 
 def save_report(report):
