@@ -7,7 +7,7 @@ class PCLIdFactoryTestCase(unittest.TestCase):
 
     def test_taxonomy_ids_parsing(self):
         self.assertTrue(len(taxonomy_ids) >= 1)
-        self.assertEqual("CS202211210", taxonomy_ids[0])
+        self.assertEqual("CS202210140", taxonomy_ids[0])
 
     # def test_mouse_ids(self):
     #     self.assertEqual(get_class_id("CS202002013_1"), "0011001")

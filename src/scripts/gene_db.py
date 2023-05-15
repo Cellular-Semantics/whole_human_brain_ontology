@@ -60,7 +60,7 @@ def construct_human_gene_db_local(metadata_path):
 
 
 # construct_human_gene_db()
-construct_human_gene_db_local(GENE_METADATA)
+# construct_human_gene_db_local(GENE_METADATA)
 
 
 

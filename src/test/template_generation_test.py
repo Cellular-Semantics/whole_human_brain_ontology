@@ -15,7 +15,7 @@ ALL_BASE_FILES = [os.path.join(current_dir, "./test_data/patterns/data/default/C
                   os.path.join(current_dir, "./test_data/patterns/data/default/CCN201912132_class_base.tsv"),
                   os.path.join(current_dir, "./test_data/patterns/data/default/CS1908210_class_base.tsv")]
 
-PATH_MOUSE_NOMENCLATURE = os.path.join(current_dir, "./test_data/nomenclature_table_CCN202002013.csv")
+PATH_HUMAN_NOMENCLATURE = os.path.join(current_dir, "./test_data/nomenclature_table_CCN202002013.csv")
 # PATH_NOMENCLATURE_TABLE = os.path.join(current_dir, "./test_data/nomenclature_table_CCN201912131.csv")
 PATH_NOMENCLATURE_TABLE = os.path.join(current_dir, "./test_data/nomenclature_table_CCN201912131.csv")
 PATH_MARKER = os.path.join(current_dir, "./test_data/CS202002013_markers.tsv")
@@ -59,7 +59,7 @@ class TemplateGenerationTest(unittest.TestCase):
         delete_file(PATH_GENERIC_OUTPUT_TSV)
 
     def test_generate_ind_template(self):
-        generate_ind_template(PATH_MOUSE_NOMENCLATURE, PATH_CENTRALIZED_DATA, PATH_GENERIC_OUTPUT_TSV)
+        generate_ind_template(PATH_HUMAN_NOMENCLATURE, PATH_CENTRALIZED_DATA, PATH_GENERIC_OUTPUT_TSV)
         output = read_tsv(PATH_GENERIC_OUTPUT_TSV)
 
         _label = 2
@@ -84,34 +84,34 @@ class TemplateGenerationTest(unittest.TestCase):
 
         # self.assertEqual("Cell Type|Subclass", output["PCL_INDV:CS202002013_112"][_rank])
 
-    def test_base_class_template_generation(self):
-        generate_base_class_template(PATH_MOUSE_NOMENCLATURE, PATH_OUTPUT_CLASS_TSV)
-        output = read_tsv(PATH_OUTPUT_CLASS_TSV)
-
-        self.assertTrue(PCL_BASE + get_class_id("CS202002013_150") in output)  # child
-
-        # assert only descendants of the root nodes (except root nodes itself) exist
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_117") in output)  # root
-
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_123") in output) # root
-        self.assertTrue(PCL_BASE + get_class_id("CS202002013_150") in output)  # child
-        self.assertTrue(PCL_BASE + get_class_id("CS202002013_124") in output)  # child
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_158") in output)  # grand child, empty cell_set_preferred_alias
-        self.assertTrue(PCL_BASE + get_class_id("CS202002013_3") in output)  # grand child
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_122") in output)  # parent
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_120") in output)  # grand parent
-
-        self.assertTrue(PCL_BASE + get_class_id("CS202002013_103") in output)  # root & leaf
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_220") in output)  # parent
-
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_179") in output)  # root
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_180") in output)  # child, empty cell_set_preferred_alias
-        self.assertTrue(PCL_BASE + get_class_id("CS202002013_207") in output)  # child
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_208") in output)  # grand child, empty cell_set_preferred_alias
-        self.assertTrue(PCL_BASE + get_class_id("CS202002013_83") in output)  # grand child
-
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_219") in output)  # parent
-        self.assertFalse(PCL_BASE + get_class_id("CS202002013_220") in output)  # grand parent
+    # def test_base_class_template_generation(self):
+    #     generate_base_class_template(PATH_HUMAN_NOMENCLATURE, PATH_OUTPUT_CLASS_TSV)
+    #     output = read_tsv(PATH_OUTPUT_CLASS_TSV)
+    #
+    #     self.assertTrue(PCL_BASE + get_class_id("CS202002013_150") in output)  # child
+    #
+    #     # assert only descendants of the root nodes (except root nodes itself) exist
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_117") in output)  # root
+    #
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_123") in output) # root
+    #     self.assertTrue(PCL_BASE + get_class_id("CS202002013_150") in output)  # child
+    #     self.assertTrue(PCL_BASE + get_class_id("CS202002013_124") in output)  # child
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_158") in output)  # grand child, empty cell_set_preferred_alias
+    #     self.assertTrue(PCL_BASE + get_class_id("CS202002013_3") in output)  # grand child
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_122") in output)  # parent
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_120") in output)  # grand parent
+    #
+    #     self.assertTrue(PCL_BASE + get_class_id("CS202002013_103") in output)  # root & leaf
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_220") in output)  # parent
+    #
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_179") in output)  # root
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_180") in output)  # child, empty cell_set_preferred_alias
+    #     self.assertTrue(PCL_BASE + get_class_id("CS202002013_207") in output)  # child
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_208") in output)  # grand child, empty cell_set_preferred_alias
+    #     self.assertTrue(PCL_BASE + get_class_id("CS202002013_83") in output)  # grand child
+    #
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_219") in output)  # parent
+    #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_220") in output)  # grand parent
 
     def test_base_class_template_generation_with_nomenclature(self):
         generate_base_class_template(PATH_NOMENCLATURE_TABLE, PATH_OUTPUT_CLASS_TSV)

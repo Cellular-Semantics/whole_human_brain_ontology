@@ -336,7 +336,7 @@ def encode_gene_list(genes):
 # normalize_raw_markers("../markers/raw/Human_NSForest_Markers.csv")
 # normalize_raw_markers("../markers/raw/Human_MTG_NSForest_Markers.tsv")
 # normalize_raw_markers("../markers/raw/Mouse_NSForest_Markers.csv")
-normalize_raw_markers("../markers/raw/NSForest_results_global_cluster_run2.csv")
+# normalize_raw_markers("../markers/raw/NSForest_results_global_cluster_run2.csv")
 
 # generates marker dosdp templates
 # generate_marker_template("201912131", "../patterns/data/bds/ensg_data.tsv")
