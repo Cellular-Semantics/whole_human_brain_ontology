@@ -17,10 +17,10 @@ def get_unique_nts(raw_file_path):
 
     with open(NT_SYMBOL_MAPPING, mode='w') as out:
         writer = csv.writer(out, delimiter="\t", quotechar='"')
-        writer.writerow(["SYMBOL", "GENE"])
+        writer.writerow(["SYMBOL", "CELL TYPE LABEL", "CELL TYPE ID", "GENES", "COMMENTS"])
 
         for unique_nt in unique_nts:
-            writer.writerow([unique_nt, ""])
+            writer.writerow([unique_nt, "", "", "", ""])
 
 
 get_unique_nts(CLUSTER_ANNOTATION_PATH)
