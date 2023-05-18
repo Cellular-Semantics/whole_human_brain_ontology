@@ -16,7 +16,7 @@
   Gene_abbv:
     - Hsap
   Brain_region:
-    - MBA:997
+    - HBA:4005
   Brain_region_abbv:
     - Hsap
   Reference_gene_list:

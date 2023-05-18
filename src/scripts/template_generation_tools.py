@@ -261,7 +261,7 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                                'Layers',
                                'Cross_species_text',
                                'Comment',
-                               'MBA',
+                               'HBA',
                                'Neurotransmitter',
                                ]
         class_template = []
@@ -280,7 +280,7 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                     if not (k in d.keys()):
                         d[k] = ''
                 for i in range(6):
-                    d["MBA_" + str(i + 1)] = ''
+                    d["HBA_" + str(i + 1)] = ''
 
                 class_template.append(d)
 

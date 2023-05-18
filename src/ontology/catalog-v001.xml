@@ -21,12 +21,13 @@
   <uri name="http://purl.obolibrary.org/obo/whbo/imports/cl_import.owl" uri="imports/cl_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/whbo/imports/cl_import.obo" uri="imports/cl_import.obo"/>
   
-  <uri name="http://purl.obolibrary.org/obo/whbo/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/whbo/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>
+<!--  <uri name="http://purl.obolibrary.org/obo/whbo/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>-->
+<!--  <uri name="http://purl.obolibrary.org/obo/whbo/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>-->
   
-  <uri name="http://purl.obolibrary.org/obo/whbo/imports/mba_import.owl" uri="imports/mba_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/whbo/imports/mba_import.obo" uri="imports/mba_import.obo"/>
-  
+  <uri name="http://purl.obolibrary.org/obo/whbo/imports/hba_import.owl" uri="imports/hba_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/whbo/imports/hba_import.obo" uri="imports/hba_import.obo"/>
+
+  <uri name="http://purl.obolibrary.org/obo/pcl/imports/merged_import.owl" uri="imports/merged_import.owl"/>
 
   <uri name="http://purl.obolibrary.org/obo/bdscratch/imports/simple_human_import.owl" uri="imports/simple_human_import.owl"/>
   
