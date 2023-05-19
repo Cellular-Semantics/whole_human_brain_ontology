@@ -24,6 +24,10 @@ MARKER_PATH = '../markers/CS{}_markers.tsv'
 ALLEN_MARKER_PATH = "../markers/CS{}_Allen_markers.tsv"
 NOMENCLATURE_TABLE_PATH = '../dendrograms/nomenclature_table_{}.csv'
 ENSEMBLE_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../templates/{}.tsv")
+CLUSTER_ANNOTATIONS_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                                        '../dendrograms/supplementary/cluster_annotation_{}.tsv')
+NT_SYMBOLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/Neurotransmitter_symbols_mapping.tsv")
+
 CROSS_SPECIES_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                   "../dendrograms/nomenclature_table_CCN202002270.csv")
 
@@ -144,6 +148,9 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
             minimal_markers = {}
             allen_markers = {}
 
+        cluster_annotations = read_csv_to_dict(CLUSTER_ANNOTATIONS_PATH.format(taxon), delimiter="\t")[1]
+        nt_symbols_mapping = read_csv_to_dict(NT_SYMBOLS_MAPPING, delimiter="\t")[1]
+
         class_seed = ['defined_class',
                       'prefLabel',
                       'Alias_citations',
@@ -161,7 +168,8 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                       'part_of',
                       'has_soma_location',
                       'aligned_alias',
-                      'marker_gene_set'
+                      'marker_gene_set',
+                      'Neurotransmitter'
                       ]
         class_template = []
 
@@ -212,21 +220,15 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                 if o['cell_set_accession'] in minimal_markers:
                     d['marker_gene_set'] = PCL_PREFIX + get_marker_gene_set_id(o['cell_set_accession'])
 
-                # if "MBA" in o and o["MBA"]:
-                #     mbas = [mba.strip().replace("http://purl.obolibrary.org/obo/MBA_", "MBA:")
-                #             for mba in str(o["MBA"]).split("|") if mba and mba.strip()]
-                #     d["MBA"] = "|".join(mbas)
-                #     for index, term in enumerate(mbas, start=1):
-                #         d["MBA_" + str(index)] = term
-                # if "NT" in o and o["NT"]:
-                #     neuro_transmitters = [nt.strip() for nt in str(o["NT"]).split("|") if nt and nt.strip()]
-                #     d['NT'] = "|".join(neuro_transmitters)
-                # if "CL" in o and o["CL"]:
-                #     d['CL'] = o["CL"]
-                # if "layer" in o and o["layer"]:
-                #     d['Nomenclature_Layers'] = o["layer"]
-                # if "projection" in o and o["projection"]:
-                #     d['Nomenclature_Projection'] = o["projection"]
+                # CS202210140_242 -> 241
+                cluster_index = str(int(str(o['cell_set_accession']).replace(taxon + "_", "")) - 1)
+                if cluster_index in cluster_annotations:
+                    nt_symbols = cluster_annotations[cluster_index]["Neurotransmitter auto-annotation"].split(" ")
+                    # TODO add evidence comment "inferred to be {x}-ergic based on expression of {y}"
+                    if nt_symbols:
+                        d['Neurotransmitter'] = "|".join([nt_symbols_mapping[nt_symbol]["CELL TYPE NEUROTRANSMISSION ID"] if nt_symbol else "" for nt_symbol in nt_symbols])
+                    else:
+                        d['Neurotransmitter'] = ""
 
                 for k in class_seed:
                     if not (k in d.keys()):
@@ -261,8 +263,7 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                                'Layers',
                                'Cross_species_text',
                                'Comment',
-                               'HBA',
-                               'Neurotransmitter',
+                               'HBA'
                                ]
         class_template = []
 
