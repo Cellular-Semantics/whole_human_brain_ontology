@@ -20,6 +20,8 @@ PCL_INDV_BASE = 'http://purl.obolibrary.org/obo/pcl/'
 
 PCL_PREFIX = 'PCL:'
 
+BRAIN_REGION_THRESHOLD = 10
+
 MARKER_PATH = '../markers/CS{}_markers.tsv'
 ALLEN_MARKER_PATH = "../markers/CS{}_Allen_markers.tsv"
 NOMENCLATURE_TABLE_PATH = '../dendrograms/nomenclature_table_{}.csv'
@@ -27,6 +29,7 @@ ENSEMBLE_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../te
 CLUSTER_ANNOTATIONS_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                         '../dendrograms/supplementary/cluster_annotation_{}.tsv')
 NT_SYMBOLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/Neurotransmitter_symbols_mapping.tsv")
+BRAIN_REGION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/Brain_region_mapping.tsv")
 
 CROSS_SPECIES_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                   "../dendrograms/nomenclature_table_CCN202002270.csv")
@@ -150,6 +153,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
 
         cluster_annotations = read_csv_to_dict(CLUSTER_ANNOTATIONS_PATH.format(taxon), delimiter="\t")[1]
         nt_symbols_mapping = read_csv_to_dict(NT_SYMBOLS_MAPPING, delimiter="\t")[1]
+        brain_region_mapping = read_csv_to_dict(BRAIN_REGION_MAPPING, delimiter="\t")[1]
 
         class_seed = ['defined_class',
                       'prefLabel',
@@ -230,6 +234,25 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                     else:
                         d['Neurotransmitter'] = ""
 
+                    brain_regions = cluster_annotations[cluster_index]["Top three regions"].strip()
+                    if brain_regions:
+                        hba_list = list()
+                        # Midbrain: 21.0%, Basal forebrain: 19.0%, Pons: 14.3%
+                        parts = brain_regions.split(",")
+                        index = 1
+                        for part in parts:
+                            label = part.split(":")[0].strip()
+                            percentage = part.split(":")[1].strip().replace("%", "")
+                            if float(percentage) >= BRAIN_REGION_THRESHOLD:
+                                hba_list.append(brain_region_mapping[label]["HBA ID"])
+                                d['HBA_' + str(index)] = brain_region_mapping[label]["HBA ID"]
+                                d['HBA_' + str(index) + '_comment'] = "Location assignment based on origin of cells " \
+                                                                      "in brain dissections with a cut-off of {}% to" \
+                                                                      " account for dissection errors {}".\
+                                    format(BRAIN_REGION_THRESHOLD, label + ": " + percentage + "%.")
+                                index += 1
+                        d['HBA'] = "|".join(hba_list)
+
                 for k in class_seed:
                     if not (k in d.keys()):
                         d[k] = ''
@@ -262,8 +285,7 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                                'Projection_type',
                                'Layers',
                                'Cross_species_text',
-                               'Comment',
-                               'HBA'
+                               'Comment'
                                ]
         class_template = []
 
@@ -280,8 +302,6 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                 for k in class_curation_seed:
                     if not (k in d.keys()):
                         d[k] = ''
-                for i in range(6):
-                    d["HBA_" + str(i + 1)] = ''
 
                 class_template.append(d)
 

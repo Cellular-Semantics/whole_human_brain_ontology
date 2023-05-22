@@ -137,16 +137,16 @@ $(COMPONENTSDIR)/all_templates.owl: $(OWL_FILES) $(OWL_CLASS_FILES)
 
 .PRECIOUS: $(COMPONENTSDIR)/all_templates.owl
 
-components/%.owl: ../templates/%.tsv $(SRC)
-	$(ROBOT) template --input $(SRC) --template $< \
+components/%.owl: ../templates/%.tsv $(EDIT_PREPROCESSED)
+	$(ROBOT) template --input $(EDIT_PREPROCESSED) --template $< \
     		--add-prefixes template_prefixes.json \
     		annotate --ontology-iri ${BDS_BASE}$@ \
     		convert --format ofn --output $@
 
-components/%_class.owl: $(TMPDIR)/%_class.tsv $(PATTERNDIR)/dosdp-patterns/taxonomy_class.yaml $(SRC)
+components/%_class.owl: $(TMPDIR)/%_class.tsv $(PATTERNDIR)/dosdp-patterns/taxonomy_class.yaml $(EDIT_PREPROCESSED)
 	$(DOSDPT) generate --catalog=catalog-v001.xml --prefixes=template_prefixes.yaml \
         --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/taxonomy_class.yaml \
-        --ontology=$(SRC) --obo-prefixes=true --outfile=$@
+        --ontology=$(EDIT_PREPROCESSED) --obo-prefixes=true --outfile=$@
 
 #components/%_class_homologous.owl: $(PATTERNDIR)/data/default/%_class_homologous.tsv $(SRC) $(PATTERNDIR)/dosdp-patterns/taxonomy_class_homologous.yaml $(SRC) all_imports .FORCE
 #	$(DOSDPT) generate --catalog=catalog-v001.xml --prefixes=template_prefixes.yaml \

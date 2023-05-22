@@ -44,8 +44,8 @@ import_group:
       use_base: TRUE
     - id: cl
       use_base: TRUE
-#    - id: ncbitaxon
-#      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+    - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: hba
       mirror_from: https://raw.githubusercontent.com/obophenotype/ABA_Uberon/master/src/ontology/sources/10.ofn
     - id: simple_human

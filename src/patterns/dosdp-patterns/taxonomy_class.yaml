@@ -77,6 +77,12 @@ data_vars:
   Cluster_ID: "xsd:string"
   Cross_species_text: "xsd:string"
   Taxon_abbv: "xsd:string"
+  HBA_1_comment: "xsd:string"
+  HBA_2_comment: "xsd:string"
+  HBA_3_comment: "xsd:string"
+  HBA_4_comment: "xsd:string"
+  HBA_5_comment: "xsd:string"
+  HBA_6_comment: "xsd:string"
 
 internal_vars:
   - var_name: Minimal_markers_cat
@@ -272,13 +278,44 @@ annotations:
             - Minimal_markers
   - annotationProperty: some_soma_located_in
     var: HBA_1
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_1_comment
   - annotationProperty: some_soma_located_in
     var: HBA_2
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_2_comment
   - annotationProperty: some_soma_located_in
     var: HBA_3
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_3_comment
   - annotationProperty: some_soma_located_in
     var: HBA_4
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_4_comment
   - annotationProperty: some_soma_located_in
     var: HBA_5
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_5_comment
   - annotationProperty: some_soma_located_in
     var: HBA_6
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_6_comment
+

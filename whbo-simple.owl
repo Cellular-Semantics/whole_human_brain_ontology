@@ -8,14 +8,16 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:custom="http://n2o.neo/custom/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/whbo-simple.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2023-05-18/whbo-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2023-05-22/whbo-simple.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Whole Human Brain Ontology</terms:title>
-        <owl:versionInfo>2023-05-18</owl:versionInfo>
+        <owl:versionInfo>2023-05-22</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -28,6 +30,30 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://n2o.neo/custom/cell_set_alias_assignee -->
+
+    <owl:AnnotationProperty rdf:about="http://n2o.neo/custom/cell_set_alias_assignee"/>
+    
+
+
+    <!-- http://n2o.neo/custom/cell_set_alias_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://n2o.neo/custom/cell_set_alias_citation"/>
+    
+
+
+    <!-- http://n2o.neo/custom/cell_set_label -->
+
+    <owl:AnnotationProperty rdf:about="http://n2o.neo/custom/cell_set_label"/>
+    
+
+
+    <!-- http://n2o.neo/custom/cell_set_preferred_alias -->
+
+    <owl:AnnotationProperty rdf:about="http://n2o.neo/custom/cell_set_preferred_alias"/>
     
 
 
@@ -343,6 +369,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
     
 
 
