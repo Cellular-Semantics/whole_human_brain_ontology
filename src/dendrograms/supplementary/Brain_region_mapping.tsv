@@ -1,12 +1,12 @@
 LABEL	UBERON ID	HBA ID
-Amygdala		HBA:4327
-Pons		HBA:9131
-Hippocampus		
-Spinal cord		
-Basal forebrain		HBA:4300
-Hypothalamus		HBA:4540
-Cerebral cortex		HBA:4008
-Medulla		
-Cerebellum		HBA:4696
-Midbrain		
-Thalamus		
+Amygdala	UBERON:0001876	HBA:4327
+Pons	UBERON:0000988	HBA:9131
+Hippocampus	UBERON:0002421	HBA:4249
+Spinal cord	UBERON:0002240	HBA:9525
+Basal forebrain	UBERON:0002743	HBA:4300
+Hypothalamus	UBERON:0001898	HBA:4540
+Cerebral cortex	UBERON:0000956	HBA:4008
+Medulla	UBERON:0005290	HBA:9512
+Cerebellum	UBERON:0002037	HBA:4696
+Midbrain	UBERON:0001891	HBA:9001
+Thalamus	UBERON:0001897	HBA:4392
