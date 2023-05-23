@@ -37,7 +37,7 @@ list_vars:
   Minimal_markers: "'sequence_feature'"
   Allen_markers: "'sequence_feature'"
   Layers: "'layer of neocortex'"
-  MBA: "'thing'"
+  HBA: "'thing'"
   Neurotransmitter: "'thing'"
 
 vars:
@@ -53,12 +53,12 @@ vars:
   CL: "'cell'"
   Nomenclature_Layers: "'layer of neocortex'"
   Nomenclature_Projection: "'projection type'"
-  MBA_1: "'thing'"
-  MBA_2: "'thing'"
-  MBA_3: "'thing'"
-  MBA_4: "'thing'"
-  MBA_5: "'thing'"
-  MBA_6: "'thing'"
+  HBA_1: "'thing'"
+  HBA_2: "'thing'"
+  HBA_3: "'thing'"
+  HBA_4: "'thing'"
+  HBA_5: "'thing'"
+  HBA_6: "'thing'"
 
 data_list_vars:
   Synonyms_from_taxonomy: "xsd:string"
@@ -77,6 +77,12 @@ data_vars:
   Cluster_ID: "xsd:string"
   Cross_species_text: "xsd:string"
   Taxon_abbv: "xsd:string"
+  HBA_1_comment: "xsd:string"
+  HBA_2_comment: "xsd:string"
+  HBA_3_comment: "xsd:string"
+  HBA_4_comment: "xsd:string"
+  HBA_5_comment: "xsd:string"
+  HBA_6_comment: "xsd:string"
 
 internal_vars:
   - var_name: Minimal_markers_cat
@@ -95,7 +101,7 @@ internal_vars:
       join:
         sep: ' or '
   - var_name: Atlas_loc_cat
-    input: MBA
+    input: HBA
     apply:
       join:
         sep: ', '
@@ -271,14 +277,45 @@ annotations:
           vars:
             - Minimal_markers
   - annotationProperty: some_soma_located_in
-    var: MBA_1
+    var: HBA_1
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_1_comment
   - annotationProperty: some_soma_located_in
-    var: MBA_2
+    var: HBA_2
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_2_comment
   - annotationProperty: some_soma_located_in
-    var: MBA_3
+    var: HBA_3
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_3_comment
   - annotationProperty: some_soma_located_in
-    var: MBA_4
+    var: HBA_4
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_4_comment
   - annotationProperty: some_soma_located_in
-    var: MBA_5
+    var: HBA_5
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_5_comment
   - annotationProperty: some_soma_located_in
-    var: MBA_6
+    var: HBA_6
+    annotations:
+      - annotationProperty: rdfsComment
+        text: "%s"
+        vars:
+          - HBA_6_comment
+

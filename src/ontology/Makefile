@@ -113,7 +113,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  pr go ro uberon pato cl ncbitaxon mba simple_human
+IMPORTS =  pr go ro uberon pato cl ncbitaxon hba simple_human
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -464,11 +464,11 @@ mirror-ncbitaxon: | $(TMPDIR)
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
-## ONTOLOGY: mba
-.PHONY: mirror-mba
-.PRECIOUS: $(MIRRORDIR)/mba.owl
-mirror-mba: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/hkir-dev/mouse_brain_atlas_ontology/main/mba.owl -o $@.tmp.owl &&\
+## ONTOLOGY: hba
+.PHONY: mirror-hba
+.PRECIOUS: $(MIRRORDIR)/hba.owl
+mirror-hba: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/ABA_Uberon/master/src/ontology/sources/10.ofn -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
