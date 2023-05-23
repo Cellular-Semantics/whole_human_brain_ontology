@@ -581,9 +581,11 @@ def generate_marker_gene_set_template(taxonomy_file_path, centralized_data_folde
         else:
             minimal_markers = {}
 
-        ns_forest_marker_file = NSFOREST_MARKER_CSV.format(centralized_data_folder,
-                                                           taxonomy_config['Species_abbv'][0],
-                                                           taxonomy_config['Brain_region_abbv'][0])
+        # ns_forest_marker_file = NSFOREST_MARKER_CSV.format(centralized_data_folder,
+        #                                                    taxonomy_config['Species_abbv'][0],
+        #                                                    taxonomy_config['Brain_region_abbv'][0])
+        ns_forest_marker_file = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                                             "../markers/raw/NSForest_results_global_cluster_run2.csv")
         confidences = get_nsforest_confidences(taxon, dend, ns_forest_marker_file)
 
         class_seed = ['defined_class',
