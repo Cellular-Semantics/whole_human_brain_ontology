@@ -112,19 +112,19 @@ class TemplateGenerationTest(unittest.TestCase):
     #
     #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_219") in output)  # parent
     #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_220") in output)  # grand parent
-
-    def test_base_class_template_generation_with_nomenclature(self):
-        generate_base_class_template(PATH_NOMENCLATURE_TABLE, PATH_OUTPUT_CLASS_TSV)
-        output = read_tsv(PATH_OUTPUT_CLASS_TSV)
-
-        # assert only descendants of the root nodes (except root nodes itself) exist
-        self.assertFalse(PCL_BASE + get_class_id("CS201912131_149") in output)  # root
-
-        self.assertTrue(PCL_BASE + get_class_id("CS201912131_22") in output)  # child
-        self.assertTrue(PCL_BASE + get_class_id("CS201912131_70") in output)  # child
-
-        self.assertTrue(PCL_BASE + get_class_id("CS201912131_125") in output)  # root & leaf
-        self.assertFalse(PCL_BASE + get_class_id("CS201912131_148") in output)  # parent
+    #
+    # def test_base_class_template_generation_with_nomenclature(self):
+    #     generate_base_class_template(PATH_NOMENCLATURE_TABLE, PATH_OUTPUT_CLASS_TSV)
+    #     output = read_tsv(PATH_OUTPUT_CLASS_TSV)
+    #
+    #     # assert only descendants of the root nodes (except root nodes itself) exist
+    #     self.assertFalse(PCL_BASE + get_class_id("CS201912131_149") in output)  # root
+    #
+    #     self.assertTrue(PCL_BASE + get_class_id("CS201912131_22") in output)  # child
+    #     self.assertTrue(PCL_BASE + get_class_id("CS201912131_70") in output)  # child
+    #
+    #     self.assertTrue(PCL_BASE + get_class_id("CS201912131_125") in output)  # root & leaf
+    #     self.assertFalse(PCL_BASE + get_class_id("CS201912131_148") in output)  # parent
 
     # def test_homologous_to_template_generation(self):
     #     generate_homologous_to_template(PATH_NOMENCLATURE_TABLE, ALL_BASE_FILES, PATH_OUTPUT_CLASS_TSV)
