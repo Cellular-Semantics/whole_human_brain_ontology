@@ -112,7 +112,7 @@ class TemplateGenerationTest(unittest.TestCase):
     #
     #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_219") in output)  # parent
     #     self.assertFalse(PCL_BASE + get_class_id("CS202002013_220") in output)  # grand parent
-    #
+
     # def test_base_class_template_generation_with_nomenclature(self):
     #     generate_base_class_template(PATH_NOMENCLATURE_TABLE, PATH_OUTPUT_CLASS_TSV)
     #     output = read_tsv(PATH_OUTPUT_CLASS_TSV)
