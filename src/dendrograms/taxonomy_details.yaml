@@ -22,10 +22,10 @@
   Reference_gene_list:
     - simple_human
   Root_nodes:
-#    - Node: CS202210140_463
-#      Cell_type: CL:0000000
-#      Location_relation: has_soma_location
-#      # Miscellaneous ?????????
+    - Node: CS202210140_463
+      Cell_type: CL:0000540
+      Location_relation: has_soma_location
+      # Miscellaneous ?????????
     - Node: CS202210140_464
       Cell_type: CL:0000129
       Location_relation: has_soma_location
@@ -102,10 +102,10 @@
       Cell_type: CL:1001474
       Location_relation: has_soma_location
       # Eccentric medium spiny neuron
-#    - Node: CS202210140_483
-#      Cell_type: CL:0000540
-#      Location_relation: has_soma_location
-#      # Splatter -> Neuron  ???????????????
+    - Node: CS202210140_483
+      Cell_type: CL:0000540
+      Location_relation: has_soma_location
+      # Splatter -> Neuron  ???????????????
     - Node: CS202210140_484
       Cell_type: CL:4023063
       Location_relation: has_soma_location
@@ -118,18 +118,18 @@
       Cell_type: CL:4023064
       Location_relation: has_soma_location
       # CGE interneuron
-#    - Node: CS202210140_487
-#      Cell_type: CL:0000000
-#      Location_relation: has_soma_location
-#      # Upper rhombic lip  ???????????
+    - Node: CS202210140_487
+      Cell_type: CL:0000540
+      Location_relation: has_soma_location
+      # Upper rhombic lip  ???????????
     - Node: CS202210140_488
       Cell_type: CL:4023057
       Location_relation: has_soma_location
       # Cerebellar inhibitory
-#    - Node: CS202210140_489
-#      Cell_type: CL:0000000
-#      Location_relation: has_soma_location
-#      # Lower rhombic lip  ?????????
+    - Node: CS202210140_489
+      Cell_type: CL:0000540
+      Location_relation: has_soma_location
+      # Lower rhombic lip  ?????????
     - Node: CS202210140_490
       Cell_type: CL:4023074
       Location_relation: has_soma_location
