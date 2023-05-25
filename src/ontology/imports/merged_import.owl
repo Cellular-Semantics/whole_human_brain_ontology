@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF
+<rdf:RDF 
      xml:base="http://purl.obolibrary.org/obo/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -12,3 +12,4 @@
 
     <!-- This is a placeholder, it will be regenerated when makefile is first executed -->
 </rdf:RDF>
+

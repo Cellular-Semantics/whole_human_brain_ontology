@@ -14,7 +14,7 @@ ONTBASE=                    $(URIBASE)/pcl
 
 TSV_CLASS_FILES = $(patsubst %, $(TMPDIR)/%_class.tsv, $(JOBS))
 #TSV_CLASS_HOMOLOGOUS_FILES = $(patsubst %, ../patterns/data/default/%_class_homologous.tsv, $(JOBS))
-#TSV_MARKER_SET_FILES = $(patsubst %, ../patterns/data/default/%_marker_set.tsv, $(JOBS))
+TSV_MARKER_SET_FILES = $(patsubst %, ../patterns/data/default/%_marker_set.tsv, $(JOBS))
 
 OWL_FILES = $(patsubst %, components/%.owl, $(JOBS))
 OWL_CLASS_FILES = $(patsubst %, components/%_class.owl, $(JOBS))
@@ -95,10 +95,10 @@ $(PATTERNDIR)/data/default/%_class_curation.txt: $(PATTERNDIR)/data/default/%_cl
 
 #$(PATTERNDIR)/data/default/%_class_homologous.txt: $(PATTERNDIR)/data/default/%_class_homologous.tsv $(TSV_CLASS_FILES) .FORCE
 #	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/taxonomy_class_homologous.yaml --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$@; fi
-#
-#$(PATTERNDIR)/data/default/%_marker_set.txt: $(PATTERNDIR)/data/default/%_marker_set.tsv $(TSV_MARKER_SET_FILES) .FORCE
-#	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/taxonomy_marker_set.yaml --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$@; fi
-#
+
+$(PATTERNDIR)/data/default/%_marker_set.txt: $(PATTERNDIR)/data/default/%_marker_set.tsv $(TSV_MARKER_SET_FILES) .FORCE
+	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/taxonomy_marker_set.yaml --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$@; fi
+
 #$(PATTERNDIR)/data/default/Protein2GeneExpression.txt: $(PATTERNDIR)/data/default/Protein2GeneExpression.tsv .FORCE
 #	if [ $(PAT) = true ]; then $(DOSDPT) terms --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/Protein2GeneExpression.yaml --obo-prefixes=true --prefixes=template_prefixes.yaml --outfile=$@; fi
 
@@ -129,7 +129,7 @@ $(TMPDIR)/%_class.tsv: $(PATTERNDIR)/data/default/%_class_base.tsv $(PATTERNDIR)
 
 # merge all templates except application specific ones
 .PHONY: $(COMPONENTSDIR)/all_templates.owl
-$(COMPONENTSDIR)/all_templates.owl: $(OWL_FILES) $(OWL_CLASS_FILES)
+$(COMPONENTSDIR)/all_templates.owl: $(OWL_FILES) $(OWL_CLASS_FILES) $(OWL_MARKER_SET_FILES)
 	$(ROBOT) merge $(patsubst %, -i %, $(filter-out $(OWL_APP_SPECIFIC_FILES), $^)) \
 	 --collapse-import-closure false \
 	 annotate --ontology-iri ${BDS_BASE}$@  \
@@ -152,12 +152,12 @@ components/%_class.owl: $(TMPDIR)/%_class.tsv $(PATTERNDIR)/dosdp-patterns/taxon
 #	$(DOSDPT) generate --catalog=catalog-v001.xml --prefixes=template_prefixes.yaml \
 #        --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/taxonomy_class_homologous.yaml \
 #        --ontology=$(SRC) --obo-prefixes=true --outfile=$@
-#
-#components/%_marker_set.owl: $(PATTERNDIR)/data/default/%_marker_set.tsv $(SRC) $(PATTERNDIR)/dosdp-patterns/taxonomy_marker_set.yaml $(SRC) all_imports .FORCE
-#	$(DOSDPT) generate --catalog=catalog-v001.xml --prefixes=template_prefixes.yaml \
-#        --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/taxonomy_marker_set.yaml \
-#        --ontology=$(SRC) --obo-prefixes=true --outfile=$@
-#
+
+components/%_marker_set.owl: $(PATTERNDIR)/data/default/%_marker_set.tsv $(SRC) $(PATTERNDIR)/dosdp-patterns/taxonomy_marker_set.yaml $(EDIT_PREPROCESSED)
+	$(DOSDPT) generate --catalog=catalog-v001.xml --prefixes=template_prefixes.yaml \
+        --infile=$< --template=$(PATTERNDIR)/dosdp-patterns/taxonomy_marker_set.yaml \
+        --ontology=$(EDIT_PREPROCESSED) --obo-prefixes=true --outfile=$@
+
 #components/taxonomies.owl: ../templates/Taxonomies.tsv $(SRC)
 #	$(ROBOT) template --input $(SRC) --template $< \
 #    		--add-prefixes template_prefixes.json \

@@ -216,23 +216,24 @@ def get_nsforest_confidences(taxon, dend, ns_forest_marker_file):
     if os.path.isfile(ns_forest_marker_file):
         headers, raw_marker_data = read_csv_to_dict(ns_forest_marker_file, id_column_name="clusterName")
     else:
-        # human mtg file extension is outlier
         headers, raw_marker_data = read_csv_to_dict(str(ns_forest_marker_file).replace(".csv", ".tsv"),
                                                     id_column_name="clusterName", delimiter="\t")
 
     for cluster_name in raw_marker_data:
-        cluster_name_variants = [cluster_name.lower(), cluster_name.lower().replace("-", "/"),
-                                 cluster_name.replace("Micro", "Microglia").lower(),
-                                 ("(Mouse " + cluster_name + ")-like").lower(),
-                                 ("(Mouse " + cluster_name.replace("-", "/") + ")-like").lower()]
+        # cluster_name_variants = [cluster_name.lower(), cluster_name.lower().replace("-", "/"),
+        #                          cluster_name.replace("Micro", "Microglia").lower(),
+        #                          ("(Mouse " + cluster_name + ")-like").lower(),
+        #                          ("(Mouse " + cluster_name.replace("-", "/") + ")-like").lower()]
 
-        nomenclature_node = search_terms_in_index(cluster_name_variants, nomenclature_indexes)
-        if nomenclature_node:
-            node_id = nomenclature_node["cell_set_accession"]
-            confidence_map[node_id] = raw_marker_data[cluster_name]["f-measure"]
-        else:
-            raise ValueError("Node with cluster name '{}' couldn't be found in the nomenclature of {}."
-                             .format(cluster_name, taxon))
+        # nomenclature_node = search_terms_in_index(cluster_name_variants, nomenclature_indexes)
+        accession_id = "CS202210140_" + str(int(cluster_name) + 1)
+        confidence_map[accession_id] = raw_marker_data[cluster_name]["f_score"]
+        # if nomenclature_node:
+        #     node_id = nomenclature_node["cell_set_accession"]
+        #     confidence_map[node_id] = raw_marker_data[cluster_name]["f-measure"]
+        # else:
+        #     raise ValueError("Node with cluster name '{}' couldn't be found in the nomenclature of {}."
+        #                      .format(cluster_name, taxon))
 
     return confidence_map
 
