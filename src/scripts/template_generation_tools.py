@@ -236,7 +236,7 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
 
                     brain_regions = cluster_annotations[cluster_index]["Top three regions"].strip()
                     if brain_regions:
-                        hba_list = list()
+                        region_list = list()
                         # Midbrain: 21.0%, Basal forebrain: 19.0%, Pons: 14.3%
                         parts = brain_regions.split(",")
                         index = 1
@@ -244,14 +244,18 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                             label = part.split(":")[0].strip()
                             percentage = part.split(":")[1].strip().replace("%", "")
                             if float(percentage) >= BRAIN_REGION_THRESHOLD:
-                                hba_list.append(brain_region_mapping[label]["HBA ID"])
-                                d['HBA_' + str(index)] = brain_region_mapping[label]["HBA ID"]
+                                if "HBA ID" in brain_region_mapping[label] and brain_region_mapping[label]["HBA ID"]:
+                                    region = brain_region_mapping[label]["HBA ID"]
+                                else:
+                                    region = brain_region_mapping[label]["UBERON ID"]
+                                region_list.append(region)
+                                d['HBA_' + str(index)] = region
                                 d['HBA_' + str(index) + '_comment'] = "Location assignment based on origin of cells " \
                                                                       "in brain dissections with a cut-off of {}% to" \
                                                                       " account for dissection errors {}".\
                                     format(BRAIN_REGION_THRESHOLD, label + ": " + percentage + "%.")
                                 index += 1
-                        d['HBA'] = "|".join(hba_list)
+                        d['HBA'] = "|".join(region_list)
 
                 for k in class_seed:
                     if not (k in d.keys()):
