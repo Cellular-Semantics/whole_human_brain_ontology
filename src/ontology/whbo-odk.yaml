@@ -38,7 +38,7 @@ import_group:
         - http://purl.obolibrary.org/obo/GOCHE_
     - id: ro
       use_base: TRUE
-    - id: uberon 
+    - id: uberon
       use_base: TRUE
     - id: pato
       use_base: TRUE
@@ -47,9 +47,13 @@ import_group:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: hba
-      mirror_from: https://raw.githubusercontent.com/obophenotype/ABA_Uberon/master/src/ontology/sources/10.ofn
+      mirror_from: https://raw.githubusercontent.com/obophenotype/ABA_Uberon/uberon_inconsistency/src/ontology/sources/10.ofn
     - id: simple_human
       make_base: TRUE
+    - id: hba_uberon_bridge
+#      mirror_from: https://github.com/obophenotype/ABA_Uberon/blob/master/src/ontology/sources/uberon-bridge-to-hba.obo
+      mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.obo
+
 components:
   products:
     - filename: all_templates.owl

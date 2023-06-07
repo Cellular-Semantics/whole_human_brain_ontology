@@ -22,10 +22,120 @@
   Reference_gene_list:
     - simple_human
   Root_nodes:
-    - Node: CS202210140_463
+#  Miscellaneous nodes
+    - Node: CS202210140_1
+      Cell_type: CL:0000236
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # B cell
+    - Node: CS202210140_2
+      Cell_type: CL:0000084
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # T cell
+    - Node: CS202210140_3
+      Cell_type: CL:0000623
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # natural killer cell
+    - Node: CS202210140_4
+      Cell_type: CL:0000576
+      Location_relation: has_soma_location
+      Create_class: Yes
+    - Node: CS202210140_114
+      Cell_type: CL:4023009
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # extratelencephalic-projecting glutamatergic cortical neuron
+    - Node: CS202210140_115
+      Cell_type: CL:4023009
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # extratelencephalic-projecting glutamatergic cortical neuron
+    - Node: CS202210140_117
+      Cell_type: CL:0010012
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # cerebral cortex neuron
+    - Node: CS202210140_118
+      Cell_type: CL:0012001
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # neuron of the forebrain
+    - Node: CS202210140_119
+      Cell_type: CL:4023009
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # extratelencephalic-projecting glutamatergic cortical neuron
+    - Node: CS202210140_133
+      Cell_type: CL:0010012
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # cerebral cortex neuron
+    - Node: CS202210140_165
+      Cell_type: CL:0012001
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # neuron of the forebrain
+    - Node: CS202210140_166
+      Cell_type: CL:0010012
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # cerebral cortex neuron
+    - Node: CS202210140_167
+      Cell_type: CL:0010012
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # cerebral cortex neuron
+    - Node: CS202210140_168
+      Cell_type: CL:0010012
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # cerebral cortex neuron
+    - Node: CS202210140_169
+      Cell_type: CL:0010012
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # cerebral cortex neuron
+    - Node: CS202210140_171
+      Cell_type: CL:0012001
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # neuron of the forebrain
+    - Node: CS202210140_177
       Cell_type: CL:0000540
       Location_relation: has_soma_location
-      # Miscellaneous ?????????
+      Create_class: Yes
+      # neuron
+    - Node: CS202210140_178
+      Cell_type: CL:0000540
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # neuron
+    - Node: CS202210140_179
+      Cell_type: CL:0000540
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # neuron
+    - Node: CS202210140_315
+      Cell_type: CL:0000540
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # neuron
+    - Node: CS202210140_402
+      Cell_type: CL:0012001
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # neuron of the forebrain
+    - Node: CS202210140_405
+      Cell_type: CL:0010012
+      Location_relation: has_soma_location
+      Create_class: Yes
+      # cerebral cortex neuron
+#    - Node: CS202210140_463
+#      Cell_type: CL:0000540
+#      Location_relation: has_soma_location
+#      # Miscellaneous ?????????
     - Node: CS202210140_464
       Cell_type: CL:0000129
       Location_relation: has_soma_location

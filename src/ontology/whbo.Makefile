@@ -241,3 +241,31 @@ components/%_marker_set.owl: $(PATTERNDIR)/data/default/%_marker_set.tsv $(SRC) 
 #.PHONY: pattern_schema_checks
 #pattern_schema_checks: update_patterns
 #	if [ $(PAT) = "skip" ]; then $(PATTERN_TESTER) $(PATTERNDIR)/dosdp-patterns/  ; fi
+
+## ONTOLOGY: uberon (remove disjoint classes and properties, they are cousing inconsistencies when merged with hba and hba bridge)
+.PHONY: mirror-uberon
+.PRECIOUS: $(MIRRORDIR)/uberon.owl
+mirror-uberon: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/uberon/uberon-base.owl --create-dirs -o $(MIRRORDIR)/uberon.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/uberon.owl -o $@.tmp.owl && \
+		$(ROBOT) remove -i $@.tmp.owl --axioms disjoint -o $@.tmp.owl && \
+		 mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+ ## ONTOLOGY: ro (remove [material entity](http://purl.obolibrary.org/obo/BFO_0000040) DisjointWith [part_of](http://purl.obolibrary.org/obo/BFO_0000050) some [immaterial entity](http://purl.obolibrary.org/obo/BFO_0000141))
+.PHONY: mirror-ro
+.PRECIOUS: $(MIRRORDIR)/ro.owl
+mirror-ro: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/ro/ro-base.owl --create-dirs -o $(MIRRORDIR)/ro.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/ro.owl -o $@.tmp.owl && \
+		robot query -i $@.tmp.owl --update ../sparql/remove_material_disjoint.ru -o $@.tmp.owl && \
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+## ONTOLOGY: hba_uberon_bridge (Only equivalent classes that have been asserted are allowed. Inferred equivalencies are forbidden. HBA:9219 vs 9230)
+.PHONY: mirror-hba_uberon_bridge
+.PRECIOUS: $(MIRRORDIR)/hba_uberon_bridge.owl
+mirror-hba_uberon_bridge: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.obo -o $@.tmp.owl &&\
+		robot query -i $@.tmp.owl --update ../sparql/remove_hba_inf_equals.ru -o $@.tmp.owl && \
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
