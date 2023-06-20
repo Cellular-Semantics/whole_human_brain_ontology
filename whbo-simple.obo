@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2023-05-31/whbo-simple.owl
+data-version: pcl/releases/2023-06-20/whbo-simple.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
@@ -7,7 +7,7 @@ subsetdef: ro-eco ""
 ontology: pcl/whbo-simple
 property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2023-05-31" xsd:string
+property_value: owl:versionInfo "2023-06-20" xsd:string
 
 [Typedef]
 id: RO:0002100
