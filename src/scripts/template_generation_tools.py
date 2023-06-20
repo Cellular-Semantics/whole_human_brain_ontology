@@ -71,6 +71,7 @@ def generate_ind_template(taxonomy_file_path, centralized_data_folder, output_fi
                            'Property Assertions': "I 'subcluster of' SPLIT=|",
                            'Synonyms': 'A oboInOwl:hasExactSynonym SPLIT=|',
                            'Cluster_ID': "A 'cluster id'",
+                           'Clustering_Reference': ">AI oboInOwl:hasDbXref",
                            'Function': 'TI capable_of some %',
                            'cell_set_preferred_alias': "A n2o:cell_set_preferred_alias",
                            'original_label': "A n2o:original_label",
@@ -112,6 +113,7 @@ def generate_ind_template(taxonomy_file_path, centralized_data_folder, output_fi
             else:
                 d[prop] = ''
         d['Cluster_ID'] = o['cell_set_accession']
+        d['Clustering_Reference'] = "https://purl.brain-bican.org/taxonomy/CCN202210140/cell_to_cell_set_assignments.csv"
         if o['cell_set_accession'] in set().union(*subtrees) and o['cell_set_preferred_alias']:
             d['Exemplar_of'] = PCL_BASE + get_class_id(o['cell_set_accession'])
 
