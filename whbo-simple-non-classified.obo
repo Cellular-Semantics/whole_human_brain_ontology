@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: pcl/releases/2023-06-20/whbo-simple-non-classified.owl
+data-version: pcl/releases/2023-06-27/whbo-simple-non-classified.owl
 ontology: pcl/whbo-simple-non-classified
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2023-06-20" xsd:string
+property_value: owl:versionInfo "2023-06-27" xsd:string
 
 [Term]
 id: PCL:0051001
@@ -78,7 +78,7 @@ id: PCL:0051005
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SRGN (Hsap), HIF1A-AS3 (Hsap). The soma of these cells can be found in the spinal cord, pons, myelencephalon. The reference data for this cell type is CS202210140_5." [DOI:10.1101/2022.10.12.511898]
 synonym: "Mgl_4" EXACT []
 synonym: "SRGN (Hsap), HIF1A-AS3 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000122862 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000258667 ! expresses
@@ -96,7 +96,7 @@ id: PCL:0051006
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of APBB1IP (Hsap), TTR (Hsap). The soma of these cells can be found in the hippocampal formation, myelencephalon, basal forebrain. The reference data for this cell type is CS202210140_6." [DOI:10.1101/2022.10.12.511898]
 synonym: "APBB1IP (Hsap), TTR (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_5" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000077420 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
@@ -114,7 +114,7 @@ id: PCL:0051007
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SCIN (Hsap), ITGAX (Hsap), LINC00278 (Hsap). The soma of these cells can be found in the hippocampal formation, basal forebrain, thalamus. The reference data for this cell type is CS202210140_7." [DOI:10.1101/2022.10.12.511898]
 synonym: "Mgl_6" EXACT []
 synonym: "SCIN (Hsap), ITGAX (Hsap), LINC00278 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000006747 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000140678 ! expresses
@@ -134,7 +134,7 @@ id: PCL:0051008
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CX3CR1 (Hsap), OLR1 (Hsap), LINC02712 (Hsap). The soma of these cells can be found in the basal forebrain, mesencephalon, pons. The reference data for this cell type is CS202210140_8." [DOI:10.1101/2022.10.12.511898]
 synonym: "CX3CR1 (Hsap), OLR1 (Hsap), LINC02712 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_7" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168329 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000173391 ! expresses
@@ -154,7 +154,7 @@ id: PCL:0051009
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CX3CR1 (Hsap), CCDC26 (Hsap), LNCAROD (Hsap). The soma of these cells can be found in the hippocampal formation, mesencephalon, basal forebrain. The reference data for this cell type is CS202210140_9." [DOI:10.1101/2022.10.12.511898]
 synonym: "CX3CR1 (Hsap), CCDC26 (Hsap), LNCAROD (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_8" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168329 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000229140 ! expresses
@@ -174,7 +174,7 @@ id: PCL:0051010
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CX3CR1 (Hsap), AIF1 (Hsap), LINC02712 (Hsap). The soma of these cells can be found in the cerebral cortex, mesencephalon, hippocampal formation. The reference data for this cell type is CS202210140_10." [DOI:10.1101/2022.10.12.511898]
 synonym: "CX3CR1 (Hsap), AIF1 (Hsap), LINC02712 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_9" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168329 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000204472 ! expresses
@@ -194,7 +194,7 @@ id: PCL:0051011
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), P2RY12 (Hsap), LNCAROD (Hsap). The soma of these cells can be found in the basal forebrain, mesencephalon, cerebral cortex. The reference data for this cell type is CS202210140_11." [DOI:10.1101/2022.10.12.511898]
 synonym: "DOCK8 (Hsap), P2RY12 (Hsap), LNCAROD (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_10" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107099 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000169313 ! expresses
@@ -214,7 +214,7 @@ id: PCL:0051012
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of P2RY12 (Hsap), LINC02642 (Hsap), LINC02712 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, thalamus. The reference data for this cell type is CS202210140_12." [DOI:10.1101/2022.10.12.511898]
 synonym: "Mgl_11" EXACT []
 synonym: "P2RY12 (Hsap), LINC02642 (Hsap), LINC02712 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000169313 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000232591 ! expresses
@@ -234,7 +234,7 @@ id: PCL:0051013
 def: "A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of F13A1 (Hsap), MRC1 (Hsap). The soma of these cells can be found in the basal forebrain, cerebral cortex, cerebellum. The reference data for this cell type is CS202210140_13." [DOI:10.1101/2022.10.12.511898]
 synonym: "F13A1 (Hsap), MRC1 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_12" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000124491 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000260314 ! expresses
@@ -252,7 +252,7 @@ id: PCL:0051014
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLVAP (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_14." [DOI:10.1101/2022.10.12.511898]
 synonym: "PLVAP (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendPLVAP_13" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000130300 ! expresses
 relationship: RO:0015004 PCL:0052514 ! has characterizing marker set
@@ -267,7 +267,7 @@ id: PCL:0051015
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SEMA3G (Hsap), HERC2P3 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, thalamus. The reference data for this cell type is CS202210140_15." [DOI:10.1101/2022.10.12.511898]
 synonym: "SEMA3G (Hsap), HERC2P3 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendAC_14" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000010319 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000180229 ! expresses
@@ -285,7 +285,7 @@ id: PCL:0051016
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, thalamus. The reference data for this cell type is CS202210140_16." [DOI:10.1101/2022.10.12.511898]
 synonym: "MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendC_15" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118777 ! expresses
@@ -305,7 +305,7 @@ id: PCL:0051017
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), TRPM6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_17." [DOI:10.1101/2022.10.12.511898]
 synonym: "MECOM (Hsap), TRPM6 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendVC_16" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000119121 ! expresses
@@ -322,7 +322,7 @@ id: PCL:0051018
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IL1R1 (Hsap), SRGN (Hsap). The soma of these cells can be found in the hypothalamus, myelencephalon, pons. The reference data for this cell type is CS202210140_18." [DOI:10.1101/2022.10.12.511898]
 synonym: "IL1R1 (Hsap), SRGN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendV_17" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000115594 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000122862 ! expresses
@@ -340,7 +340,7 @@ id: PCL:0051019
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), MGP (Hsap). The soma of these cells can be found in the cerebral cortex, myelencephalon, thalamus. The reference data for this cell type is CS202210140_19." [DOI:10.1101/2022.10.12.511898]
 synonym: "MECOM (Hsap), MGP (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendA_18" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000111341 ! expresses
@@ -358,7 +358,7 @@ id: PCL:0051020
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), ACTA2 (Hsap). The soma of these cells can be found in the thalamus, mesencephalon, myelencephalon. The reference data for this cell type is CS202210140_20." [DOI:10.1101/2022.10.12.511898]
 synonym: "MECOM (Hsap), ACTA2 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "Vsmc_19" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107796 ! expresses
@@ -376,7 +376,7 @@ id: PCL:0051021
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ACTA2 (Hsap), TAGLN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, myelencephalon. The reference data for this cell type is CS202210140_21." [DOI:10.1101/2022.10.12.511898]
 synonym: "ACTA2 (Hsap), TAGLN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "Vsmc_20" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107796 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000149591 ! expresses
@@ -394,7 +394,7 @@ id: PCL:0051022
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RERGL (Hsap), NDUFA4L2 (Hsap). The soma of these cells can be found in the thalamus, pons. The reference data for this cell type is CS202210140_22." [DOI:10.1101/2022.10.12.511898]
 synonym: "Per_21" EXACT []
 synonym: "RERGL (Hsap), NDUFA4L2 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000111404 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000185633 ! expresses
@@ -411,7 +411,7 @@ id: PCL:0051023
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC19A1 (Hsap), CARMN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_23." [DOI:10.1101/2022.10.12.511898]
 synonym: "Per_22" EXACT []
 synonym: "SLC19A1 (Hsap), CARMN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000173638 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000249669 ! expresses
@@ -429,7 +429,7 @@ id: PCL:0051024
 def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC6A13 (Hsap), ASPN (Hsap), SLC6A12 (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_24." [DOI:10.1101/2022.10.12.511898]
 synonym: "Per_23" EXACT []
 synonym: "SLC6A13 (Hsap), ASPN (Hsap), SLC6A12 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000010379 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000106819 ! expresses
@@ -449,7 +449,7 @@ id: PCL:0051025
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BMP5 (Hsap), C7 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon, hippocampal formation. The reference data for this cell type is CS202210140_25." [DOI:10.1101/2022.10.12.511898]
 synonym: "BMP5 (Hsap), C7 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 synonym: "Fbl_24" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112175 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112936 ! expresses
@@ -467,7 +467,7 @@ id: PCL:0051026
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TBX18 (Hsap), LTBP2 (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, pons. The reference data for this cell type is CS202210140_26." [DOI:10.1101/2022.10.12.511898]
 synonym: "Fbl_25" EXACT []
 synonym: "TBX18 (Hsap), LTBP2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112837 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000119681 ! expresses
@@ -485,7 +485,7 @@ id: PCL:0051027
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC6A20 (Hsap), COL15A1 (Hsap). The soma of these cells can be found in the thalamus, basal forebrain, pons. The reference data for this cell type is CS202210140_27." [DOI:10.1101/2022.10.12.511898]
 synonym: "Fbl_26" EXACT []
 synonym: "SLC6A20 (Hsap), COL15A1 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000163817 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000204291 ! expresses
@@ -503,7 +503,7 @@ id: PCL:0051028
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FMO2 (Hsap), ABCA8 (Hsap), LINC02147 (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, pons. The reference data for this cell type is CS202210140_28." [DOI:10.1101/2022.10.12.511898]
 synonym: "Fbl_27" EXACT []
 synonym: "FMO2 (Hsap), ABCA8 (Hsap), LINC02147 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000094963 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000141338 ! expresses
@@ -523,7 +523,7 @@ id: PCL:0051029
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of C7 (Hsap), FBLN2 (Hsap), COL1A2 (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, pons. The reference data for this cell type is CS202210140_29." [DOI:10.1101/2022.10.12.511898]
 synonym: "C7 (Hsap), FBLN2 (Hsap), COL1A2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 synonym: "Fbl_28" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112936 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000163520 ! expresses
@@ -543,7 +543,7 @@ id: PCL:0051030
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC2A1 (Hsap), BMPR1B (Hsap), EBF2 (Hsap). The soma of these cells can be found in the myelencephalon, spinal cord. The reference data for this cell type is CS202210140_30." [DOI:10.1101/2022.10.12.511898]
 synonym: "Fbl_29" EXACT []
 synonym: "SLC2A1 (Hsap), BMPR1B (Hsap), EBF2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000117394 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000138696 ! expresses
@@ -562,7 +562,7 @@ id: PCL:0051031
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A5 (Hsap), RP11-354K4.2 (Hsap). The soma of these cells can be found in the cerebral cortex, basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_31." [DOI:10.1101/2022.10.12.511898]
 synonym: "Fbl_30" EXACT []
 synonym: "SLC5A5 (Hsap), RP11-354K4.2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000105641 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000271945 ! expresses
@@ -580,7 +580,7 @@ id: PCL:0051032
 def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTGDR (Hsap), BNC2 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon, hypothalamus. The reference data for this cell type is CS202210140_32." [DOI:10.1101/2022.10.12.511898]
 synonym: "Fbl_31" EXACT []
 synonym: "PTGDR (Hsap), BNC2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168229 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000173068 ! expresses
@@ -598,7 +598,7 @@ id: PCL:0051033
 def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MROH9 (Hsap), RP1-45C12.1 (Hsap). The soma of these cells can be found in the hypothalamus, thalamus. The reference data for this cell type is CS202210140_33." [DOI:10.1101/2022.10.12.511898]
 synonym: "MROH9 (Hsap), RP1-45C12.1 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_32" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000117501 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231424 ! expresses
@@ -615,7 +615,7 @@ id: PCL:0051034
 def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OLIG1 (Hsap), APOD (Hsap), RP1-45C12.1 (Hsap). The soma of these cells can be found in the pons, mesencephalon, thalamus. The reference data for this cell type is CS202210140_34." [DOI:10.1101/2022.10.12.511898]
 synonym: "OLIG1 (Hsap), APOD (Hsap), RP1-45C12.1 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_33" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000184221 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000189058 ! expresses
@@ -635,7 +635,7 @@ id: PCL:0051035
 def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OLIG1 (Hsap), RP4-668E10.4 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, amygdala. The reference data for this cell type is CS202210140_35." [DOI:10.1101/2022.10.12.511898]
 synonym: "OLIG1 (Hsap), RP4-668E10.4 (Hsap), RP11-197H3.1 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_34" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000184221 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000278254 ! expresses
@@ -655,7 +655,7 @@ id: PCL:0051036
 def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OLIG1 (Hsap), MIR3681HG (Hsap), RP4-668E10.4 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_36." [DOI:10.1101/2022.10.12.511898]
 synonym: "OLIG1 (Hsap), MIR3681HG (Hsap), RP4-668E10.4 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_35" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000184221 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000224184 ! expresses
@@ -674,7 +674,7 @@ id: PCL:0051037
 def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC01608 (Hsap), RP4-668E10.4 (Hsap). The soma of these cells can be found in the cerebral cortex, thalamus, mesencephalon. The reference data for this cell type is CS202210140_37." [DOI:10.1101/2022.10.12.511898]
 synonym: "LINC01608 (Hsap), RP4-668E10.4 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_36" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000253877 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000278254 ! expresses
@@ -692,7 +692,7 @@ id: PCL:0051038
 def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_38." [DOI:10.1101/2022.10.12.511898]
 synonym: "BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_37" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000064787 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000116132 ! expresses
@@ -711,7 +711,7 @@ id: PCL:0051039
 def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), RP11-89N17.4 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_39." [DOI:10.1101/2022.10.12.511898]
 synonym: "BCAS1 (Hsap), RP11-89N17.4 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_38" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000064787 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000236494 ! expresses
@@ -728,7 +728,7 @@ id: PCL:0051040
 def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TF (Hsap), CTD-2545M3.8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_40." [DOI:10.1101/2022.10.12.511898]
 synonym: "COP_39" EXACT []
 synonym: "TF (Hsap), CTD-2545M3.8 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000091513 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000268518 ! expresses
@@ -746,7 +746,7 @@ id: PCL:0051041
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLP1 (Hsap), ERBB4 (Hsap), OPALIN (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, amygdala. The reference data for this cell type is CS202210140_41." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_40" EXACT []
 synonym: "PLP1 (Hsap), ERBB4 (Hsap), OPALIN (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000123560 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000178568 ! expresses
@@ -766,7 +766,7 @@ id: PCL:0051042
 def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OPALIN (Hsap), AC084149.2 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, basal forebrain. The reference data for this cell type is CS202210140_42." [DOI:10.1101/2022.10.12.511898]
 synonym: "COP_41" EXACT []
 synonym: "OPALIN (Hsap), AC084149.2 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197430 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000227088 ! expresses
@@ -784,7 +784,7 @@ id: PCL:0051043
 def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap). The soma of these cells can be found in the thalamus. The reference data for this cell type is CS202210140_43." [DOI:10.1101/2022.10.12.511898]
 synonym: "CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_42" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000150656 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000162631 ! expresses
@@ -802,7 +802,7 @@ id: PCL:0051044
 def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A11 (Hsap), MOBP (Hsap). The soma of these cells can be found in the thalamus, hypothalamus, amygdala. The reference data for this cell type is CS202210140_44." [DOI:10.1101/2022.10.12.511898]
 synonym: "COP_43" EXACT []
 synonym: "SLC5A11 (Hsap), MOBP (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158865 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168314 ! expresses
@@ -820,7 +820,7 @@ id: PCL:0051045
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TF (Hsap), SLC5A11 (Hsap), CARNS1 (Hsap), MOBP (Hsap), ANLN (Hsap). The soma of these cells can be found in the thalamus, pons, mesencephalon. The reference data for this cell type is CS202210140_45." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_44" EXACT []
 synonym: "TF (Hsap), SLC5A11 (Hsap), CARNS1 (Hsap), MOBP (Hsap), ANLN (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000011426 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000091513 ! expresses
@@ -844,7 +844,7 @@ id: PCL:0051046
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A11 (Hsap), CERCAM (Hsap), MOBP (Hsap), OPALIN (Hsap). The soma of these cells can be found in the cerebral cortex, basal forebrain, mesencephalon. The reference data for this cell type is CS202210140_46." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_45" EXACT []
 synonym: "SLC5A11 (Hsap), CERCAM (Hsap), MOBP (Hsap), OPALIN (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158865 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000167123 ! expresses
@@ -866,7 +866,7 @@ id: PCL:0051047
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RNASE1 (Hsap), CNDP1 (Hsap), LINC01608 (Hsap). The soma of these cells can be found in the thalamus, mesencephalon, cerebral cortex. The reference data for this cell type is CS202210140_47." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_46" EXACT []
 synonym: "RNASE1 (Hsap), CNDP1 (Hsap), LINC01608 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000129538 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000150656 ! expresses
@@ -886,7 +886,7 @@ id: PCL:0051048
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLP1 (Hsap), OPALIN (Hsap), LINC01608 (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_48." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_47" EXACT []
 synonym: "PLP1 (Hsap), OPALIN (Hsap), LINC01608 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000123560 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197430 ! expresses
@@ -906,7 +906,7 @@ id: PCL:0051049
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OPALIN (Hsap), RP11-38B6.1 (Hsap). The soma of these cells can be found in the basal forebrain, thalamus. The reference data for this cell type is CS202210140_49." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_48" EXACT []
 synonym: "OPALIN (Hsap), RP11-38B6.1 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197430 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000287069 ! expresses
@@ -923,7 +923,7 @@ id: PCL:0051050
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TF (Hsap), SLC5A11 (Hsap), CRYAB (Hsap), CARNS1 (Hsap), AC084149.2 (Hsap). The soma of these cells can be found in the pons, mesencephalon, myelencephalon. The reference data for this cell type is CS202210140_50." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_49" EXACT []
 synonym: "TF (Hsap), SLC5A11 (Hsap), CRYAB (Hsap), CARNS1 (Hsap), AC084149.2 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000091513 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000109846 ! expresses
@@ -947,7 +947,7 @@ id: PCL:0051051
 def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A11 (Hsap), PTCSC3 (Hsap). The soma of these cells can be found in the hypothalamus. The reference data for this cell type is CS202210140_51." [DOI:10.1101/2022.10.12.511898]
 synonym: "Oligo_50" EXACT []
 synonym: "SLC5A11 (Hsap), PTCSC3 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158865 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000259104 ! expresses
@@ -963,7 +963,7 @@ id: PCL:0051053
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of COL5A3 (Hsap), LINC01727 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_53." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_52" EXACT []
 synonym: "COL5A3 (Hsap), LINC01727 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000080573 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000279082 ! expresses
@@ -979,7 +979,7 @@ id: PCL:0051054
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of COL5A3 (Hsap), GLI3 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_54." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_53" EXACT []
 synonym: "COL5A3 (Hsap), GLI3 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000080573 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000106571 ! expresses
@@ -995,7 +995,7 @@ id: PCL:0051055
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of GLI3 (Hsap), ETNPPL (Hsap), OBI1-AS1 (Hsap), F11-AS1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_55." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_54" EXACT []
 synonym: "GLI3 (Hsap), ETNPPL (Hsap), OBI1-AS1 (Hsap), F11-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000106571 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000164089 ! expresses
@@ -1017,7 +1017,7 @@ id: PCL:0051056
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FGFR3 (Hsap), WIF1 (Hsap), HPSE2 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_56." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_55" EXACT []
 synonym: "FGFR3 (Hsap), WIF1 (Hsap), HPSE2 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000156076 ! expresses
@@ -1035,7 +1035,7 @@ id: PCL:0051057
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TNC (Hsap), GPC5 (Hsap), OBI1-AS1 (Hsap). The soma of these cells can be found in the hypothalamus, thalamus, amygdala. The reference data for this cell type is CS202210140_57." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_56" EXACT []
 synonym: "TNC (Hsap), GPC5 (Hsap), OBI1-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000179399 ! expresses
@@ -1055,7 +1055,7 @@ id: PCL:0051058
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FGFR3 (Hsap), TNC (Hsap), LINC00609 (Hsap), RP11-134O15.3 (Hsap), OBI1-AS1 (Hsap). The soma of these cells can be found in the hippocampal formation, basal forebrain. The reference data for this cell type is CS202210140_58." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_57" EXACT []
 synonym: "FGFR3 (Hsap), TNC (Hsap), LINC00609 (Hsap), RP11-134O15.3 (Hsap), OBI1-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
@@ -1078,7 +1078,7 @@ id: PCL:0051059
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FGFR3 (Hsap), ID3 (Hsap), LINC00499 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_59." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_58" EXACT []
 synonym: "FGFR3 (Hsap), ID3 (Hsap), LINC00499 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000117318 ! expresses
@@ -1097,7 +1097,7 @@ id: PCL:0051060
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LGR6 (Hsap), HPSE2 (Hsap), ITPRID1 (Hsap), OBI1-AS1 (Hsap). The soma of these cells can be found in the pons, cerebellum, myelencephalon. The reference data for this cell type is CS202210140_60." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_59" EXACT []
 synonym: "LGR6 (Hsap), HPSE2 (Hsap), ITPRID1 (Hsap), OBI1-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000133067 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000172987 ! expresses
@@ -1119,7 +1119,7 @@ id: PCL:0051061
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TNC (Hsap), APOE (Hsap), EDNRB (Hsap), LINC00499 (Hsap). The soma of these cells can be found in the thalamus, mesencephalon, pons. The reference data for this cell type is CS202210140_61." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_60" EXACT []
 synonym: "TNC (Hsap), APOE (Hsap), EDNRB (Hsap), LINC00499 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000130203 ! expresses
@@ -1141,7 +1141,7 @@ id: PCL:0051062
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of GFAP (Hsap), AQP1 (Hsap), RP11-259K15.2 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_62." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_61" EXACT []
 synonym: "GFAP (Hsap), AQP1 (Hsap), RP11-259K15.2 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000131095 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000240583 ! expresses
@@ -1161,7 +1161,7 @@ id: PCL:0051063
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TNC (Hsap), APOE (Hsap), LINC00836 (Hsap). The soma of these cells can be found in the basal forebrain, cerebellum, mesencephalon. The reference data for this cell type is CS202210140_63." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_62" EXACT []
 synonym: "TNC (Hsap), APOE (Hsap), LINC00836 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000130203 ! expresses
@@ -1181,7 +1181,7 @@ id: PCL:0051064
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CRYAB (Hsap), GFAP (Hsap). The soma of these cells can be found in the myelencephalon, spinal cord, pons. The reference data for this cell type is CS202210140_64." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_63" EXACT []
 synonym: "CRYAB (Hsap), GFAP (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000109846 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000131095 ! expresses
@@ -1199,7 +1199,7 @@ id: PCL:0051065
 def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RP11-517I3.1 (Hsap), RP11-297I23.1 (Hsap). The soma of these cells can be found in the hypothalamus. The reference data for this cell type is CS202210140_65." [DOI:10.1101/2022.10.12.511898]
 synonym: "Astro_64" EXACT []
 synonym: "RP11-517I3.1 (Hsap), RP11-297I23.1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000250602 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000287406 ! expresses
@@ -1215,7 +1215,7 @@ id: PCL:0051066
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TNC (Hsap), FGFR3 (Hsap), DTHD1 (Hsap). The soma of these cells can be found in the mesencephalon, hippocampal formation, pons. The reference data for this cell type is CS202210140_66." [DOI:10.1101/2022.10.12.511898]
 synonym: "Epen_65" EXACT []
 synonym: "TNC (Hsap), FGFR3 (Hsap), DTHD1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
@@ -1235,7 +1235,7 @@ id: PCL:0051067
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NTS (Hsap), AC018717.1 (Hsap). The soma of these cells can be found in the myelencephalon, pons. The reference data for this cell type is CS202210140_67." [DOI:10.1101/2022.10.12.511898]
 synonym: "Epen_66" EXACT []
 synonym: "NTS (Hsap), AC018717.1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000133636 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231557 ! expresses
@@ -1252,7 +1252,7 @@ id: PCL:0051068
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADGRD2 (Hsap), DTHD1 (Hsap), OBI1-AS1 (Hsap). The soma of these cells can be found in the myelencephalon, spinal cord, pons. The reference data for this cell type is CS202210140_68." [DOI:10.1101/2022.10.12.511898]
 synonym: "ADGRD2 (Hsap), DTHD1 (Hsap), OBI1-AS1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_67" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000180264 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197057 ! expresses
@@ -1272,7 +1272,7 @@ id: PCL:0051069
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CAPS (Hsap), OR2B4P (Hsap), CRIP1 (Hsap). The soma of these cells can be found in the myelencephalon, pons, thalamus. The reference data for this cell type is CS202210140_69." [DOI:10.1101/2022.10.12.511898]
 synonym: "CAPS (Hsap), OR2B4P (Hsap), CRIP1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_68" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000105519 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197171 ! expresses
@@ -1292,7 +1292,7 @@ id: PCL:0051070
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CAPS (Hsap), AC018717.1 (Hsap), RP11-624A4.2 (Hsap). The soma of these cells can be found in the hippocampal formation, basal forebrain. The reference data for this cell type is CS202210140_70." [DOI:10.1101/2022.10.12.511898]
 synonym: "CAPS (Hsap), AC018717.1 (Hsap), RP11-624A4.2 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_69" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000105519 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231557 ! expresses
@@ -1311,7 +1311,7 @@ id: PCL:0051071
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of GRAMD2A (Hsap), TRDN (Hsap), OR2B4P (Hsap). The soma of these cells can be found in the thalamus, amygdala, mesencephalon. The reference data for this cell type is CS202210140_71." [DOI:10.1101/2022.10.12.511898]
 synonym: "Epen_70" EXACT []
 synonym: "GRAMD2A (Hsap), TRDN (Hsap), OR2B4P (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000175318 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000186439 ! expresses
@@ -1331,7 +1331,7 @@ id: PCL:0051072
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SGMS2 (Hsap), DTHD1 (Hsap). The soma of these cells can be found in the basal forebrain, hypothalamus, thalamus. The reference data for this cell type is CS202210140_72." [DOI:10.1101/2022.10.12.511898]
 synonym: "Epen_71" EXACT []
 synonym: "SGMS2 (Hsap), DTHD1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000164023 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197057 ! expresses
@@ -1349,7 +1349,7 @@ id: PCL:0051073
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OR2B4P (Hsap), MGC4859 (Hsap), RP11-624A4.2 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala. The reference data for this cell type is CS202210140_73." [DOI:10.1101/2022.10.12.511898]
 synonym: "Epen_72" EXACT []
 synonym: "OR2B4P (Hsap), MGC4859 (Hsap), RP11-624A4.2 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197171 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000283117 ! expresses
@@ -1368,7 +1368,7 @@ id: PCL:0051074
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of AC018717.1 (Hsap), AC007682.1 (Hsap), RP11-624A4.2 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_74." [DOI:10.1101/2022.10.12.511898]
 synonym: "AC018717.1 (Hsap), AC007682.1 (Hsap), RP11-624A4.2 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_73" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231557 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231918 ! expresses
@@ -1386,7 +1386,7 @@ id: PCL:0051075
 def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), DTHD1 (Hsap). The soma of these cells can be found in the basal forebrain, thalamus. The reference data for this cell type is CS202210140_75." [DOI:10.1101/2022.10.12.511898]
 synonym: "Epen_74" EXACT []
 synonym: "TTR (Hsap), DTHD1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197057 ! expresses
@@ -1403,7 +1403,7 @@ id: PCL:0051076
 def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the myelencephalon, basal forebrain, thalamus. The reference data for this cell type is CS202210140_76." [DOI:10.1101/2022.10.12.511898]
 synonym: "COP_75" EXACT []
 synonym: "FOLR1 (Hsap), C1QTNF5 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110195 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000223953 ! expresses
@@ -1421,7 +1421,7 @@ id: PCL:0051077
 def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_77." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_76" EXACT []
 synonym: "PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000123560 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000147488 ! expresses
@@ -1442,7 +1442,7 @@ id: PCL:0051078
 def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_78." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_77" EXACT []
 synonym: "FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110195 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000132386 ! expresses
@@ -1461,7 +1461,7 @@ id: PCL:0051079
 def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_79." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_78" EXACT []
 synonym: "POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110777 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112297 ! expresses
@@ -1479,7 +1479,7 @@ id: PCL:0051080
 def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_80." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_79" EXACT []
 synonym: "POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110777 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000111199 ! expresses
@@ -1497,7 +1497,7 @@ id: PCL:0051081
 def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_81." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_80" EXACT []
 synonym: "HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000153976 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000258312 ! expresses
@@ -1513,7 +1513,7 @@ id: PCL:0051082
 def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HPD (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_82." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_81" EXACT []
 synonym: "HPD (Hsap), C1QTNF5 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158104 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000223953 ! expresses
@@ -1530,7 +1530,7 @@ id: PCL:0051083
 def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), GPNMB (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_83." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_82" EXACT []
 synonym: "TTR (Hsap), GPNMB (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000136235 ! expresses

@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: pcl/releases/2023-06-20/whbo-base.owl
+data-version: pcl/releases/2023-06-27/whbo-base.owl
 ontology: pcl/whbo-base
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2023-06-20" xsd:string
+property_value: owl:versionInfo "2023-06-27" xsd:string
 
 [Term]
 id: PCL:0051001
@@ -89,7 +89,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "Mgl_4" EXACT []
 synonym: "SRGN (Hsap), HIF1A-AS3 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000122862 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000258667 ! expresses
@@ -109,7 +109,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "APBB1IP (Hsap), TTR (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_5" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000077420 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
@@ -129,7 +129,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "Mgl_6" EXACT []
 synonym: "SCIN (Hsap), ITGAX (Hsap), LINC00278 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000006747 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000140678 ! expresses
@@ -151,7 +151,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "CX3CR1 (Hsap), OLR1 (Hsap), LINC02712 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_7" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168329 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000173391 ! expresses
@@ -173,7 +173,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "CX3CR1 (Hsap), CCDC26 (Hsap), LNCAROD (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_8" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168329 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000229140 ! expresses
@@ -195,7 +195,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "CX3CR1 (Hsap), AIF1 (Hsap), LINC02712 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_9" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168329 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000204472 ! expresses
@@ -217,7 +217,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "DOCK8 (Hsap), P2RY12 (Hsap), LNCAROD (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_10" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107099 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000169313 ! expresses
@@ -239,7 +239,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "Mgl_11" EXACT []
 synonym: "P2RY12 (Hsap), LINC02642 (Hsap), LINC02712 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000169313 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000232591 ! expresses
@@ -261,7 +261,7 @@ def: "A microglial cell of the Homo sapiens brain. These cells can be distinguis
 synonym: "F13A1 (Hsap), MRC1 (Hsap) expressing microglial cell of brain (Homo sapiens)" EXACT []
 synonym: "Mgl_12" EXACT []
 is_a: CL:0000129
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000124491 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000260314 ! expresses
@@ -281,7 +281,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "PLVAP (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendPLVAP_13" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000130300 ! expresses
 relationship: RO:0015004 PCL:0052514 ! has characterizing marker set NS forest marker set of VendPLVAP_13 Hsap (Human).
@@ -298,7 +298,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "SEMA3G (Hsap), HERC2P3 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendAC_14" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000010319 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000180229 ! expresses
@@ -318,7 +318,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendC_15" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118777 ! expresses
@@ -340,7 +340,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "MECOM (Hsap), TRPM6 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendVC_16" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000119121 ! expresses
@@ -359,7 +359,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "IL1R1 (Hsap), SRGN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendV_17" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000115594 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000122862 ! expresses
@@ -379,7 +379,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "MECOM (Hsap), MGP (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "VendA_18" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000111341 ! expresses
@@ -399,7 +399,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "MECOM (Hsap), ACTA2 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "Vsmc_19" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085276 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107796 ! expresses
@@ -419,7 +419,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "ACTA2 (Hsap), TAGLN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 synonym: "Vsmc_20" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107796 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000149591 ! expresses
@@ -439,7 +439,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "Per_21" EXACT []
 synonym: "RERGL (Hsap), NDUFA4L2 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000111404 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000185633 ! expresses
@@ -458,7 +458,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "Per_22" EXACT []
 synonym: "SLC19A1 (Hsap), CARMN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000173638 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000249669 ! expresses
@@ -478,7 +478,7 @@ def: "A brain vascular cell of the Homo sapiens brain. These cells can be distin
 synonym: "Per_23" EXACT []
 synonym: "SLC6A13 (Hsap), ASPN (Hsap), SLC6A12 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023072
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000010379 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000106819 ! expresses
@@ -500,7 +500,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "BMP5 (Hsap), C7 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 synonym: "Fbl_24" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112175 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112936 ! expresses
@@ -520,7 +520,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "Fbl_25" EXACT []
 synonym: "TBX18 (Hsap), LTBP2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112837 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000119681 ! expresses
@@ -540,7 +540,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "Fbl_26" EXACT []
 synonym: "SLC6A20 (Hsap), COL15A1 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000163817 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000204291 ! expresses
@@ -560,7 +560,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "Fbl_27" EXACT []
 synonym: "FMO2 (Hsap), ABCA8 (Hsap), LINC02147 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000094963 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000141338 ! expresses
@@ -582,7 +582,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "C7 (Hsap), FBLN2 (Hsap), COL1A2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 synonym: "Fbl_28" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112936 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000163520 ! expresses
@@ -604,7 +604,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "Fbl_29" EXACT []
 synonym: "SLC2A1 (Hsap), BMPR1B (Hsap), EBF2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000117394 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000138696 ! expresses
@@ -625,7 +625,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "Fbl_30" EXACT []
 synonym: "SLC5A5 (Hsap), RP11-354K4.2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000105641 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000271945 ! expresses
@@ -645,7 +645,7 @@ def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished f
 synonym: "Fbl_31" EXACT []
 synonym: "PTGDR (Hsap), BNC2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
 is_a: CL:0000057
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168229 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000173068 ! expresses
@@ -665,7 +665,7 @@ def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells ca
 synonym: "MROH9 (Hsap), RP1-45C12.1 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_32" EXACT []
 is_a: CL:0002453
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000117501 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231424 ! expresses
@@ -684,7 +684,7 @@ def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells ca
 synonym: "OLIG1 (Hsap), APOD (Hsap), RP1-45C12.1 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_33" EXACT []
 is_a: CL:0002453
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000184221 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000189058 ! expresses
@@ -706,7 +706,7 @@ def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells ca
 synonym: "OLIG1 (Hsap), RP4-668E10.4 (Hsap), RP11-197H3.1 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_34" EXACT []
 is_a: CL:0002453
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000184221 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000278254 ! expresses
@@ -728,7 +728,7 @@ def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells ca
 synonym: "OLIG1 (Hsap), MIR3681HG (Hsap), RP4-668E10.4 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_35" EXACT []
 is_a: CL:0002453
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000184221 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000224184 ! expresses
@@ -749,7 +749,7 @@ def: "A oligodendrocyte precursor cell of the Homo sapiens brain. These cells ca
 synonym: "LINC01608 (Hsap), RP4-668E10.4 (Hsap) expressing oligodendrocyte precursor cell of brain (Homo sapiens)" EXACT []
 synonym: "OPC_36" EXACT []
 is_a: CL:0002453
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000253877 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000278254 ! expresses
@@ -769,7 +769,7 @@ def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens 
 synonym: "BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_37" EXACT []
 is_a: CL:4023059
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000064787 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000116132 ! expresses
@@ -790,7 +790,7 @@ def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens 
 synonym: "BCAS1 (Hsap), RP11-89N17.4 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_38" EXACT []
 is_a: CL:4023059
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000064787 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000236494 ! expresses
@@ -809,7 +809,7 @@ def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens 
 synonym: "COP_39" EXACT []
 synonym: "TF (Hsap), CTD-2545M3.8 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000091513 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000268518 ! expresses
@@ -829,7 +829,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_40" EXACT []
 synonym: "PLP1 (Hsap), ERBB4 (Hsap), OPALIN (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000123560 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000178568 ! expresses
@@ -851,7 +851,7 @@ def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens 
 synonym: "COP_41" EXACT []
 synonym: "OPALIN (Hsap), AC084149.2 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197430 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000227088 ! expresses
@@ -871,7 +871,7 @@ def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens 
 synonym: "CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_42" EXACT []
 is_a: CL:4023059
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000150656 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000162631 ! expresses
@@ -891,7 +891,7 @@ def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens 
 synonym: "COP_43" EXACT []
 synonym: "SLC5A11 (Hsap), MOBP (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158865 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168314 ! expresses
@@ -911,7 +911,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_44" EXACT []
 synonym: "TF (Hsap), SLC5A11 (Hsap), CARNS1 (Hsap), MOBP (Hsap), ANLN (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000011426 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000091513 ! expresses
@@ -937,7 +937,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_45" EXACT []
 synonym: "SLC5A11 (Hsap), CERCAM (Hsap), MOBP (Hsap), OPALIN (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158865 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000167123 ! expresses
@@ -961,7 +961,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_46" EXACT []
 synonym: "RNASE1 (Hsap), CNDP1 (Hsap), LINC01608 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000129538 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000150656 ! expresses
@@ -983,7 +983,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_47" EXACT []
 synonym: "PLP1 (Hsap), OPALIN (Hsap), LINC01608 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000123560 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197430 ! expresses
@@ -1005,7 +1005,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_48" EXACT []
 synonym: "OPALIN (Hsap), RP11-38B6.1 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197430 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000287069 ! expresses
@@ -1024,7 +1024,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_49" EXACT []
 synonym: "TF (Hsap), SLC5A11 (Hsap), CRYAB (Hsap), CARNS1 (Hsap), AC084149.2 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000091513 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000109846 ! expresses
@@ -1050,7 +1050,7 @@ def: "A oligodendrocyte of the Homo sapiens brain. These cells can be distinguis
 synonym: "Oligo_50" EXACT []
 synonym: "SLC5A11 (Hsap), PTCSC3 (Hsap) expressing oligodendrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000128
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158865 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000259104 ! expresses
@@ -1068,7 +1068,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_52" EXACT []
 synonym: "COL5A3 (Hsap), LINC01727 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000080573 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000279082 ! expresses
@@ -1086,7 +1086,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_53" EXACT []
 synonym: "COL5A3 (Hsap), GLI3 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000080573 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000106571 ! expresses
@@ -1104,7 +1104,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_54" EXACT []
 synonym: "GLI3 (Hsap), ETNPPL (Hsap), OBI1-AS1 (Hsap), F11-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000106571 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000164089 ! expresses
@@ -1128,7 +1128,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_55" EXACT []
 synonym: "FGFR3 (Hsap), WIF1 (Hsap), HPSE2 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000156076 ! expresses
@@ -1148,7 +1148,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_56" EXACT []
 synonym: "TNC (Hsap), GPC5 (Hsap), OBI1-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000179399 ! expresses
@@ -1170,7 +1170,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_57" EXACT []
 synonym: "FGFR3 (Hsap), TNC (Hsap), LINC00609 (Hsap), RP11-134O15.3 (Hsap), OBI1-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
@@ -1195,7 +1195,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_58" EXACT []
 synonym: "FGFR3 (Hsap), ID3 (Hsap), LINC00499 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000117318 ! expresses
@@ -1216,7 +1216,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_59" EXACT []
 synonym: "LGR6 (Hsap), HPSE2 (Hsap), ITPRID1 (Hsap), OBI1-AS1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000133067 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000172987 ! expresses
@@ -1240,7 +1240,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_60" EXACT []
 synonym: "TNC (Hsap), APOE (Hsap), EDNRB (Hsap), LINC00499 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000130203 ! expresses
@@ -1264,7 +1264,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_61" EXACT []
 synonym: "GFAP (Hsap), AQP1 (Hsap), RP11-259K15.2 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000131095 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000240583 ! expresses
@@ -1286,7 +1286,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_62" EXACT []
 synonym: "TNC (Hsap), APOE (Hsap), LINC00836 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000130203 ! expresses
@@ -1308,7 +1308,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_63" EXACT []
 synonym: "CRYAB (Hsap), GFAP (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000109846 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000131095 ! expresses
@@ -1328,7 +1328,7 @@ def: "A astrocyte of the Homo sapiens brain. These cells can be distinguished fr
 synonym: "Astro_64" EXACT []
 synonym: "RP11-517I3.1 (Hsap), RP11-297I23.1 (Hsap) expressing astrocyte of brain (Homo sapiens)" EXACT []
 is_a: CL:0000127
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000250602 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000287406 ! expresses
@@ -1346,7 +1346,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "Epen_65" EXACT []
 synonym: "TNC (Hsap), FGFR3 (Hsap), DTHD1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000041982 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000068078 ! expresses
@@ -1368,7 +1368,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "Epen_66" EXACT []
 synonym: "NTS (Hsap), AC018717.1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000133636 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231557 ! expresses
@@ -1387,7 +1387,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "ADGRD2 (Hsap), DTHD1 (Hsap), OBI1-AS1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_67" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000180264 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197057 ! expresses
@@ -1409,7 +1409,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "CAPS (Hsap), OR2B4P (Hsap), CRIP1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_68" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000105519 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197171 ! expresses
@@ -1431,7 +1431,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "CAPS (Hsap), AC018717.1 (Hsap), RP11-624A4.2 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_69" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000105519 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231557 ! expresses
@@ -1452,7 +1452,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "Epen_70" EXACT []
 synonym: "GRAMD2A (Hsap), TRDN (Hsap), OR2B4P (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000175318 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000186439 ! expresses
@@ -1474,7 +1474,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "Epen_71" EXACT []
 synonym: "SGMS2 (Hsap), DTHD1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000164023 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197057 ! expresses
@@ -1494,7 +1494,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "Epen_72" EXACT []
 synonym: "OR2B4P (Hsap), MGC4859 (Hsap), RP11-624A4.2 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197171 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000283117 ! expresses
@@ -1515,7 +1515,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "AC018717.1 (Hsap), AC007682.1 (Hsap), RP11-624A4.2 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 synonym: "Epen_73" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231557 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231918 ! expresses
@@ -1535,7 +1535,7 @@ def: "A ependymal cell of the Homo sapiens brain. These cells can be distinguish
 synonym: "Epen_74" EXACT []
 synonym: "TTR (Hsap), DTHD1 (Hsap) expressing ependymal cell of brain (Homo sapiens)" EXACT []
 is_a: CL:0000065
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000197057 ! expresses
@@ -1554,7 +1554,7 @@ def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens 
 synonym: "COP_75" EXACT []
 synonym: "FOLR1 (Hsap), C1QTNF5 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110195 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000223953 ! expresses
@@ -1574,7 +1574,7 @@ def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distin
 synonym: "Chrp_76" EXACT []
 synonym: "PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023073
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000123560 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000147488 ! expresses
@@ -1597,7 +1597,7 @@ def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distin
 synonym: "Chrp_77" EXACT []
 synonym: "FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023073
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110195 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000132386 ! expresses
@@ -1618,7 +1618,7 @@ def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distin
 synonym: "Chrp_78" EXACT []
 synonym: "POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023073
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110777 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112297 ! expresses
@@ -1638,7 +1638,7 @@ def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distin
 synonym: "Chrp_79" EXACT []
 synonym: "POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023073
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110777 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000111199 ! expresses
@@ -1658,7 +1658,7 @@ def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distin
 synonym: "Chrp_80" EXACT []
 synonym: "HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023073
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000153976 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000258312 ! expresses
@@ -1676,7 +1676,7 @@ def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distin
 synonym: "Chrp_81" EXACT []
 synonym: "HPD (Hsap), C1QTNF5 (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023073
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158104 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000223953 ! expresses
@@ -1695,7 +1695,7 @@ def: "A choroid plexus cell of the Homo sapiens brain. These cells can be distin
 synonym: "Chrp_82" EXACT []
 synonym: "TTR (Hsap), GPNMB (Hsap) expressing choroid plexus cell of brain (Homo sapiens)" EXACT []
 is_a: CL:4023073
-relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000136235 ! expresses

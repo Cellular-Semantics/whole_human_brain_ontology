@@ -138,39 +138,39 @@
 #      # Miscellaneous ?????????
     - Node: CS202210140_464
       Cell_type: CL:0000129
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Microglia
     - Node: CS202210140_465
       Cell_type: CL:4023072
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Vascular
     - Node: CS202210140_466
       Cell_type: CL:0000057
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Fibroblast
     - Node: CS202210140_467
       Cell_type: CL:0002453
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Oligodendrocyte precursor
     - Node: CS202210140_468
       Cell_type: CL:4023059
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Committed oligodendrocyte precursor
     - Node: CS202210140_469
       Cell_type: CL:0000128
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Oligodendrocyte
     - Node: CS202210140_470
       Cell_type: CL:0000127
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Astrocyte
     - Node: CS202210140_471
       Cell_type: CL:0000065
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Ependymal
     - Node: CS202210140_472
       Cell_type: CL:4023073
-      Location_relation: has_soma_location
+      Location_relation: part_of
       # Choroid plexus
     - Node: CS202210140_473
       Cell_type: CL:4023012
