@@ -320,7 +320,7 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                     curation_record = curations[d['prefLabel']]
                     d['Classification'] = curation_record["CELL_ONTOLOGY_TERM_ID"]
                     if "POSITIVE_GENE_EVIDENCE" in curation_record and curation_record["POSITIVE_GENE_EVIDENCE"]:
-                        d['Classification_comment'] = "Marker gene evidence: " + curation_record["POSITIVE_GENE_EVIDENCE"]
+                        d['Classification_comment'] = "Inferred from expression of: " + curation_record["POSITIVE_GENE_EVIDENCE"]
                     if "RATIONALE_DOI" in curation_record and curation_record["RATIONALE_DOI"]:
                         d['Classification_pub'] = "|".join([doi.strip() for doi in curation_record["RATIONALE_DOI"].split(",")])
 
