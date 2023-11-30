@@ -31,3 +31,5 @@ To (re)generate templates for a single dendrogram:
 
   - https://www.biorxiv.org/content/10.1101/2022.10.12.511898v1.supplementary-material
     - NSForest_results_global_cluster_run2 
+    
+  - Manual curations: https://docs.google.com/spreadsheets/d/1cC6L9oOGk7tb8pFtBOtol-caYculMdkALcPF-MxhRmM/edit#gid=1294367862
