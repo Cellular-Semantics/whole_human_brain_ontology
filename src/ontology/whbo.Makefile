@@ -266,6 +266,6 @@ mirror-ro: | $(TMPDIR)
 .PHONY: mirror-hba_uberon_bridge
 .PRECIOUS: $(MIRRORDIR)/hba_uberon_bridge.owl
 mirror-hba_uberon_bridge: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.obo -o $@.tmp.owl &&\
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.owl -o $@.tmp.owl &&\
 		robot query -i $@.tmp.owl --update ../sparql/remove_hba_inf_equals.ru -o $@.tmp.owl && \
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
