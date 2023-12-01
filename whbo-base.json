@@ -16,9 +16,9 @@
         "val" : "Whole Human Brain Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-11-30"
+        "val" : "2023-12-01"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2023-11-30/whbo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2023-12-01/whbo-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/pcl/CS202210140_1",
@@ -12972,16 +12972,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051016",
-      "lbl" : "VendC_15 brain vascular cell (Hsap)",
+      "lbl" : "VendC_15 capillary endothelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, thalamus. The reference data for this cell type is CS202210140_16.",
+          "val" : "A capillary endothelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, thalamus. The reference data for this cell type is CS202210140_16.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap) expressing brain vascular cell of brain (Homo sapiens)"
+          "val" : "MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap) expressing capillary endothelial cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "VendC_15"
@@ -13014,16 +13014,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051017",
-      "lbl" : "VendVC_16 brain vascular cell (Hsap)",
+      "lbl" : "VendVC_16 capillary endothelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), TRPM6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_17.",
+          "val" : "A capillary endothelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), TRPM6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_17.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "MECOM (Hsap), TRPM6 (Hsap) expressing brain vascular cell of brain (Homo sapiens)"
+          "val" : "MECOM (Hsap), TRPM6 (Hsap) expressing capillary endothelial cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "VendVC_16"
@@ -13050,16 +13050,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051018",
-      "lbl" : "VendV_17 brain vascular cell (Hsap)",
+      "lbl" : "VendV_17 vein endothelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IL1R1 (Hsap), SRGN (Hsap). The soma of these cells can be found in the hypothalamus, myelencephalon, pons. The reference data for this cell type is CS202210140_18.",
+          "val" : "A vein endothelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IL1R1 (Hsap), SRGN (Hsap). The soma of these cells can be found in the hypothalamus, myelencephalon, pons. The reference data for this cell type is CS202210140_18.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "IL1R1 (Hsap), SRGN (Hsap) expressing brain vascular cell of brain (Homo sapiens)"
+          "val" : "IL1R1 (Hsap), SRGN (Hsap) expressing vein endothelial cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "VendV_17"
@@ -13089,16 +13089,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051019",
-      "lbl" : "VendA_18 brain vascular cell (Hsap)",
+      "lbl" : "VendA_18 endothelial cell of artery (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), MGP (Hsap). The soma of these cells can be found in the cerebral cortex, myelencephalon, thalamus. The reference data for this cell type is CS202210140_19.",
+          "val" : "A endothelial cell of artery of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), MGP (Hsap). The soma of these cells can be found in the cerebral cortex, myelencephalon, thalamus. The reference data for this cell type is CS202210140_19.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "MECOM (Hsap), MGP (Hsap) expressing brain vascular cell of brain (Homo sapiens)"
+          "val" : "MECOM (Hsap), MGP (Hsap) expressing endothelial cell of artery of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "VendA_18"
@@ -13167,16 +13167,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051021",
-      "lbl" : "Vsmc_20 brain vascular cell (Hsap)",
+      "lbl" : "Vsmc_20 smooth muscle cell of the brain vasculature (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ACTA2 (Hsap), TAGLN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, myelencephalon. The reference data for this cell type is CS202210140_21.",
+          "val" : "A smooth muscle cell of the brain vasculature of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ACTA2 (Hsap), TAGLN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, myelencephalon. The reference data for this cell type is CS202210140_21.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ACTA2 (Hsap), TAGLN (Hsap) expressing brain vascular cell of brain (Homo sapiens)"
+          "val" : "ACTA2 (Hsap), TAGLN (Hsap) expressing smooth muscle cell of the brain vasculature of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Vsmc_20"
@@ -13206,11 +13206,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051022",
-      "lbl" : "Per_21 brain vascular cell (Hsap)",
+      "lbl" : "Per_21 pericyte (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RERGL (Hsap), NDUFA4L2 (Hsap). The soma of these cells can be found in the thalamus, pons. The reference data for this cell type is CS202210140_22.",
+          "val" : "A pericyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RERGL (Hsap), NDUFA4L2 (Hsap). The soma of these cells can be found in the thalamus, pons. The reference data for this cell type is CS202210140_22.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -13218,7 +13218,7 @@
           "val" : "Per_21"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "RERGL (Hsap), NDUFA4L2 (Hsap) expressing brain vascular cell of brain (Homo sapiens)"
+          "val" : "RERGL (Hsap), NDUFA4L2 (Hsap) expressing pericyte of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -13242,11 +13242,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051023",
-      "lbl" : "Per_22 brain vascular cell (Hsap)",
+      "lbl" : "Per_22 pericyte (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC19A1 (Hsap), CARMN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_23.",
+          "val" : "A pericyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC19A1 (Hsap), CARMN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_23.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -13254,7 +13254,7 @@
           "val" : "Per_22"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SLC19A1 (Hsap), CARMN (Hsap) expressing brain vascular cell of brain (Homo sapiens)"
+          "val" : "SLC19A1 (Hsap), CARMN (Hsap) expressing pericyte of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -13602,11 +13602,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051032",
-      "lbl" : "Fbl_31 fibroblast (Hsap)",
+      "lbl" : "Fbl_31 arachnoid barrier cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTGDR (Hsap), BNC2 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon, hypothalamus. The reference data for this cell type is CS202210140_32.",
+          "val" : "A arachnoid barrier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTGDR (Hsap), BNC2 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon, hypothalamus. The reference data for this cell type is CS202210140_32.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -13614,7 +13614,7 @@
           "val" : "Fbl_31"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PTGDR (Hsap), BNC2 (Hsap) expressing fibroblast of brain (Homo sapiens)"
+          "val" : "PTGDR (Hsap), BNC2 (Hsap) expressing arachnoid barrier cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -15354,11 +15354,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051077",
-      "lbl" : "Chrp_76 obsolete choroid plexus cell (Hsap)",
+      "lbl" : "Chrp_76 choroid plexus epithelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_77.",
+          "val" : "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_77.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -15366,7 +15366,7 @@
           "val" : "Chrp_76"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)"
+          "val" : "PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -15396,11 +15396,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051078",
-      "lbl" : "Chrp_77 obsolete choroid plexus cell (Hsap)",
+      "lbl" : "Chrp_77 choroid plexus epithelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_78.",
+          "val" : "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_78.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -15408,7 +15408,7 @@
           "val" : "Chrp_77"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)"
+          "val" : "FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -15435,11 +15435,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051079",
-      "lbl" : "Chrp_78 obsolete choroid plexus cell (Hsap)",
+      "lbl" : "Chrp_78 choroid plexus epithelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_79.",
+          "val" : "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_79.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -15447,7 +15447,7 @@
           "val" : "Chrp_78"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)"
+          "val" : "POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -15471,11 +15471,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051080",
-      "lbl" : "Chrp_79 obsolete choroid plexus cell (Hsap)",
+      "lbl" : "Chrp_79 choroid plexus epithelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_80.",
+          "val" : "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_80.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -15483,7 +15483,7 @@
           "val" : "Chrp_79"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)"
+          "val" : "POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -15507,11 +15507,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051081",
-      "lbl" : "Chrp_80 obsolete choroid plexus cell (Hsap)",
+      "lbl" : "Chrp_80 choroid plexus epithelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_81.",
+          "val" : "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_81.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -15519,7 +15519,7 @@
           "val" : "Chrp_80"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)"
+          "val" : "HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -15540,11 +15540,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051082",
-      "lbl" : "Chrp_81 obsolete choroid plexus cell (Hsap)",
+      "lbl" : "Chrp_81 choroid plexus epithelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HPD (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_82.",
+          "val" : "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HPD (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_82.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -15552,7 +15552,7 @@
           "val" : "Chrp_81"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "HPD (Hsap), C1QTNF5 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)"
+          "val" : "HPD (Hsap), C1QTNF5 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -15576,11 +15576,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051083",
-      "lbl" : "Chrp_82 obsolete choroid plexus cell (Hsap)",
+      "lbl" : "Chrp_82 choroid plexus epithelial cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), GPNMB (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_83.",
+          "val" : "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), GPNMB (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_83.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -15588,7 +15588,7 @@
           "val" : "Chrp_82"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "TTR (Hsap), GPNMB (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)"
+          "val" : "TTR (Hsap), GPNMB (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -16761,11 +16761,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051114",
-      "lbl" : "L5ET_113 extratelencephalic-projecting glutamatergic cortical neuron (Hsap)",
+      "lbl" : "L5ET_113 L5 extratelencephalic projecting glutamatergic cortical neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A extratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00943 (Hsap), LINC02424 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_114.",
+          "val" : "A L5 extratelencephalic projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00943 (Hsap), LINC02424 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_114.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -16773,7 +16773,7 @@
           "val" : "L5ET_113"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "LINC00943 (Hsap), LINC02424 (Hsap) expressing extratelencephalic-projecting glutamatergic cortical neuron of brain (Homo sapiens)"
+          "val" : "LINC00943 (Hsap), LINC02424 (Hsap) expressing L5 extratelencephalic projecting glutamatergic cortical neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -16794,11 +16794,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051115",
-      "lbl" : "L5ET_114 extratelencephalic-projecting glutamatergic cortical neuron (Hsap)",
+      "lbl" : "L5ET_114 L5 extratelencephalic projecting glutamatergic cortical neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A extratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_115.",
+          "val" : "A L5 extratelencephalic projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_115.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -16806,7 +16806,7 @@
           "val" : "L5ET_114"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap) expressing extratelencephalic-projecting glutamatergic cortical neuron of brain (Homo sapiens)"
+          "val" : "LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap) expressing L5 extratelencephalic projecting glutamatergic cortical neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -16902,11 +16902,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051118",
-      "lbl" : "L5ET_117 neuron of the forebrain (Hsap)",
+      "lbl" : "L5ET_117 von Economo neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the forebrain of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_118.",
+          "val" : "A von Economo neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_118.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -16914,7 +16914,7 @@
           "val" : "L5ET_117"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap) expressing neuron of the forebrain of brain (Homo sapiens)"
+          "val" : "LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap) expressing von Economo neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -16938,11 +16938,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051119",
-      "lbl" : "L5ET_118 extratelencephalic-projecting glutamatergic cortical neuron (Hsap)",
+      "lbl" : "L5ET_118 L5 extratelencephalic projecting glutamatergic cortical neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A extratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, mesencephalon. The reference data for this cell type is CS202210140_119.",
+          "val" : "A L5 extratelencephalic projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, mesencephalon. The reference data for this cell type is CS202210140_119.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -16950,7 +16950,7 @@
           "val" : "L5ET_118"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap) expressing extratelencephalic-projecting glutamatergic cortical neuron of brain (Homo sapiens)"
+          "val" : "LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap) expressing L5 extratelencephalic projecting glutamatergic cortical neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -19980,11 +19980,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051200",
-      "lbl" : "DG_199 dentate gyrus neuron (Hsap)",
+      "lbl" : "DG_199 dentate gyrus granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POSTN (Hsap), bP-21201H5.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_200.",
+          "val" : "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POSTN (Hsap), bP-21201H5.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_200.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -19992,7 +19992,7 @@
           "val" : "DG_199"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "POSTN (Hsap), bP-21201H5.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)"
+          "val" : "POSTN (Hsap), bP-21201H5.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20013,16 +20013,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051201",
-      "lbl" : "DG_200 dentate gyrus neuron (Hsap)",
+      "lbl" : "DG_200 dentate gyrus granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_201.",
+          "val" : "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_201.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)"
+          "val" : "CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "DG_200"
@@ -20049,11 +20049,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051202",
-      "lbl" : "DG_201 dentate gyrus neuron (Hsap)",
+      "lbl" : "DG_201 dentate gyrus granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_202.",
+          "val" : "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_202.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20061,7 +20061,7 @@
           "val" : "DG_201"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)"
+          "val" : "SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20085,11 +20085,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051203",
-      "lbl" : "DG_202 dentate gyrus neuron (Hsap)",
+      "lbl" : "DG_202 dentate gyrus granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_203.",
+          "val" : "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_203.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20097,7 +20097,7 @@
           "val" : "DG_202"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)"
+          "val" : "TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20121,11 +20121,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051204",
-      "lbl" : "DG_203 dentate gyrus neuron (Hsap)",
+      "lbl" : "DG_203 dentate gyrus granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_204.",
+          "val" : "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_204.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20133,7 +20133,7 @@
           "val" : "DG_203"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)"
+          "val" : "ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20157,11 +20157,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051205",
-      "lbl" : "DG_204 dentate gyrus neuron (Hsap)",
+      "lbl" : "DG_204 dentate gyrus granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_205.",
+          "val" : "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_205.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20169,7 +20169,7 @@
           "val" : "DG_204"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)"
+          "val" : "TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20196,11 +20196,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051206",
-      "lbl" : "DG_205 dentate gyrus neuron (Hsap)",
+      "lbl" : "DG_205 dentate gyrus granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_206.",
+          "val" : "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_206.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20208,7 +20208,7 @@
           "val" : "DG_205"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)"
+          "val" : "RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20271,16 +20271,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051208",
-      "lbl" : "MSN_207 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_207 indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_208.",
+          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_208.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_207"
@@ -20307,11 +20307,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051209",
-      "lbl" : "MSN_208 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_208 indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_209.",
+          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_209.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20319,7 +20319,7 @@
           "val" : "MSN_208"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20343,11 +20343,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051210",
-      "lbl" : "MSN_209 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_209 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_210.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_210.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20355,7 +20355,7 @@
           "val" : "MSN_209"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20382,16 +20382,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051211",
-      "lbl" : "MSN_210 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_210 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_211.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_211.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_210"
@@ -20418,11 +20418,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051212",
-      "lbl" : "MSN_211 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_211 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_212.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_212.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20430,7 +20430,7 @@
           "val" : "MSN_211"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20454,11 +20454,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051213",
-      "lbl" : "MSN_212 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_212 indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_213.",
+          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_213.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20466,7 +20466,7 @@
           "val" : "MSN_212"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20490,11 +20490,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051214",
-      "lbl" : "MSN_213 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_213 indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), LINC00534 (Hsap). The soma of these cells can be found in the basal forebrain, cerebral cortex. The reference data for this cell type is CS202210140_214.",
+          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), LINC00534 (Hsap). The soma of these cells can be found in the basal forebrain, cerebral cortex. The reference data for this cell type is CS202210140_214.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20502,7 +20502,7 @@
           "val" : "MSN_213"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PENK (Hsap), LINC00534 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "PENK (Hsap), LINC00534 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20526,11 +20526,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051215",
-      "lbl" : "MSN_214 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_214 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_215.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_215.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20538,7 +20538,7 @@
           "val" : "MSN_214"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20568,16 +20568,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051216",
-      "lbl" : "MSN_215 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_215 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_216.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_216.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_215"
@@ -20604,16 +20604,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051217",
-      "lbl" : "MSN_216 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_216 indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, hypothalamus. The reference data for this cell type is CS202210140_217.",
+          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, hypothalamus. The reference data for this cell type is CS202210140_217.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_216"
@@ -20652,11 +20652,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051218",
-      "lbl" : "MSN_217 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_217 indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), DCDC2C (Hsap). The soma of these cells can be found in the amygdala, basal forebrain. The reference data for this cell type is CS202210140_218.",
+          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), DCDC2C (Hsap). The soma of these cells can be found in the amygdala, basal forebrain. The reference data for this cell type is CS202210140_218.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -20664,7 +20664,7 @@
           "val" : "MSN_217"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PENK (Hsap), DCDC2C (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "PENK (Hsap), DCDC2C (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -20730,16 +20730,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051220",
-      "lbl" : "MSN_219 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_219 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap). The soma of these cells can be found in the amygdala, basal forebrain, hypothalamus. The reference data for this cell type is CS202210140_220.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap). The soma of these cells can be found in the amygdala, basal forebrain, hypothalamus. The reference data for this cell type is CS202210140_220.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_219"
@@ -20772,16 +20772,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051221",
-      "lbl" : "MSN_220 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_220 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap). The soma of these cells can be found in the amygdala. The reference data for this cell type is CS202210140_221.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap). The soma of these cells can be found in the amygdala. The reference data for this cell type is CS202210140_221.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_220"
@@ -20808,16 +20808,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051222",
-      "lbl" : "MSN_221 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_221 indirect pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_222.",
+          "val" : "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_222.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_221"
@@ -21402,16 +21402,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051236",
-      "lbl" : "Splat_235 neuron (Hsap)",
+      "lbl" : "Splat_235 long-range projecting sst GABAergic cortical interneuron (Mmus) (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NOS1 (Hsap), NPY (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, basal forebrain. The reference data for this cell type is CS202210140_236.",
+          "val" : "A long-range projecting sst GABAergic cortical interneuron (Mmus) of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NOS1 (Hsap), NPY (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, basal forebrain. The reference data for this cell type is CS202210140_236.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "NOS1 (Hsap), NPY (Hsap) expressing neuron of brain (Homo sapiens)"
+          "val" : "NOS1 (Hsap), NPY (Hsap) expressing long-range projecting sst GABAergic cortical interneuron (Mmus) of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Splat_235"
@@ -21441,11 +21441,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051237",
-      "lbl" : "MGE_236 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_236 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, amygdala. The reference data for this cell type is CS202210140_237.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, amygdala. The reference data for this cell type is CS202210140_237.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -21453,7 +21453,7 @@
           "val" : "MGE_236"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -21483,16 +21483,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051238",
-      "lbl" : "Splat_237 neuron (Hsap)",
+      "lbl" : "Splat_237 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_238.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_238.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap) expressing neuron of brain (Homo sapiens)"
+          "val" : "BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Splat_237"
@@ -21558,11 +21558,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051240",
-      "lbl" : "MGE_239 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_239 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_240.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_240.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -21570,7 +21570,7 @@
           "val" : "MGE_239"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -21594,11 +21594,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051241",
-      "lbl" : "MGE_240 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_240 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_241.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_241.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -21606,7 +21606,7 @@
           "val" : "MGE_240"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -21633,11 +21633,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051242",
-      "lbl" : "MGE_241 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_241 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_242.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_242.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -21645,7 +21645,7 @@
           "val" : "MGE_241"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -21714,16 +21714,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051244",
-      "lbl" : "MGE_243 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_243 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_244.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_244.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MGE_243"
@@ -21834,11 +21834,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051247",
-      "lbl" : "MGE_246 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_246 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), MAF (Hsap), LINC02008 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_247.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), MAF (Hsap), LINC02008 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_247.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -21846,7 +21846,7 @@
           "val" : "MGE_246"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SST (Hsap), MAF (Hsap), LINC02008 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "SST (Hsap), MAF (Hsap), LINC02008 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -21909,11 +21909,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051249",
-      "lbl" : "MGE_248 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_248 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_249.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_249.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -21921,7 +21921,7 @@
           "val" : "MGE_248"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -21948,11 +21948,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051250",
-      "lbl" : "MGE_249 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_249 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_250.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_250.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -21960,7 +21960,7 @@
           "val" : "MGE_249"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -22071,16 +22071,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051253",
-      "lbl" : "MGE_252 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_252 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_253.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_253.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MGE_252"
@@ -22107,16 +22107,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051254",
-      "lbl" : "MGE_253 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_253 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_254.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_254.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MGE_253"
@@ -22149,11 +22149,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051255",
-      "lbl" : "MGE_254 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_254 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_255.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_255.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -22161,7 +22161,7 @@
           "val" : "MGE_254"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -22230,16 +22230,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051257",
-      "lbl" : "MGE_256 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_256 pvalb GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_257.",
+          "val" : "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_257.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MGE_256"
@@ -22269,11 +22269,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051258",
-      "lbl" : "MGE_257 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_257 pvalb GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RGS5_ENSG00000143248 (Hsap), MEPE (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_258.",
+          "val" : "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RGS5_ENSG00000143248 (Hsap), MEPE (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_258.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -22281,7 +22281,7 @@
           "val" : "MGE_257"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "RGS5_ENSG00000143248 (Hsap), MEPE (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "RGS5_ENSG00000143248 (Hsap), MEPE (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -22305,11 +22305,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051259",
-      "lbl" : "MGE_258 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_258 sst GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WNT16 (Hsap), SST (Hsap), PAWR (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_259.",
+          "val" : "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WNT16 (Hsap), SST (Hsap), PAWR (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_259.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -22317,7 +22317,7 @@
           "val" : "MGE_258"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "WNT16 (Hsap), SST (Hsap), PAWR (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "WNT16 (Hsap), SST (Hsap), PAWR (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -22341,16 +22341,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051260",
-      "lbl" : "MGE_259 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_259 pvalb GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_260.",
+          "val" : "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_260.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MGE_259"
@@ -22377,16 +22377,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051261",
-      "lbl" : "MGE_260 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_260 pvalb GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_261.",
+          "val" : "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_261.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MGE_260"
@@ -22413,11 +22413,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051262",
-      "lbl" : "MGE_261 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_261 pvalb GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_262.",
+          "val" : "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_262.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -22425,7 +22425,7 @@
           "val" : "MGE_261"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -22452,11 +22452,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051263",
-      "lbl" : "MGE_262 medial ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "MGE_262 pvalb GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_263.",
+          "val" : "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_263.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -22464,7 +22464,7 @@
           "val" : "MGE_262"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -22530,16 +22530,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051265",
-      "lbl" : "LLC_264 CNS interneuron (Hsap)",
+      "lbl" : "LLC_264 chandelier cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_265.",
+          "val" : "A chandelier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_265.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap) expressing CNS interneuron of brain (Homo sapiens)"
+          "val" : "CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap) expressing chandelier cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "LLC_264"
@@ -22566,11 +22566,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051266",
-      "lbl" : "LLC_265 CNS interneuron (Hsap)",
+      "lbl" : "LLC_265 chandelier cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTHLH (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_266.",
+          "val" : "A chandelier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTHLH (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_266.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -22578,7 +22578,7 @@
           "val" : "LLC_265"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PTHLH (Hsap), RP11-238K6.2 (Hsap) expressing CNS interneuron of brain (Homo sapiens)"
+          "val" : "PTHLH (Hsap), RP11-238K6.2 (Hsap) expressing chandelier cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -22602,11 +22602,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051267",
-      "lbl" : "LLC_266 CNS interneuron (Hsap)",
+      "lbl" : "LLC_266 chandelier cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap). The soma of these cells can be found in the amygdala, hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_267.",
+          "val" : "A chandelier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap). The soma of these cells can be found in the amygdala, hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_267.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -22614,7 +22614,7 @@
           "val" : "LLC_266"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap) expressing CNS interneuron of brain (Homo sapiens)"
+          "val" : "UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap) expressing chandelier cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23007,11 +23007,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051277",
-      "lbl" : "CGE_276 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_276 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23019,7 +23019,7 @@
           "val" : "CGE_276"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "VIP (Hsap), SVEP1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "VIP (Hsap), SVEP1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23121,11 +23121,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051280",
-      "lbl" : "CGE_279 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_279 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23133,7 +23133,7 @@
           "val" : "CGE_279"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23163,11 +23163,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051281",
-      "lbl" : "CGE_280 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_280 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23175,7 +23175,7 @@
           "val" : "CGE_280"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "LAMA3 (Hsap), CTD-2008L17.2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "LAMA3 (Hsap), CTD-2008L17.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23199,11 +23199,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051282",
-      "lbl" : "CGE_281 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_281 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23211,7 +23211,7 @@
           "val" : "CGE_281"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "EDNRA (Hsap), HTR3A (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "EDNRA (Hsap), HTR3A (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23313,16 +23313,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051285",
-      "lbl" : "CGE_284 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_284 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "CGE_284"
@@ -23352,11 +23352,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051286",
-      "lbl" : "CGE_285 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_285 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23364,7 +23364,7 @@
           "val" : "CGE_285"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "VIP (Hsap), PENK (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "VIP (Hsap), PENK (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23388,11 +23388,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051287",
-      "lbl" : "CGE_286 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_286 lamp5 GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_287.",
+          "val" : "A lamp5 GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_287.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23400,7 +23400,7 @@
           "val" : "CGE_286"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap) expressing lamp5 GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23430,11 +23430,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051288",
-      "lbl" : "CGE_287 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_287 lamp5 GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_288.",
+          "val" : "A lamp5 GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_288.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23442,7 +23442,7 @@
           "val" : "CGE_287"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap) expressing lamp5 GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23472,16 +23472,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051289",
-      "lbl" : "CGE_288 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_288 lamp5 GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_289.",
+          "val" : "A lamp5 GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_289.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap) expressing lamp5 GABAergic cortical interneuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "CGE_288"
@@ -23514,11 +23514,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051290",
-      "lbl" : "CGE_289 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_289 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23526,7 +23526,7 @@
           "val" : "CGE_289"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23550,11 +23550,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051291",
-      "lbl" : "CGE_290 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_290 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23562,7 +23562,7 @@
           "val" : "CGE_290"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23586,11 +23586,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051292",
-      "lbl" : "CGE_291 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_291 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23598,7 +23598,7 @@
           "val" : "CGE_291"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23625,11 +23625,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051293",
-      "lbl" : "CGE_292 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_292 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23637,7 +23637,7 @@
           "val" : "CGE_292"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23664,11 +23664,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051294",
-      "lbl" : "CGE_293 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_293 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23676,7 +23676,7 @@
           "val" : "CGE_293"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23703,11 +23703,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051295",
-      "lbl" : "CGE_294 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_294 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23715,7 +23715,7 @@
           "val" : "CGE_294"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "VIP (Hsap), ABI3BP (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "VIP (Hsap), ABI3BP (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23742,11 +23742,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051296",
-      "lbl" : "CGE_295 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_295 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23754,7 +23754,7 @@
           "val" : "CGE_295"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -23784,11 +23784,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051297",
-      "lbl" : "CGE_296 caudal ganglionic eminence derived interneuron (Hsap)",
+      "lbl" : "CGE_296 vip GABAergic cortical interneuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297.",
+          "val" : "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -23796,7 +23796,7 @@
           "val" : "CGE_296"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)"
+          "val" : "CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -24231,16 +24231,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051309",
-      "lbl" : "URL_308 neuron (Hsap)",
+      "lbl" : "URL_308 unipolar brush cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EOMES (Hsap), RP11-312A15.5 (Hsap). The soma of these cells can be found in the cerebellum, pons. The reference data for this cell type is CS202210140_309.",
+          "val" : "A unipolar brush cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EOMES (Hsap), RP11-312A15.5 (Hsap). The soma of these cells can be found in the cerebellum, pons. The reference data for this cell type is CS202210140_309.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "EOMES (Hsap), RP11-312A15.5 (Hsap) expressing neuron of brain (Homo sapiens)"
+          "val" : "EOMES (Hsap), RP11-312A15.5 (Hsap) expressing unipolar brush cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "URL_308"
@@ -24300,16 +24300,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051311",
-      "lbl" : "URL_310 neuron (Hsap)",
+      "lbl" : "URL_310 cerebellar granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap). The soma of these cells can be found in the cerebellum, pons, myelencephalon. The reference data for this cell type is CS202210140_311.",
+          "val" : "A cerebellar granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap). The soma of these cells can be found in the cerebellum, pons, myelencephalon. The reference data for this cell type is CS202210140_311.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap) expressing neuron of brain (Homo sapiens)"
+          "val" : "RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap) expressing cerebellar granule cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "URL_310"
@@ -24345,16 +24345,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051312",
-      "lbl" : "URL_311 neuron (Hsap)",
+      "lbl" : "URL_311 cerebellar granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the cerebellum, myelencephalon. The reference data for this cell type is CS202210140_312.",
+          "val" : "A cerebellar granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the cerebellum, myelencephalon. The reference data for this cell type is CS202210140_312.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap) expressing neuron of brain (Homo sapiens)"
+          "val" : "ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap) expressing cerebellar granule cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "URL_311"
@@ -24384,16 +24384,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051313",
-      "lbl" : "URL_312 neuron (Hsap)",
+      "lbl" : "URL_312 cerebellar granule cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the myelencephalon, pons. The reference data for this cell type is CS202210140_313.",
+          "val" : "A cerebellar granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the myelencephalon, pons. The reference data for this cell type is CS202210140_313.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap) expressing neuron of brain (Homo sapiens)"
+          "val" : "TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap) expressing cerebellar granule cell of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "URL_312"
@@ -24459,11 +24459,11 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051315",
-      "lbl" : "Misc_314 neuron (Hsap)",
+      "lbl" : "Misc_314 Purkinje cell (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PCP2 (Hsap). The soma of these cells can be found in the myelencephalon, pons, cerebellum. The reference data for this cell type is CS202210140_315.",
+          "val" : "A Purkinje cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PCP2 (Hsap). The soma of these cells can be found in the myelencephalon, pons, cerebellum. The reference data for this cell type is CS202210140_315.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
@@ -24471,7 +24471,7 @@
           "val" : "Misc_314"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PCP2 (Hsap) expressing neuron of brain (Homo sapiens)"
+          "val" : "PCP2 (Hsap) expressing Purkinje cell of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -28743,16 +28743,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/PCL_0051428",
-      "lbl" : "MSN_427 medium spiny neuron (Hsap)",
+      "lbl" : "MSN_427 direct pathway medium spiny neuron (Hsap)",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, thalamus. The reference data for this cell type is CS202210140_428.",
+          "val" : "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, thalamus. The reference data for this cell type is CS202210140_428.",
           "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)"
+          "val" : "ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "MSN_427"
@@ -30008,6 +30008,258 @@
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "Thex_460"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051473",
+      "lbl" : "Deep-layer near-projecting near-projecting glutamatergic cortical neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A near-projecting glutamatergic cortical neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_473.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Deep-layer near-projecting"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Deep-layer near-projecting (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Deep-layer near-projecting"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051474",
+      "lbl" : "Deep-layer corticothalamic and 6b glutamatergic neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A glutamatergic neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_474.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Deep-layer corticothalamic and 6b"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Deep-layer corticothalamic and 6b (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Deep-layer corticothalamic and 6b"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051475",
+      "lbl" : "Hippocampal CA1-3 hippocampal CA1-3 neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A hippocampal CA1-3 neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_475.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Hippocampal CA1-3"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Hippocampal CA1-3 (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Hippocampal CA1-3"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051476",
+      "lbl" : "Upper-layer intratelencephalic intratelencephalic-projecting glutamatergic cortical neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A intratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_476.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Upper-layer intratelencephalic"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Upper-layer intratelencephalic (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Upper-layer intratelencephalic"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051477",
+      "lbl" : "Deep-layer intratelencephalic intratelencephalic-projecting glutamatergic cortical neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A intratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_477.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Deep-layer intratelencephalic"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Deep-layer intratelencephalic (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Deep-layer intratelencephalic"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051478",
+      "lbl" : "Amygdala excitatory amygdala excitatory neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A amygdala excitatory neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_478.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Amygdala excitatory"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Amygdala excitatory (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Amygdala excitatory"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051480",
+      "lbl" : "Hippocampal dentate gyrus dentate gyrus neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A dentate gyrus neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_480.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Hippocampal dentate gyrus"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Hippocampal dentate gyrus (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Hippocampal dentate gyrus"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051481",
+      "lbl" : "Medium spiny neuron medium spiny neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A medium spiny neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_481.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Medium spiny neuron"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Medium spiny neuron (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Medium spiny neuron"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051482",
+      "lbl" : "Eccentric medium spiny neuron medium spiny neuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A medium spiny neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_482.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Eccentric medium spiny neuron"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "Eccentric medium spiny neuron (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Eccentric medium spiny neuron"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051484",
+      "lbl" : "MGE interneuron medial ganglionic eminence derived interneuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_484.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "MGE interneuron"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "MGE interneuron (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "MGE interneuron"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051485",
+      "lbl" : "LAMP5-LHX6 and Chandelier CNS interneuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A CNS interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_485.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "LAMP5-LHX6 and Chandelier"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "LAMP5-LHX6 and Chandelier (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "LAMP5-LHX6 and Chandelier"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PCL_0051486",
+      "lbl" : "CGE interneuron caudal ganglionic eminence derived interneuron (Hsap)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_486.",
+          "xrefs" : [ "DOI:10.1101/2022.10.12.511898" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "CGE interneuron"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
+          "val" : "CGE interneuron (Human)"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "CGE interneuron"
         } ]
       }
     }, {
@@ -34657,13 +34909,9 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: DOCK8, PAX5, FCRL1"
+          "val" : "Inferred from expression of: DOCK8, PAX5, FCRL1"
         } ]
       }
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/PCL_0051001",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
-      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051001",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
@@ -34682,21 +34930,15 @@
       "obj" : "http://purl.obolibrary.org/obo/CL_0000084",
       "meta" : {
         "xrefs" : [ {
-          "val" : "https://doi.org/10.1038"
-        }, {
-          "val" : "https://doi.org/10.1038/s41593-018-0290-2"
+          "val" : "https://doi.org/10.1038. https://doi.org/10.1038/s41593-018-0290-2"
         }, {
           "val" : "https://doi.org/10.1084%2Fjem.20110345"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: DOCK8, CD8A, CD3G"
+          "val" : "Inferred from expression of: DOCK8, CD8A, CD3G"
         } ]
       }
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/PCL_0051002",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
-      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051002",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
@@ -34715,13 +34957,9 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: NCAM1, GZMB"
+          "val" : "Inferred from expression of: NCAM1, GZMB"
         } ]
       }
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/PCL_0051003",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
-      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051003",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
@@ -34740,13 +34978,9 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: TYROBP, FCN1, LYZ"
+          "val" : "Inferred from expression of: TYROBP, FCN1, LYZ"
         } ]
       }
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/PCL_0051004",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
-      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051004",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
@@ -34946,7 +35180,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FLT1, CLDN5, PECAM1, MFSD2A"
+          "val" : "Inferred from expression of: FLT1, CLDN5, PECAM1, MFSD2A"
         } ]
       }
     }, {
@@ -35012,7 +35246,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FLT1, CLDN5, PECAM1, BMX, VEGFC, JUNB"
+          "val" : "Inferred from expression of: FLT1, CLDN5, PECAM1, BMX, VEGFC, JUNB"
         } ]
       }
     }, {
@@ -35063,7 +35297,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: PDGFRB, ACTA2, MYH11"
+          "val" : "Inferred from expression of: PDGFRB, ACTA2, MYH11"
         } ]
       }
     }, {
@@ -35096,7 +35330,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: +PDGFRB +CSPG4 -MYH11"
+          "val" : "Inferred from expression of: PDGFRB, CSPG4"
         } ]
       }
     }, {
@@ -35129,7 +35363,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: +PDGFRB +CSPG4 -MYH11"
+          "val" : "Inferred from expression of: PDGFRB, CSPG4"
         } ]
       }
     }, {
@@ -35290,7 +35524,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: AQP4, GDF10, GABRG3, WIF1, LGR6"
+          "val" : "Inferred from expression of: AQP4, GDF10, GABRG3, WIF1, LGR6"
         } ]
       }
     }, {
@@ -35996,7 +36230,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051077",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023073"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051077",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -36012,7 +36246,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051078",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023073"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051078",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -36028,7 +36262,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051079",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023073"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051079",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -36044,7 +36278,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051080",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023073"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051080",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -36060,7 +36294,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051081",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023073"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051081",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -36076,7 +36310,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051082",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023073"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051082",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -36092,7 +36326,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051083",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_4023073"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000706"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051083",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -36603,7 +36837,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FEZF2, BCL11B, POU3F1, TXK"
+          "val" : "Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK"
         } ]
       }
     }, {
@@ -36632,7 +36866,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FEZF2, BCL11B, POU3F1, TXK"
+          "val" : "Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK"
         } ]
       }
     }, {
@@ -36693,7 +36927,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FEZF2, GABRQ , ITGA4, BMP3"
+          "val" : "Inferred from expression of: FEZF2, GABRQ , ITGA4, BMP3"
         } ]
       }
     }, {
@@ -36722,7 +36956,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FEZF2, BCL11B, POU3F1, TXK"
+          "val" : "Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK"
         } ]
       }
     }, {
@@ -38024,7 +38258,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
+          "val" : "Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
         } ]
       }
     }, {
@@ -38050,7 +38284,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
+          "val" : "Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
         } ]
       }
     }, {
@@ -38076,7 +38310,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
+          "val" : "Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
         } ]
       }
     }, {
@@ -38102,7 +38336,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
+          "val" : "Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
         } ]
       }
     }, {
@@ -38128,7 +38362,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
+          "val" : "Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
         } ]
       }
     }, {
@@ -38154,7 +38388,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
+          "val" : "Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
         } ]
       }
     }, {
@@ -38180,7 +38414,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
+          "val" : "Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD"
         } ]
       }
     }, {
@@ -38226,7 +38460,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38252,7 +38486,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38278,7 +38512,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38304,7 +38538,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38330,7 +38564,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38356,7 +38590,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38382,7 +38616,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38408,7 +38642,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38434,7 +38668,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38460,7 +38694,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38486,7 +38720,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38528,7 +38762,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38554,7 +38788,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38580,7 +38814,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88"
         } ]
       }
     }, {
@@ -38814,7 +39048,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: DLX1, SST, CHODL, TACR1, NPY, NOS1, CORT"
+          "val" : "Inferred from expression of: DLX1, SST, CHODL, TACR1, NPY, NOS1, CORT"
         } ]
       }
     }, {
@@ -38839,7 +39073,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -38872,7 +39106,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -38913,7 +39147,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -38942,7 +39176,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -38971,7 +39205,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39016,7 +39250,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39077,7 +39311,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39122,7 +39356,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39151,7 +39385,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39212,7 +39446,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39241,7 +39475,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39270,7 +39504,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39315,7 +39549,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
         } ]
       }
     }, {
@@ -39344,7 +39578,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
         } ]
       }
     }, {
@@ -39373,7 +39607,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"
         } ]
       }
     }, {
@@ -39402,7 +39636,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
         } ]
       }
     }, {
@@ -39431,7 +39665,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
         } ]
       }
     }, {
@@ -39460,7 +39694,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
         } ]
       }
     }, {
@@ -39489,7 +39723,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"
         } ]
       }
     }, {
@@ -39535,7 +39769,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2"
+          "val" : "Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2"
         } ]
       }
     }, {
@@ -39561,7 +39795,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2"
+          "val" : "Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2"
         } ]
       }
     }, {
@@ -39587,7 +39821,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2"
+          "val" : "Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2"
         } ]
       }
     }, {
@@ -39756,7 +39990,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -39817,7 +40051,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -39846,7 +40080,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -39875,7 +40109,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -39936,7 +40170,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -39965,7 +40199,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -39994,7 +40228,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"
         } ]
       }
     }, {
@@ -40023,7 +40257,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"
         } ]
       }
     }, {
@@ -40052,7 +40286,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"
         } ]
       }
     }, {
@@ -40081,7 +40315,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40110,7 +40344,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40139,7 +40373,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40168,7 +40402,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40197,7 +40431,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40226,7 +40460,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40255,7 +40489,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40284,7 +40518,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
+          "val" : "Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"
         } ]
       }
     }, {
@@ -40494,7 +40728,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: LMX1A, EOMES"
+          "val" : "Inferred from expression of: LMX1A, EOMES"
         } ]
       }
     }, {
@@ -40539,7 +40773,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: CBLN1, CBLN3, GABRA6"
+          "val" : "Inferred from expression of: CBLN1, CBLN3, GABRA6"
         } ]
       }
     }, {
@@ -40568,7 +40802,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: CBLN1, CBLN3, GABRA6"
+          "val" : "Inferred from expression of: CBLN1, CBLN3, GABRA6"
         } ]
       }
     }, {
@@ -40597,7 +40831,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: CBLN1, CBLN3, GABRA6"
+          "val" : "Inferred from expression of: CBLN1, CBLN3, GABRA6"
         } ]
       }
     }, {
@@ -40638,7 +40872,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: PCP2, SKOR2, PVALB, GAD2"
+          "val" : "Inferred from expression of: PCP2, SKOR2, PVALB, GAD2"
         } ]
       }
     }, {
@@ -42472,7 +42706,7 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Marker gene evidence: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
+          "val" : "Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88"
         } ]
       }
     }, {
@@ -43019,6 +43253,150 @@
       "sub" : "http://purl.obolibrary.org/obo/PCL_0051461",
       "pred" : "http://purl.obolibrary.org/obo/RO_0015004",
       "obj" : "http://purl.obolibrary.org/obo/PCL_0052961"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051473",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023012"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051473",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051473",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051474",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000679"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051474",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051474",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051475",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023060"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051475",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051475",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051476",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051476",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051476",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051477",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051477",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051477",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051478",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023039"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051478",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051478",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051480",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051480",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051480",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051481",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_1001474"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051481",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051481",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051482",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_1001474"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051482",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051482",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051484",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051484",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051484",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051485",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000402"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051485",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051485",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051486",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_4023064"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051486",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002100",
+      "obj" : "http://purl.obolibrary.org/obo/HBA_4005"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PCL_0051486",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002162",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PCL_0052501",
       "pred" : "is_a",

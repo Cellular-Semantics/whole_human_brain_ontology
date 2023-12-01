@@ -323,6 +323,9 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                         d['Classification_comment'] = "Inferred from expression of: " + curation_record["POSITIVE_GENE_EVIDENCE"]
                     if "RATIONALE_DOI" in curation_record and curation_record["RATIONALE_DOI"]:
                         d['Classification_pub'] = "|".join([doi.strip() for doi in curation_record["RATIONALE_DOI"].split(",")])
+                else:
+                    # curation not found, use gross classification
+                    d['Classification'] = get_gross_cell_type(o['cell_set_accession'], subtrees, taxonomy_config)
 
                 for k in class_curation_seed:
                     if not (k in d.keys()):

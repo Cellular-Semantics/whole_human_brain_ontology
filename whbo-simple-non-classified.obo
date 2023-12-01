@@ -1,18 +1,17 @@
 format-version: 1.2
-data-version: pcl/releases/2023-11-30/whbo-simple-non-classified.owl
+data-version: pcl/releases/2023-12-01/whbo-simple-non-classified.owl
 ontology: pcl/whbo-simple-non-classified
 property_value: http://purl.org/dc/elements/1.1/description "A data-driven cell-type ontology of the human brain" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2023-11-30" xsd:string
+property_value: owl:versionInfo "2023-12-01" xsd:string
 
 [Term]
 id: PCL:0051001
 def: "A B cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MS4A1 (Hsap). The soma of these cells can be found in the mesencephalon, basal forebrain, pons. The reference data for this cell type is CS202210140_1." [DOI:10.1101/2022.10.12.511898]
 synonym: "Bcell_0" EXACT []
 synonym: "MS4A1 (Hsap) expressing B cell of brain (Homo sapiens)" EXACT []
-is_a: CL:0000236 {xref="https://doi.org/10.1016/j.immuni.2007.05.019", xref="https://doi.org/10.1182/blood-2004-06-2344", xref="https://doi.org/10.4049/jimmunol.1501027", comment="Marker gene evidence: DOCK8, PAX5, FCRL1"}
-relationship: RO:0002100 HBA:4005 ! has soma location
+is_a: CL:0000236 {xref="https://doi.org/10.1016/j.immuni.2007.05.019", xref="https://doi.org/10.1182/blood-2004-06-2344", xref="https://doi.org/10.4049/jimmunol.1501027", comment="Inferred from expression of: DOCK8, PAX5, FCRL1"}
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000156738 ! expresses
 relationship: RO:0015004 PCL:0052501 ! has characterizing marker set
@@ -28,8 +27,7 @@ id: PCL:0051002
 def: "A T cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CD2 (Hsap), THEMIS (Hsap). The soma of these cells can be found in the mesencephalon, basal forebrain, pons. The reference data for this cell type is CS202210140_2." [DOI:10.1101/2022.10.12.511898]
 synonym: "CD2 (Hsap), THEMIS (Hsap) expressing T cell of brain (Homo sapiens)" EXACT []
 synonym: "Tcell_1" EXACT []
-is_a: CL:0000084 {xref="https://doi.org/10.1038", xref="https://doi.org/10.1038/s41593-018-0290-2", xref="https://doi.org/10.1084%2Fjem.20110345", comment="Marker gene evidence: DOCK8, CD8A, CD3G"}
-relationship: RO:0002100 HBA:4005 ! has soma location
+is_a: CL:0000084 {xref="https://doi.org/10.1038. https://doi.org/10.1038/s41593-018-0290-2", xref="https://doi.org/10.1084%2Fjem.20110345", comment="Inferred from expression of: DOCK8, CD8A, CD3G"}
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000116824 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000172673 ! expresses
@@ -47,8 +45,7 @@ id: PCL:0051003
 def: "A natural killer cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NKG7 (Hsap), GNLY (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_3." [DOI:10.1101/2022.10.12.511898]
 synonym: "Nkcell_2" EXACT []
 synonym: "NKG7 (Hsap), GNLY (Hsap) expressing natural killer cell of brain (Homo sapiens)" EXACT []
-is_a: CL:0000623 {xref="https://doi.org/10.1038/s41593-018-0290-2", comment="Marker gene evidence: NCAM1, GZMB"}
-relationship: RO:0002100 HBA:4005 ! has soma location
+is_a: CL:0000623 {xref="https://doi.org/10.1038/s41593-018-0290-2", comment="Inferred from expression of: NCAM1, GZMB"}
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000105374 ! expresses
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000115523 ! expresses
@@ -66,8 +63,7 @@ id: PCL:0051004
 def: "A monocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FCN1 (Hsap). The soma of these cells can be found in the thalamus, pons, basal forebrain. The reference data for this cell type is CS202210140_4." [DOI:10.1101/2022.10.12.511898]
 synonym: "FCN1 (Hsap) expressing monocyte of brain (Homo sapiens)" EXACT []
 synonym: "Mono_3" EXACT []
-is_a: CL:0000576 {xref="https://doi.org/10.1038/s41467-018-04985-0", comment="Marker gene evidence: TYROBP, FCN1, LYZ"}
-relationship: RO:0002100 HBA:4005 ! has soma location
+is_a: CL:0000576 {xref="https://doi.org/10.1038/s41467-018-04985-0", comment="Inferred from expression of: TYROBP, FCN1, LYZ"}
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000085265 ! expresses
 relationship: RO:0015004 PCL:0052504 ! has characterizing marker set
@@ -287,8 +283,8 @@ property_value: prefLabel "VendAC_14" xsd:string
 
 [Term]
 id: PCL:0051016
-def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, thalamus. The reference data for this cell type is CS202210140_16." [DOI:10.1101/2022.10.12.511898]
-synonym: "MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
+def: "A capillary endothelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, thalamus. The reference data for this cell type is CS202210140_16." [DOI:10.1101/2022.10.12.511898]
+synonym: "MECOM (Hsap), ABCG2 (Hsap), HMCN1 (Hsap) expressing capillary endothelial cell of brain (Homo sapiens)" EXACT []
 synonym: "VendC_15" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
@@ -307,8 +303,8 @@ property_value: prefLabel "VendC_15" xsd:string
 
 [Term]
 id: PCL:0051017
-def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), TRPM6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_17." [DOI:10.1101/2022.10.12.511898]
-synonym: "MECOM (Hsap), TRPM6 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
+def: "A capillary endothelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), TRPM6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_17." [DOI:10.1101/2022.10.12.511898]
+synonym: "MECOM (Hsap), TRPM6 (Hsap) expressing capillary endothelial cell of brain (Homo sapiens)" EXACT []
 synonym: "VendVC_16" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
@@ -324,8 +320,8 @@ property_value: prefLabel "VendVC_16" xsd:string
 
 [Term]
 id: PCL:0051018
-def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IL1R1 (Hsap), SRGN (Hsap). The soma of these cells can be found in the hypothalamus, myelencephalon, pons. The reference data for this cell type is CS202210140_18." [DOI:10.1101/2022.10.12.511898]
-synonym: "IL1R1 (Hsap), SRGN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
+def: "A vein endothelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IL1R1 (Hsap), SRGN (Hsap). The soma of these cells can be found in the hypothalamus, myelencephalon, pons. The reference data for this cell type is CS202210140_18." [DOI:10.1101/2022.10.12.511898]
+synonym: "IL1R1 (Hsap), SRGN (Hsap) expressing vein endothelial cell of brain (Homo sapiens)" EXACT []
 synonym: "VendV_17" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
@@ -342,8 +338,8 @@ property_value: prefLabel "VendV_17" xsd:string
 
 [Term]
 id: PCL:0051019
-def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), MGP (Hsap). The soma of these cells can be found in the cerebral cortex, myelencephalon, thalamus. The reference data for this cell type is CS202210140_19." [DOI:10.1101/2022.10.12.511898]
-synonym: "MECOM (Hsap), MGP (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
+def: "A endothelial cell of artery of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MECOM (Hsap), MGP (Hsap). The soma of these cells can be found in the cerebral cortex, myelencephalon, thalamus. The reference data for this cell type is CS202210140_19." [DOI:10.1101/2022.10.12.511898]
+synonym: "MECOM (Hsap), MGP (Hsap) expressing endothelial cell of artery of brain (Homo sapiens)" EXACT []
 synonym: "VendA_18" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
@@ -378,10 +374,10 @@ property_value: prefLabel "Vsmc_19" xsd:string
 
 [Term]
 id: PCL:0051021
-def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ACTA2 (Hsap), TAGLN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, myelencephalon. The reference data for this cell type is CS202210140_21." [DOI:10.1101/2022.10.12.511898]
-synonym: "ACTA2 (Hsap), TAGLN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
+def: "A smooth muscle cell of the brain vasculature of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ACTA2 (Hsap), TAGLN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, myelencephalon. The reference data for this cell type is CS202210140_21." [DOI:10.1101/2022.10.12.511898]
+synonym: "ACTA2 (Hsap), TAGLN (Hsap) expressing smooth muscle cell of the brain vasculature of brain (Homo sapiens)" EXACT []
 synonym: "Vsmc_20" EXACT []
-is_a: CL:0002590 {xref="https://doi.org/10.1002/dvdy.1200", xref="https://doi.org/10.1016/j.celrep.2017.05.019", xref="https://doi.org/10.1038/nn.4288", xref="https://doi.org/10.1096/fj.02-0340fje", comment="Marker gene evidence: PDGFRB, ACTA2, MYH11"}
+is_a: CL:0002590 {xref="https://doi.org/10.1002/dvdy.1200", xref="https://doi.org/10.1016/j.celrep.2017.05.019", xref="https://doi.org/10.1038/nn.4288", xref="https://doi.org/10.1096/fj.02-0340fje", comment="Inferred from expression of: PDGFRB, ACTA2, MYH11"}
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107796 ! expresses
@@ -397,10 +393,10 @@ property_value: prefLabel "Vsmc_20" xsd:string
 
 [Term]
 id: PCL:0051022
-def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RERGL (Hsap), NDUFA4L2 (Hsap). The soma of these cells can be found in the thalamus, pons. The reference data for this cell type is CS202210140_22." [DOI:10.1101/2022.10.12.511898]
+def: "A pericyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RERGL (Hsap), NDUFA4L2 (Hsap). The soma of these cells can be found in the thalamus, pons. The reference data for this cell type is CS202210140_22." [DOI:10.1101/2022.10.12.511898]
 synonym: "Per_21" EXACT []
-synonym: "RERGL (Hsap), NDUFA4L2 (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
-is_a: CL:0000669 {xref="https://doi.org/10.1016/j.celrep.2017.05.019", xref="https://doi.org/10.1038/nn.4288", xref="https://doi.org/10.1096/fj.02-0340fje", comment="Marker gene evidence: +PDGFRB +CSPG4 -MYH11"}
+synonym: "RERGL (Hsap), NDUFA4L2 (Hsap) expressing pericyte of brain (Homo sapiens)" EXACT []
+is_a: CL:0000669 {xref="https://doi.org/10.1016/j.celrep.2017.05.019", xref="https://doi.org/10.1038/nn.4288", xref="https://doi.org/10.1096/fj.02-0340fje", comment="Inferred from expression of: PDGFRB, CSPG4"}
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000111404 ! expresses
@@ -415,10 +411,10 @@ property_value: prefLabel "Per_21" xsd:string
 
 [Term]
 id: PCL:0051023
-def: "A brain vascular cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC19A1 (Hsap), CARMN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_23." [DOI:10.1101/2022.10.12.511898]
+def: "A pericyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC19A1 (Hsap), CARMN (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_23." [DOI:10.1101/2022.10.12.511898]
 synonym: "Per_22" EXACT []
-synonym: "SLC19A1 (Hsap), CARMN (Hsap) expressing brain vascular cell of brain (Homo sapiens)" EXACT []
-is_a: CL:0000669 {xref="https://doi.org/10.1016/j.celrep.2017.05.019", xref="https://doi.org/10.1038/nn.4288", xref="https://doi.org/10.1096/fj.02-0340fje", comment="Marker gene evidence: +PDGFRB +CSPG4 -MYH11"}
+synonym: "SLC19A1 (Hsap), CARMN (Hsap) expressing pericyte of brain (Homo sapiens)" EXACT []
+is_a: CL:0000669 {xref="https://doi.org/10.1016/j.celrep.2017.05.019", xref="https://doi.org/10.1038/nn.4288", xref="https://doi.org/10.1096/fj.02-0340fje", comment="Inferred from expression of: PDGFRB, CSPG4"}
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000173638 ! expresses
@@ -585,10 +581,10 @@ property_value: prefLabel "Fbl_30" xsd:string
 
 [Term]
 id: PCL:0051032
-def: "A fibroblast of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTGDR (Hsap), BNC2 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon, hypothalamus. The reference data for this cell type is CS202210140_32." [DOI:10.1101/2022.10.12.511898]
+def: "A arachnoid barrier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTGDR (Hsap), BNC2 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon, hypothalamus. The reference data for this cell type is CS202210140_32." [DOI:10.1101/2022.10.12.511898]
 synonym: "Fbl_31" EXACT []
-synonym: "PTGDR (Hsap), BNC2 (Hsap) expressing fibroblast of brain (Homo sapiens)" EXACT []
-is_a: CL:4023097 {xref="https://doi.org/10.1016/j.devcel.2020.06.009", comment="Marker gene evidence: AQP4, GDF10, GABRG3, WIF1, LGR6"}
+synonym: "PTGDR (Hsap), BNC2 (Hsap) expressing arachnoid barrier cell of brain (Homo sapiens)" EXACT []
+is_a: CL:4023097 {xref="https://doi.org/10.1016/j.devcel.2020.06.009", comment="Inferred from expression of: AQP4, GDF10, GABRG3, WIF1, LGR6"}
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000168229 ! expresses
@@ -1427,9 +1423,9 @@ property_value: prefLabel "COP_75" xsd:string
 
 [Term]
 id: PCL:0051077
-def: "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_77." [DOI:10.1101/2022.10.12.511898]
+def: "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_77." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_76" EXACT []
-synonym: "PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)" EXACT []
+synonym: "PLP1 (Hsap), ST18 (Hsap), OTX2-AS1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000123560 ! expresses
@@ -1448,9 +1444,9 @@ property_value: prefLabel "Chrp_76" xsd:string
 
 [Term]
 id: PCL:0051078
-def: "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_78." [DOI:10.1101/2022.10.12.511898]
+def: "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_78." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_77" EXACT []
-synonym: "FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)" EXACT []
+synonym: "FOLR1 (Hsap), SERPINF1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110195 ! expresses
@@ -1467,9 +1463,9 @@ property_value: prefLabel "Chrp_77" xsd:string
 
 [Term]
 id: PCL:0051079
-def: "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_79." [DOI:10.1101/2022.10.12.511898]
+def: "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_79." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_78" EXACT []
-synonym: "POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)" EXACT []
+synonym: "POU2AF1 (Hsap), CRYBG1 (Hsap), RP11-729M20.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110777 ! expresses
@@ -1485,9 +1481,9 @@ property_value: prefLabel "Chrp_78" xsd:string
 
 [Term]
 id: PCL:0051080
-def: "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_80." [DOI:10.1101/2022.10.12.511898]
+def: "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_80." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_79" EXACT []
-synonym: "POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)" EXACT []
+synonym: "POU2AF1 (Hsap), TRPV4 (Hsap), ABCA4 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110777 ! expresses
@@ -1503,9 +1499,9 @@ property_value: prefLabel "Chrp_79" xsd:string
 
 [Term]
 id: PCL:0051081
-def: "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_81." [DOI:10.1101/2022.10.12.511898]
+def: "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_81." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_80" EXACT []
-synonym: "HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)" EXACT []
+synonym: "HS3ST3A1 (Hsap), RP11-690J15.1 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000153976 ! expresses
@@ -1519,9 +1515,9 @@ property_value: prefLabel "Chrp_80" xsd:string
 
 [Term]
 id: PCL:0051082
-def: "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HPD (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_82." [DOI:10.1101/2022.10.12.511898]
+def: "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of HPD (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_82." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_81" EXACT []
-synonym: "HPD (Hsap), C1QTNF5 (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)" EXACT []
+synonym: "HPD (Hsap), C1QTNF5 (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000158104 ! expresses
@@ -1536,9 +1532,9 @@ property_value: prefLabel "Chrp_81" xsd:string
 
 [Term]
 id: PCL:0051083
-def: "A obsolete choroid plexus cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), GPNMB (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_83." [DOI:10.1101/2022.10.12.511898]
+def: "A choroid plexus epithelial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), GPNMB (Hsap). The soma of these cells can be found in the basal forebrain, myelencephalon. The reference data for this cell type is CS202210140_83." [DOI:10.1101/2022.10.12.511898]
 synonym: "Chrp_82" EXACT []
-synonym: "TTR (Hsap), GPNMB (Hsap) expressing obsolete choroid plexus cell of brain (Homo sapiens)" EXACT []
+synonym: "TTR (Hsap), GPNMB (Hsap) expressing choroid plexus epithelial cell of brain (Homo sapiens)" EXACT []
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
@@ -2125,10 +2121,10 @@ property_value: prefLabel "DLCT6b_112" xsd:string
 
 [Term]
 id: PCL:0051114
-def: "A extratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00943 (Hsap), LINC02424 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_114." [DOI:10.1101/2022.10.12.511898]
+def: "A L5 extratelencephalic projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00943 (Hsap), LINC02424 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_114." [DOI:10.1101/2022.10.12.511898]
 synonym: "L5ET_113" EXACT []
-synonym: "LINC00943 (Hsap), LINC02424 (Hsap) expressing extratelencephalic-projecting glutamatergic cortical neuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023041 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Marker gene evidence: FEZF2, BCL11B, POU3F1, TXK"}
+synonym: "LINC00943 (Hsap), LINC02424 (Hsap) expressing L5 extratelencephalic projecting glutamatergic cortical neuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023041 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000189238 ! expresses
@@ -2142,10 +2138,10 @@ property_value: prefLabel "L5ET_113" xsd:string
 
 [Term]
 id: PCL:0051115
-def: "A extratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_115." [DOI:10.1101/2022.10.12.511898]
+def: "A L5 extratelencephalic projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_115." [DOI:10.1101/2022.10.12.511898]
 synonym: "L5ET_114" EXACT []
-synonym: "LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap) expressing extratelencephalic-projecting glutamatergic cortical neuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023041 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Marker gene evidence: FEZF2, BCL11B, POU3F1, TXK"}
+synonym: "LINC00326 (Hsap), CTB-57H20.1 (Hsap), RP11-370K2.1 (Hsap) expressing L5 extratelencephalic projecting glutamatergic cortical neuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023041 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000231023 ! expresses
@@ -2197,10 +2193,10 @@ property_value: prefLabel "Misc_116" xsd:string
 
 [Term]
 id: PCL:0051118
-def: "A neuron of the forebrain of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_118." [DOI:10.1101/2022.10.12.511898]
+def: "A von Economo neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_118." [DOI:10.1101/2022.10.12.511898]
 synonym: "L5ET_117" EXACT []
-synonym: "LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap) expressing neuron of the forebrain of brain (Homo sapiens)" EXACT []
-is_a: CL:4030039 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Marker gene evidence: FEZF2, GABRQ , ITGA4, BMP3"}
+synonym: "LRP2 (Hsap), GABRQ (Hsap), RP11-622O11.6 (Hsap) expressing von Economo neuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4030039 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Inferred from expression of: FEZF2, GABRQ , ITGA4, BMP3"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000081479 ! expresses
@@ -2216,10 +2212,10 @@ property_value: prefLabel "L5ET_117" xsd:string
 
 [Term]
 id: PCL:0051119
-def: "A extratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, mesencephalon. The reference data for this cell type is CS202210140_119." [DOI:10.1101/2022.10.12.511898]
+def: "A L5 extratelencephalic projecting glutamatergic cortical neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, mesencephalon. The reference data for this cell type is CS202210140_119." [DOI:10.1101/2022.10.12.511898]
 synonym: "L5ET_118" EXACT []
-synonym: "LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap) expressing extratelencephalic-projecting glutamatergic cortical neuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023041 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Marker gene evidence: FEZF2, BCL11B, POU3F1, TXK"}
+synonym: "LRP2 (Hsap), CSN1S1 (Hsap), RP4-678D15.1 (Hsap) expressing L5 extratelencephalic projecting glutamatergic cortical neuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023041 {xref="https://doi.org/10.1038/s41467-020-14952-3", comment="Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000081479 ! expresses
@@ -3730,9 +3726,9 @@ property_value: prefLabel "CA4_198" xsd:string
 
 [Term]
 id: PCL:0051200
-def: "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POSTN (Hsap), bP-21201H5.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_200." [DOI:10.1101/2022.10.12.511898]
+def: "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of POSTN (Hsap), bP-21201H5.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_200." [DOI:10.1101/2022.10.12.511898]
 synonym: "DG_199" EXACT []
-synonym: "POSTN (Hsap), bP-21201H5.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)" EXACT []
+synonym: "POSTN (Hsap), bP-21201H5.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000133110 ! expresses
@@ -3746,8 +3742,8 @@ property_value: prefLabel "DG_199" xsd:string
 
 [Term]
 id: PCL:0051201
-def: "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_201." [DOI:10.1101/2022.10.12.511898]
-synonym: "CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)" EXACT []
+def: "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_201." [DOI:10.1101/2022.10.12.511898]
+synonym: "CHRNA1 (Hsap), SCART1 (Hsap), RP11-217C7.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)" EXACT []
 synonym: "DG_200" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -3764,9 +3760,9 @@ property_value: prefLabel "DG_200" xsd:string
 
 [Term]
 id: PCL:0051202
-def: "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_202." [DOI:10.1101/2022.10.12.511898]
+def: "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_202." [DOI:10.1101/2022.10.12.511898]
 synonym: "DG_201" EXACT []
-synonym: "SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)" EXACT []
+synonym: "SLC47A1 (Hsap), RP11-217C7.1 (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000142494 ! expresses
@@ -3782,9 +3778,9 @@ property_value: prefLabel "DG_201" xsd:string
 
 [Term]
 id: PCL:0051203
-def: "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_203." [DOI:10.1101/2022.10.12.511898]
+def: "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_203." [DOI:10.1101/2022.10.12.511898]
 synonym: "DG_202" EXACT []
-synonym: "TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)" EXACT []
+synonym: "TTR (Hsap), ADRA1A (Hsap), RP11-719N9.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
@@ -3800,9 +3796,9 @@ property_value: prefLabel "DG_202" xsd:string
 
 [Term]
 id: PCL:0051204
-def: "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_204." [DOI:10.1101/2022.10.12.511898]
+def: "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_204." [DOI:10.1101/2022.10.12.511898]
 synonym: "DG_203" EXACT []
-synonym: "ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)" EXACT []
+synonym: "ST18 (Hsap), LINC02248 (Hsap), RP11-484N11.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000147488 ! expresses
@@ -3818,9 +3814,9 @@ property_value: prefLabel "DG_203" xsd:string
 
 [Term]
 id: PCL:0051205
-def: "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_205." [DOI:10.1101/2022.10.12.511898]
+def: "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_205." [DOI:10.1101/2022.10.12.511898]
 synonym: "DG_204" EXACT []
-synonym: "TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)" EXACT []
+synonym: "TTR (Hsap), CASC6 (Hsap), LINC00499 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
@@ -3838,9 +3834,9 @@ property_value: prefLabel "DG_204" xsd:string
 
 [Term]
 id: PCL:0051206
-def: "A dentate gyrus neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_206." [DOI:10.1101/2022.10.12.511898]
+def: "A dentate gyrus granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_206." [DOI:10.1101/2022.10.12.511898]
 synonym: "DG_205" EXACT []
-synonym: "RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus neuron of brain (Homo sapiens)" EXACT []
+synonym: "RP11-217C7.1 (Hsap), CTD-2215L10.1 (Hsap), RP11-287J11.1 (Hsap) expressing dentate gyrus granule cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000249675 ! expresses
@@ -3876,8 +3872,8 @@ property_value: prefLabel "MSN_206" xsd:string
 
 [Term]
 id: PCL:0051208
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_208." [DOI:10.1101/2022.10.12.511898]
-synonym: "DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_208." [DOI:10.1101/2022.10.12.511898]
+synonym: "DRD2 (Hsap), MME (Hsap), LINC01378 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_207" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -3894,9 +3890,9 @@ property_value: prefLabel "MSN_207" xsd:string
 
 [Term]
 id: PCL:0051209
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_209." [DOI:10.1101/2022.10.12.511898]
+def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_209." [DOI:10.1101/2022.10.12.511898]
 synonym: "MSN_208" EXACT []
-synonym: "SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+synonym: "SH3RF2 (Hsap), PENK (Hsap), RP1-71H24.1 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000156463 ! expresses
@@ -3912,9 +3908,9 @@ property_value: prefLabel "MSN_208" xsd:string
 
 [Term]
 id: PCL:0051210
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_210." [DOI:10.1101/2022.10.12.511898]
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_210." [DOI:10.1101/2022.10.12.511898]
 synonym: "MSN_209" EXACT []
-synonym: "SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+synonym: "SH3RF2 (Hsap), DRD1 (Hsap), LINC02137 (Hsap), RP11-358P11.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000156463 ! expresses
@@ -3932,8 +3928,8 @@ property_value: prefLabel "MSN_209" xsd:string
 
 [Term]
 id: PCL:0051211
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_211." [DOI:10.1101/2022.10.12.511898]
-synonym: "LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_211." [DOI:10.1101/2022.10.12.511898]
+synonym: "LINC02137 (Hsap), RP11-286O1.1 (Hsap), LINC02822 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_210" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -3950,9 +3946,9 @@ property_value: prefLabel "MSN_210" xsd:string
 
 [Term]
 id: PCL:0051212
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_212." [DOI:10.1101/2022.10.12.511898]
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_212." [DOI:10.1101/2022.10.12.511898]
 synonym: "MSN_211" EXACT []
-synonym: "PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+synonym: "PTPRQ (Hsap), DRD1 (Hsap), RP11-640F22.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000139304 ! expresses
@@ -3968,9 +3964,9 @@ property_value: prefLabel "MSN_211" xsd:string
 
 [Term]
 id: PCL:0051213
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_213." [DOI:10.1101/2022.10.12.511898]
+def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_213." [DOI:10.1101/2022.10.12.511898]
 synonym: "MSN_212" EXACT []
-synonym: "PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+synonym: "PENK (Hsap), RP5-1180C18.1 (Hsap), RP11-358P11.1 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000181195 ! expresses
@@ -3986,9 +3982,9 @@ property_value: prefLabel "MSN_212" xsd:string
 
 [Term]
 id: PCL:0051214
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), LINC00534 (Hsap). The soma of these cells can be found in the basal forebrain, cerebral cortex. The reference data for this cell type is CS202210140_214." [DOI:10.1101/2022.10.12.511898]
+def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), LINC00534 (Hsap). The soma of these cells can be found in the basal forebrain, cerebral cortex. The reference data for this cell type is CS202210140_214." [DOI:10.1101/2022.10.12.511898]
 synonym: "MSN_213" EXACT []
-synonym: "PENK (Hsap), LINC00534 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+synonym: "PENK (Hsap), LINC00534 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000181195 ! expresses
@@ -4003,9 +3999,9 @@ property_value: prefLabel "MSN_213" xsd:string
 
 [Term]
 id: PCL:0051215
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_215." [DOI:10.1101/2022.10.12.511898]
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_215." [DOI:10.1101/2022.10.12.511898]
 synonym: "MSN_214" EXACT []
-synonym: "STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+synonym: "STAC (Hsap), DRD1 (Hsap), LINC01117 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000144681 ! expresses
@@ -4023,8 +4019,8 @@ property_value: prefLabel "MSN_214" xsd:string
 
 [Term]
 id: PCL:0051216
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_216." [DOI:10.1101/2022.10.12.511898]
-synonym: "DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_216." [DOI:10.1101/2022.10.12.511898]
+synonym: "DRD1 (Hsap), RP11-829H16.3 (Hsap), RP11-875G18.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_215" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -4041,8 +4037,8 @@ property_value: prefLabel "MSN_215" xsd:string
 
 [Term]
 id: PCL:0051217
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, hypothalamus. The reference data for this cell type is CS202210140_217." [DOI:10.1101/2022.10.12.511898]
-synonym: "EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap). The soma of these cells can be found in the basal forebrain, amygdala, hypothalamus. The reference data for this cell type is CS202210140_217." [DOI:10.1101/2022.10.12.511898]
+synonym: "EYA2 (Hsap), CTC-340A15.2 (Hsap), RP11-97F8.2 (Hsap), PENK (Hsap), DRD2 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_216" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -4065,9 +4061,9 @@ property_value: prefLabel "MSN_216" xsd:string
 
 [Term]
 id: PCL:0051218
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), DCDC2C (Hsap). The soma of these cells can be found in the amygdala, basal forebrain. The reference data for this cell type is CS202210140_218." [DOI:10.1101/2022.10.12.511898]
+def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PENK (Hsap), DCDC2C (Hsap). The soma of these cells can be found in the amygdala, basal forebrain. The reference data for this cell type is CS202210140_218." [DOI:10.1101/2022.10.12.511898]
 synonym: "MSN_217" EXACT []
-synonym: "PENK (Hsap), DCDC2C (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+synonym: "PENK (Hsap), DCDC2C (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000181195 ! expresses
@@ -4102,8 +4098,8 @@ property_value: prefLabel "MSN_218" xsd:string
 
 [Term]
 id: PCL:0051220
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap). The soma of these cells can be found in the amygdala, basal forebrain, hypothalamus. The reference data for this cell type is CS202210140_220." [DOI:10.1101/2022.10.12.511898]
-synonym: "ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap). The soma of these cells can be found in the amygdala, basal forebrain, hypothalamus. The reference data for this cell type is CS202210140_220." [DOI:10.1101/2022.10.12.511898]
+synonym: "ISL1 (Hsap), FOXP2 (Hsap), CXCL14 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_219" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -4122,8 +4118,8 @@ property_value: prefLabel "MSN_219" xsd:string
 
 [Term]
 id: PCL:0051221
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap). The soma of these cells can be found in the amygdala. The reference data for this cell type is CS202210140_221." [DOI:10.1101/2022.10.12.511898]
-synonym: "ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap). The soma of these cells can be found in the amygdala. The reference data for this cell type is CS202210140_221." [DOI:10.1101/2022.10.12.511898]
+synonym: "ISL1 (Hsap), PCSK6 (Hsap), MKX (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_220" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -4140,8 +4136,8 @@ property_value: prefLabel "MSN_220" xsd:string
 
 [Term]
 id: PCL:0051222
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_222." [DOI:10.1101/2022.10.12.511898]
-synonym: "DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A indirect pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap). The soma of these cells can be found in the basal forebrain. The reference data for this cell type is CS202210140_222." [DOI:10.1101/2022.10.12.511898]
+synonym: "DRD2 (Hsap), CTC-535M15.2 (Hsap), RP11-111G13.1 (Hsap) expressing indirect pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_221" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -4434,8 +4430,8 @@ property_value: prefLabel "EMSN_234" xsd:string
 
 [Term]
 id: PCL:0051236
-def: "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NOS1 (Hsap), NPY (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, basal forebrain. The reference data for this cell type is CS202210140_236." [DOI:10.1101/2022.10.12.511898]
-synonym: "NOS1 (Hsap), NPY (Hsap) expressing neuron of brain (Homo sapiens)" EXACT []
+def: "A long-range projecting sst GABAergic cortical interneuron (Mmus) of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NOS1 (Hsap), NPY (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, basal forebrain. The reference data for this cell type is CS202210140_236." [DOI:10.1101/2022.10.12.511898]
+synonym: "NOS1 (Hsap), NPY (Hsap) expressing long-range projecting sst GABAergic cortical interneuron (Mmus) of brain (Homo sapiens)" EXACT []
 synonym: "Splat_235" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -4452,10 +4448,10 @@ property_value: prefLabel "Splat_235" xsd:string
 
 [Term]
 id: PCL:0051237
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, amygdala. The reference data for this cell type is CS202210140_237." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex, amygdala. The reference data for this cell type is CS202210140_237." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_236" EXACT []
-synonym: "TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "TAC1 (Hsap), PRTG (Hsap), MYO5B (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000006128 ! expresses
@@ -4473,10 +4469,10 @@ property_value: prefLabel "MGE_236" xsd:string
 
 [Term]
 id: PCL:0051238
-def: "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_238." [DOI:10.1101/2022.10.12.511898]
-synonym: "BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap) expressing neuron of brain (Homo sapiens)" EXACT []
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_238." [DOI:10.1101/2022.10.12.511898]
+synonym: "BCHE (Hsap), CMTM8 (Hsap), PDGFD (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "Splat_237" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000114200 ! expresses
@@ -4510,10 +4506,10 @@ property_value: prefLabel "Splat_238" xsd:string
 
 [Term]
 id: PCL:0051240
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_240." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_240." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_239" EXACT []
-synonym: "PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "PIEZO2 (Hsap), HPSE2 (Hsap), RP11-656G20.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000154864 ! expresses
@@ -4529,10 +4525,10 @@ property_value: prefLabel "MGE_239" xsd:string
 
 [Term]
 id: PCL:0051241
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_241." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_241." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_240" EXACT []
-synonym: "SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "SYT10 (Hsap), FBN2 (Hsap), TAFA4 (Hsap), RP11-656G20.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110975 ! expresses
@@ -4550,10 +4546,10 @@ property_value: prefLabel "MGE_240" xsd:string
 
 [Term]
 id: PCL:0051242
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_242." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_242." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_241" EXACT []
-synonym: "SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "SOX6 (Hsap), BMP6 (Hsap), ANKRD30B (Hsap), RP11-656G20.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000110693 ! expresses
@@ -4593,10 +4589,10 @@ property_value: prefLabel "MGE_242" xsd:string
 
 [Term]
 id: PCL:0051244
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_244." [DOI:10.1101/2022.10.12.511898]
-synonym: "CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_244." [DOI:10.1101/2022.10.12.511898]
+synonym: "CALB1 (Hsap), EYA4 (Hsap), PENK (Hsap), CTD-2533K21.4 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "MGE_243" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000104327 ! expresses
@@ -4653,10 +4649,10 @@ property_value: prefLabel "MGE_245" xsd:string
 
 [Term]
 id: PCL:0051247
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), MAF (Hsap), LINC02008 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_247." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), MAF (Hsap), LINC02008 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_247." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_246" EXACT []
-synonym: "SST (Hsap), MAF (Hsap), LINC02008 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "SST (Hsap), MAF (Hsap), LINC02008 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000157005 ! expresses
@@ -4691,10 +4687,10 @@ property_value: prefLabel "MGE_247" xsd:string
 
 [Term]
 id: PCL:0051249
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_249." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_249." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_248" EXACT []
-synonym: "TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "TAC1 (Hsap), DCN (Hsap), RP11-799O21.2 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000006128 ! expresses
@@ -4711,10 +4707,10 @@ property_value: prefLabel "MGE_248" xsd:string
 
 [Term]
 id: PCL:0051250
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_250." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_250." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_249" EXACT []
-synonym: "SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "SST (Hsap), SEMA3A (Hsap), TRPC7 (Hsap), RSPO3 (Hsap), SOX6 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000069018 ! expresses
@@ -4774,10 +4770,10 @@ property_value: prefLabel "MGE_251" xsd:string
 
 [Term]
 id: PCL:0051253
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_253." [DOI:10.1101/2022.10.12.511898]
-synonym: "EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_253." [DOI:10.1101/2022.10.12.511898]
+synonym: "EDNRA (Hsap), TAC3 (Hsap), ABC10-43608400O15.1 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "MGE_252" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000151617 ! expresses
@@ -4793,10 +4789,10 @@ property_value: prefLabel "MGE_252" xsd:string
 
 [Term]
 id: PCL:0051254
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_254." [DOI:10.1101/2022.10.12.511898]
-synonym: "CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_254." [DOI:10.1101/2022.10.12.511898]
+synonym: "CTC-535M15.2 (Hsap), SST (Hsap), VCAN (Hsap), CTC-340A15.2 (Hsap), TRPC6 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "MGE_253" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000038427 ! expresses
@@ -4816,10 +4812,10 @@ property_value: prefLabel "MGE_253" xsd:string
 
 [Term]
 id: PCL:0051255
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_255." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_255." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_254" EXACT []
-synonym: "NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "NPAS1 (Hsap), FBN2 (Hsap), ADAMTS20 (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000130751 ! expresses
@@ -4856,10 +4852,10 @@ property_value: prefLabel "MGE_255" xsd:string
 
 [Term]
 id: PCL:0051257
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_257." [DOI:10.1101/2022.10.12.511898]
-synonym: "ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_257." [DOI:10.1101/2022.10.12.511898]
+synonym: "ADAMTS17 (Hsap), MYBPC1 (Hsap), SHISA8 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "MGE_256" EXACT []
-is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
+is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000140470 ! expresses
@@ -4876,10 +4872,10 @@ property_value: prefLabel "MGE_256" xsd:string
 
 [Term]
 id: PCL:0051258
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RGS5_ENSG00000143248 (Hsap), MEPE (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_258." [DOI:10.1101/2022.10.12.511898]
+def: "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RGS5_ENSG00000143248 (Hsap), MEPE (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_258." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_257" EXACT []
-synonym: "RGS5_ENSG00000143248 (Hsap), MEPE (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
+synonym: "RGS5_ENSG00000143248 (Hsap), MEPE (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000143248 ! expresses
@@ -4894,10 +4890,10 @@ property_value: prefLabel "MGE_257" xsd:string
 
 [Term]
 id: PCL:0051259
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WNT16 (Hsap), SST (Hsap), PAWR (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_259." [DOI:10.1101/2022.10.12.511898]
+def: "A sst GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WNT16 (Hsap), SST (Hsap), PAWR (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_259." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_258" EXACT []
-synonym: "WNT16 (Hsap), SST (Hsap), PAWR (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
+synonym: "WNT16 (Hsap), SST (Hsap), PAWR (Hsap) expressing sst GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023017 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000002745 ! expresses
@@ -4913,10 +4909,10 @@ property_value: prefLabel "MGE_258" xsd:string
 
 [Term]
 id: PCL:0051260
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_260." [DOI:10.1101/2022.10.12.511898]
-synonym: "ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_260." [DOI:10.1101/2022.10.12.511898]
+synonym: "ANOS1 (Hsap), RGS5_ENSG00000143248 (Hsap), BTBD11 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "MGE_259" EXACT []
-is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
+is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000011201 ! expresses
@@ -4932,10 +4928,10 @@ property_value: prefLabel "MGE_259" xsd:string
 
 [Term]
 id: PCL:0051261
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_261." [DOI:10.1101/2022.10.12.511898]
-synonym: "IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_261." [DOI:10.1101/2022.10.12.511898]
+synonym: "IQGAP2 (Hsap), TAFA4 (Hsap), CTXND1 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "MGE_260" EXACT []
-is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
+is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000145703 ! expresses
@@ -4951,10 +4947,10 @@ property_value: prefLabel "MGE_260" xsd:string
 
 [Term]
 id: PCL:0051262
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_262." [DOI:10.1101/2022.10.12.511898]
+def: "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_262." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_261" EXACT []
-synonym: "PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
+synonym: "PVALB (Hsap), CEMIP (Hsap), ADAMTS17 (Hsap), AC133680.1 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000100362 ! expresses
@@ -4972,10 +4968,10 @@ property_value: prefLabel "MGE_261" xsd:string
 
 [Term]
 id: PCL:0051263
-def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_263." [DOI:10.1101/2022.10.12.511898]
+def: "A pvalb GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_263." [DOI:10.1101/2022.10.12.511898]
 synonym: "MGE_262" EXACT []
-synonym: "SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap) expressing medial ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
+synonym: "SULF1 (Hsap), PIEZO2 (Hsap), RP1-35C21.2 (Hsap), ADAMTS9-AS2 (Hsap) expressing pvalb GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023018 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000137573 ! expresses
@@ -5013,8 +5009,8 @@ property_value: prefLabel "MGE_263" xsd:string
 
 [Term]
 id: PCL:0051265
-def: "A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_265." [DOI:10.1101/2022.10.12.511898]
-synonym: "CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap) expressing CNS interneuron of brain (Homo sapiens)" EXACT []
+def: "A chandelier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_265." [DOI:10.1101/2022.10.12.511898]
+synonym: "CRH (Hsap), COL15A1 (Hsap), RP11-238K6.2 (Hsap) expressing chandelier cell of brain (Homo sapiens)" EXACT []
 synonym: "LLC_264" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -5031,9 +5027,9 @@ property_value: prefLabel "LLC_264" xsd:string
 
 [Term]
 id: PCL:0051266
-def: "A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTHLH (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_266." [DOI:10.1101/2022.10.12.511898]
+def: "A chandelier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PTHLH (Hsap), RP11-238K6.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_266." [DOI:10.1101/2022.10.12.511898]
 synonym: "LLC_265" EXACT []
-synonym: "PTHLH (Hsap), RP11-238K6.2 (Hsap) expressing CNS interneuron of brain (Homo sapiens)" EXACT []
+synonym: "PTHLH (Hsap), RP11-238K6.2 (Hsap) expressing chandelier cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000087494 ! expresses
@@ -5048,9 +5044,9 @@ property_value: prefLabel "LLC_265" xsd:string
 
 [Term]
 id: PCL:0051267
-def: "A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap). The soma of these cells can be found in the amygdala, hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_267." [DOI:10.1101/2022.10.12.511898]
+def: "A chandelier cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap). The soma of these cells can be found in the amygdala, hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_267." [DOI:10.1101/2022.10.12.511898]
 synonym: "LLC_266" EXACT []
-synonym: "UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap) expressing CNS interneuron of brain (Homo sapiens)" EXACT []
+synonym: "UNC5B (Hsap), C1QL1 (Hsap), GRIN2C (Hsap) expressing chandelier cell of brain (Homo sapiens)" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107731 ! expresses
@@ -5249,10 +5245,10 @@ property_value: prefLabel "LLC_275" xsd:string
 
 [Term]
 id: PCL:0051277
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_276" EXACT []
-synonym: "VIP (Hsap), SVEP1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "VIP (Hsap), SVEP1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000146469 ! expresses
@@ -5304,10 +5300,10 @@ property_value: prefLabel "CGE_278" xsd:string
 
 [Term]
 id: PCL:0051280
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_279" EXACT []
-synonym: "DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000107099 ! expresses
@@ -5325,10 +5321,10 @@ property_value: prefLabel "CGE_279" xsd:string
 
 [Term]
 id: PCL:0051281
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_280" EXACT []
-synonym: "LAMA3 (Hsap), CTD-2008L17.2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "LAMA3 (Hsap), CTD-2008L17.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000053747 ! expresses
@@ -5343,10 +5339,10 @@ property_value: prefLabel "CGE_280" xsd:string
 
 [Term]
 id: PCL:0051282
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_281" EXACT []
-synonym: "EDNRA (Hsap), HTR3A (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "EDNRA (Hsap), HTR3A (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000151617 ! expresses
@@ -5399,10 +5395,10 @@ property_value: prefLabel "CGE_283" xsd:string
 
 [Term]
 id: PCL:0051285
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285." [DOI:10.1101/2022.10.12.511898]
-synonym: "CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285." [DOI:10.1101/2022.10.12.511898]
+synonym: "CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "CGE_284" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118523 ! expresses
@@ -5420,10 +5416,10 @@ property_value: prefLabel "CGE_284" xsd:string
 
 [Term]
 id: PCL:0051286
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_285" EXACT []
-synonym: "VIP (Hsap), PENK (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "VIP (Hsap), PENK (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000146469 ! expresses
@@ -5438,10 +5434,10 @@ property_value: prefLabel "CGE_285" xsd:string
 
 [Term]
 id: PCL:0051287
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_287." [DOI:10.1101/2022.10.12.511898]
+def: "A lamp5 GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_287." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_286" EXACT []
-synonym: "NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023011 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"}
+synonym: "NMBR (Hsap), CXCL14 (Hsap), NDNF (Hsap) expressing lamp5 GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023011 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000135577 ! expresses
@@ -5459,10 +5455,10 @@ property_value: prefLabel "CGE_286" xsd:string
 
 [Term]
 id: PCL:0051288
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_288." [DOI:10.1101/2022.10.12.511898]
+def: "A lamp5 GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_288." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_287" EXACT []
-synonym: "EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023011 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"}
+synonym: "EYA4 (Hsap), MYH11 (Hsap), ADAMTS20 (Hsap) expressing lamp5 GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023011 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000112319 ! expresses
@@ -5480,10 +5476,10 @@ property_value: prefLabel "CGE_287" xsd:string
 
 [Term]
 id: PCL:0051289
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_289." [DOI:10.1101/2022.10.12.511898]
-synonym: "CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
+def: "A lamp5 GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_289." [DOI:10.1101/2022.10.12.511898]
+synonym: "CA2 (Hsap), CXCL14 (Hsap), CRH (Hsap), ROR2 (Hsap) expressing lamp5 GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
 synonym: "CGE_288" EXACT []
-is_a: CL:4023011 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"}
+is_a: CL:4023011 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000104267 ! expresses
@@ -5502,10 +5498,10 @@ property_value: prefLabel "CGE_288" xsd:string
 
 [Term]
 id: PCL:0051290
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_289" EXACT []
-synonym: "TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000166863 ! expresses
@@ -5521,10 +5517,10 @@ property_value: prefLabel "CGE_289" xsd:string
 
 [Term]
 id: PCL:0051291
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_290" EXACT []
-synonym: "FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000102755 ! expresses
@@ -5540,10 +5536,10 @@ property_value: prefLabel "CGE_290" xsd:string
 
 [Term]
 id: PCL:0051292
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_291" EXACT []
-synonym: "NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000113389 ! expresses
@@ -5560,10 +5556,10 @@ property_value: prefLabel "CGE_291" xsd:string
 
 [Term]
 id: PCL:0051293
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_292" EXACT []
-synonym: "NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000113389 ! expresses
@@ -5581,10 +5577,10 @@ property_value: prefLabel "CGE_292" xsd:string
 
 [Term]
 id: PCL:0051294
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_293" EXACT []
-synonym: "IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000145703 ! expresses
@@ -5601,10 +5597,10 @@ property_value: prefLabel "CGE_293" xsd:string
 
 [Term]
 id: PCL:0051295
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_294" EXACT []
-synonym: "VIP (Hsap), ABI3BP (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "VIP (Hsap), ABI3BP (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000146469 ! expresses
@@ -5620,10 +5616,10 @@ property_value: prefLabel "CGE_294" xsd:string
 
 [Term]
 id: PCL:0051296
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_295" EXACT []
-synonym: "RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000143171 ! expresses
@@ -5642,10 +5638,10 @@ property_value: prefLabel "CGE_295" xsd:string
 
 [Term]
 id: PCL:0051297
-def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297." [DOI:10.1101/2022.10.12.511898]
+def: "A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297." [DOI:10.1101/2022.10.12.511898]
 synonym: "CGE_296" EXACT []
-synonym: "CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)" EXACT []
-is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Marker gene evidence: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
+synonym: "CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)" EXACT []
+is_a: CL:4023016 {xref="https://doi.org/10.1038/s41586-020-2781-z", comment="Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000145824 ! expresses
@@ -5861,8 +5857,8 @@ property_value: prefLabel "CBI_307" xsd:string
 
 [Term]
 id: PCL:0051309
-def: "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EOMES (Hsap), RP11-312A15.5 (Hsap). The soma of these cells can be found in the cerebellum, pons. The reference data for this cell type is CS202210140_309." [DOI:10.1101/2022.10.12.511898]
-synonym: "EOMES (Hsap), RP11-312A15.5 (Hsap) expressing neuron of brain (Homo sapiens)" EXACT []
+def: "A unipolar brush cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EOMES (Hsap), RP11-312A15.5 (Hsap). The soma of these cells can be found in the cerebellum, pons. The reference data for this cell type is CS202210140_309." [DOI:10.1101/2022.10.12.511898]
+synonym: "EOMES (Hsap), RP11-312A15.5 (Hsap) expressing unipolar brush cell of brain (Homo sapiens)" EXACT []
 synonym: "URL_308" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -5894,10 +5890,10 @@ property_value: prefLabel "URL_309" xsd:string
 
 [Term]
 id: PCL:0051311
-def: "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap). The soma of these cells can be found in the cerebellum, pons, myelencephalon. The reference data for this cell type is CS202210140_311." [DOI:10.1101/2022.10.12.511898]
-synonym: "RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap) expressing neuron of brain (Homo sapiens)" EXACT []
+def: "A cerebellar granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap). The soma of these cells can be found in the cerebellum, pons, myelencephalon. The reference data for this cell type is CS202210140_311." [DOI:10.1101/2022.10.12.511898]
+synonym: "RELN (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap), RP11-97F8.2 (Hsap) expressing cerebellar granule cell of brain (Homo sapiens)" EXACT []
 synonym: "URL_310" EXACT []
-is_a: CL:0001031 {xref="mousebrain.org", comment="Marker gene evidence: CBLN1, CBLN3, GABRA6"}
+is_a: CL:0001031 {xref="mousebrain.org", comment="Inferred from expression of: CBLN1, CBLN3, GABRA6"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000189056 ! expresses
@@ -5917,10 +5913,10 @@ property_value: prefLabel "URL_310" xsd:string
 
 [Term]
 id: PCL:0051312
-def: "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the cerebellum, myelencephalon. The reference data for this cell type is CS202210140_312." [DOI:10.1101/2022.10.12.511898]
-synonym: "ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap) expressing neuron of brain (Homo sapiens)" EXACT []
+def: "A cerebellar granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the cerebellum, myelencephalon. The reference data for this cell type is CS202210140_312." [DOI:10.1101/2022.10.12.511898]
+synonym: "ETV1 (Hsap), RP11-649A16.1 (Hsap), RP11-81F8.1 (Hsap) expressing cerebellar granule cell of brain (Homo sapiens)" EXACT []
 synonym: "URL_311" EXACT []
-is_a: CL:0001031 {xref="mousebrain.org", comment="Marker gene evidence: CBLN1, CBLN3, GABRA6"}
+is_a: CL:0001031 {xref="mousebrain.org", comment="Inferred from expression of: CBLN1, CBLN3, GABRA6"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000006468 ! expresses
@@ -5937,10 +5933,10 @@ property_value: prefLabel "URL_311" xsd:string
 
 [Term]
 id: PCL:0051313
-def: "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the myelencephalon, pons. The reference data for this cell type is CS202210140_313." [DOI:10.1101/2022.10.12.511898]
-synonym: "TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap) expressing neuron of brain (Homo sapiens)" EXACT []
+def: "A cerebellar granule cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap). The soma of these cells can be found in the myelencephalon, pons. The reference data for this cell type is CS202210140_313." [DOI:10.1101/2022.10.12.511898]
+synonym: "TTR (Hsap), RP5-1101C3.1 (Hsap), RP11-81F8.1 (Hsap) expressing cerebellar granule cell of brain (Homo sapiens)" EXACT []
 synonym: "URL_312" EXACT []
-is_a: CL:0001031 {xref="mousebrain.org", comment="Marker gene evidence: CBLN1, CBLN3, GABRA6"}
+is_a: CL:0001031 {xref="mousebrain.org", comment="Inferred from expression of: CBLN1, CBLN3, GABRA6"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000118271 ! expresses
@@ -5974,10 +5970,10 @@ property_value: prefLabel "Splat_313" xsd:string
 
 [Term]
 id: PCL:0051315
-def: "A neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PCP2 (Hsap). The soma of these cells can be found in the myelencephalon, pons, cerebellum. The reference data for this cell type is CS202210140_315." [DOI:10.1101/2022.10.12.511898]
+def: "A Purkinje cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of PCP2 (Hsap). The soma of these cells can be found in the myelencephalon, pons, cerebellum. The reference data for this cell type is CS202210140_315." [DOI:10.1101/2022.10.12.511898]
 synonym: "Misc_314" EXACT []
-synonym: "PCP2 (Hsap) expressing neuron of brain (Homo sapiens)" EXACT []
-is_a: CL:0000121 {xref="https://doi.org/10.1038/s41586-021-03220-z", comment="Marker gene evidence: PCP2, SKOR2, PVALB, GAD2"}
+synonym: "PCP2 (Hsap) expressing Purkinje cell of brain (Homo sapiens)" EXACT []
+is_a: CL:0000121 {xref="https://doi.org/10.1038/s41586-021-03220-z", comment="Inferred from expression of: PCP2, SKOR2, PVALB, GAD2"}
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
 relationship: RO:0002292 http://identifiers.org/ensembl/ENSG00000174788 ! expresses
@@ -8082,8 +8078,8 @@ property_value: prefLabel "EMSN_426" xsd:string
 
 [Term]
 id: PCL:0051428
-def: "A medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, thalamus. The reference data for this cell type is CS202210140_428." [DOI:10.1101/2022.10.12.511898]
-synonym: "ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap) expressing medium spiny neuron of brain (Homo sapiens)" EXACT []
+def: "A direct pathway medium spiny neuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, thalamus. The reference data for this cell type is CS202210140_428." [DOI:10.1101/2022.10.12.511898]
+synonym: "ISL1 (Hsap), GABRG1 (Hsap), CTC-552D5.1 (Hsap) expressing direct pathway medium spiny neuron of brain (Homo sapiens)" EXACT []
 synonym: "MSN_427" EXACT []
 relationship: RO:0002100 HBA:4005 ! has soma location
 relationship: RO:0002162 NCBITaxon:9606
@@ -8705,6 +8701,114 @@ property_value: PCL:0010058 "DMRTA1 (Hsap)" xsd:string
 property_value: PCL:0010058 "LINC01239 (Hsap)" xsd:string
 property_value: PCL:0010063 HBA:4392 {comment="Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Thalamus: 98.9%."}
 property_value: prefLabel "Thex_460" xsd:string
+
+[Term]
+id: PCL:0051473
+def: "A near-projecting glutamatergic cortical neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_473." [DOI:10.1101/2022.10.12.511898]
+synonym: "Deep-layer near-projecting" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Deep-layer near-projecting (Human)" xsd:string
+property_value: prefLabel "Deep-layer near-projecting" xsd:string
+
+[Term]
+id: PCL:0051474
+def: "A glutamatergic neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_474." [DOI:10.1101/2022.10.12.511898]
+synonym: "Deep-layer corticothalamic and 6b" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Deep-layer corticothalamic and 6b (Human)" xsd:string
+property_value: prefLabel "Deep-layer corticothalamic and 6b" xsd:string
+
+[Term]
+id: PCL:0051475
+def: "A hippocampal CA1-3 neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_475." [DOI:10.1101/2022.10.12.511898]
+synonym: "Hippocampal CA1-3" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Hippocampal CA1-3 (Human)" xsd:string
+property_value: prefLabel "Hippocampal CA1-3" xsd:string
+
+[Term]
+id: PCL:0051476
+def: "A intratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_476." [DOI:10.1101/2022.10.12.511898]
+synonym: "Upper-layer intratelencephalic" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Upper-layer intratelencephalic (Human)" xsd:string
+property_value: prefLabel "Upper-layer intratelencephalic" xsd:string
+
+[Term]
+id: PCL:0051477
+def: "A intratelencephalic-projecting glutamatergic cortical neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_477." [DOI:10.1101/2022.10.12.511898]
+synonym: "Deep-layer intratelencephalic" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Deep-layer intratelencephalic (Human)" xsd:string
+property_value: prefLabel "Deep-layer intratelencephalic" xsd:string
+
+[Term]
+id: PCL:0051478
+def: "A amygdala excitatory neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_478." [DOI:10.1101/2022.10.12.511898]
+synonym: "Amygdala excitatory" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Amygdala excitatory (Human)" xsd:string
+property_value: prefLabel "Amygdala excitatory" xsd:string
+
+[Term]
+id: PCL:0051480
+def: "A dentate gyrus neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_480." [DOI:10.1101/2022.10.12.511898]
+synonym: "Hippocampal dentate gyrus" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Hippocampal dentate gyrus (Human)" xsd:string
+property_value: prefLabel "Hippocampal dentate gyrus" xsd:string
+
+[Term]
+id: PCL:0051481
+def: "A medium spiny neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_481." [DOI:10.1101/2022.10.12.511898]
+synonym: "Medium spiny neuron" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Medium spiny neuron (Human)" xsd:string
+property_value: prefLabel "Medium spiny neuron" xsd:string
+
+[Term]
+id: PCL:0051482
+def: "A medium spiny neuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_482." [DOI:10.1101/2022.10.12.511898]
+synonym: "Eccentric medium spiny neuron" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "Eccentric medium spiny neuron (Human)" xsd:string
+property_value: prefLabel "Eccentric medium spiny neuron" xsd:string
+
+[Term]
+id: PCL:0051484
+def: "A medial ganglionic eminence derived interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_484." [DOI:10.1101/2022.10.12.511898]
+synonym: "MGE interneuron" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "MGE interneuron (Human)" xsd:string
+property_value: prefLabel "MGE interneuron" xsd:string
+
+[Term]
+id: PCL:0051485
+def: "A CNS interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_485." [DOI:10.1101/2022.10.12.511898]
+synonym: "LAMP5-LHX6 and Chandelier" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "LAMP5-LHX6 and Chandelier (Human)" xsd:string
+property_value: prefLabel "LAMP5-LHX6 and Chandelier" xsd:string
+
+[Term]
+id: PCL:0051486
+def: "A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_486." [DOI:10.1101/2022.10.12.511898]
+synonym: "CGE interneuron" EXACT []
+relationship: RO:0002100 HBA:4005 ! has soma location
+relationship: RO:0002162 NCBITaxon:9606
+property_value: IAO:0000028 "CGE interneuron (Human)" xsd:string
+property_value: prefLabel "CGE interneuron" xsd:string
 
 [Term]
 id: PCL:0052501

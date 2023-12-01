@@ -3,200 +3,200 @@ http://purl.obolibrary.org/obo/PCL_0051001	Bcell_0	CL:0000236	Inferred from expr
 http://purl.obolibrary.org/obo/PCL_0051002	Tcell_1	CL:0000084	Inferred from expression of: DOCK8, CD8A, CD3G	https://doi.org/10.1084%2Fjem.20110345|https://doi.org/10.1038. https://doi.org/10.1038/s41593-018-0290-2								
 http://purl.obolibrary.org/obo/PCL_0051003	Nkcell_2	CL:0000623	Inferred from expression of: NCAM1, GZMB	https://doi.org/10.1038/s41593-018-0290-2								
 http://purl.obolibrary.org/obo/PCL_0051004	Mono_3	CL:0000576	Inferred from expression of: TYROBP, FCN1, LYZ	https://doi.org/10.1038/s41467-018-04985-0								
-http://purl.obolibrary.org/obo/PCL_0051005	Mgl_4											
-http://purl.obolibrary.org/obo/PCL_0051006	Mgl_5											
-http://purl.obolibrary.org/obo/PCL_0051007	Mgl_6											
-http://purl.obolibrary.org/obo/PCL_0051008	Mgl_7											
-http://purl.obolibrary.org/obo/PCL_0051009	Mgl_8											
-http://purl.obolibrary.org/obo/PCL_0051010	Mgl_9											
-http://purl.obolibrary.org/obo/PCL_0051011	Mgl_10											
-http://purl.obolibrary.org/obo/PCL_0051012	Mgl_11											
-http://purl.obolibrary.org/obo/PCL_0051013	Mgl_12											
-http://purl.obolibrary.org/obo/PCL_0051014	VendPLVAP_13											
-http://purl.obolibrary.org/obo/PCL_0051015	VendAC_14											
+http://purl.obolibrary.org/obo/PCL_0051005	Mgl_4	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051006	Mgl_5	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051007	Mgl_6	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051008	Mgl_7	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051009	Mgl_8	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051010	Mgl_9	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051011	Mgl_10	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051012	Mgl_11	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051013	Mgl_12	CL:0000129										
+http://purl.obolibrary.org/obo/PCL_0051014	VendPLVAP_13	CL:4023072										
+http://purl.obolibrary.org/obo/PCL_0051015	VendAC_14	CL:4023072										
 http://purl.obolibrary.org/obo/PCL_0051016	VendC_15	CL:0002144	Inferred from expression of: FLT1, CLDN5, PECAM1, MFSD2A									
 http://purl.obolibrary.org/obo/PCL_0051017	VendVC_16	CL:0002144										
 http://purl.obolibrary.org/obo/PCL_0051018	VendV_17	CL:0002543										
 http://purl.obolibrary.org/obo/PCL_0051019	VendA_18	CL:1000413	Inferred from expression of: FLT1, CLDN5, PECAM1, BMX, VEGFC, JUNB									
-http://purl.obolibrary.org/obo/PCL_0051020	Vsmc_19											
+http://purl.obolibrary.org/obo/PCL_0051020	Vsmc_19	CL:4023072										
 http://purl.obolibrary.org/obo/PCL_0051021	Vsmc_20	CL:0002590	Inferred from expression of: PDGFRB, ACTA2, MYH11	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200								
 http://purl.obolibrary.org/obo/PCL_0051022	Per_21	CL:0000669	Inferred from expression of: PDGFRB, CSPG4	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019								
 http://purl.obolibrary.org/obo/PCL_0051023	Per_22	CL:0000669	Inferred from expression of: PDGFRB, CSPG4	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019								
-http://purl.obolibrary.org/obo/PCL_0051024	Per_23											
-http://purl.obolibrary.org/obo/PCL_0051025	Fbl_24											
-http://purl.obolibrary.org/obo/PCL_0051026	Fbl_25											
-http://purl.obolibrary.org/obo/PCL_0051027	Fbl_26											
-http://purl.obolibrary.org/obo/PCL_0051028	Fbl_27											
-http://purl.obolibrary.org/obo/PCL_0051029	Fbl_28											
-http://purl.obolibrary.org/obo/PCL_0051030	Fbl_29											
-http://purl.obolibrary.org/obo/PCL_0051031	Fbl_30											
+http://purl.obolibrary.org/obo/PCL_0051024	Per_23	CL:4023072										
+http://purl.obolibrary.org/obo/PCL_0051025	Fbl_24	CL:0000057										
+http://purl.obolibrary.org/obo/PCL_0051026	Fbl_25	CL:0000057										
+http://purl.obolibrary.org/obo/PCL_0051027	Fbl_26	CL:0000057										
+http://purl.obolibrary.org/obo/PCL_0051028	Fbl_27	CL:0000057										
+http://purl.obolibrary.org/obo/PCL_0051029	Fbl_28	CL:0000057										
+http://purl.obolibrary.org/obo/PCL_0051030	Fbl_29	CL:0000057										
+http://purl.obolibrary.org/obo/PCL_0051031	Fbl_30	CL:0000057										
 http://purl.obolibrary.org/obo/PCL_0051032	Fbl_31	CL:4023097	Inferred from expression of: AQP4, GDF10, GABRG3, WIF1, LGR6	https://doi.org/10.1016/j.devcel.2020.06.009								
-http://purl.obolibrary.org/obo/PCL_0051033	OPC_32											
-http://purl.obolibrary.org/obo/PCL_0051034	OPC_33											
-http://purl.obolibrary.org/obo/PCL_0051035	OPC_34											
-http://purl.obolibrary.org/obo/PCL_0051036	OPC_35											
-http://purl.obolibrary.org/obo/PCL_0051037	OPC_36											
-http://purl.obolibrary.org/obo/PCL_0051038	COP_37											
-http://purl.obolibrary.org/obo/PCL_0051039	COP_38											
-http://purl.obolibrary.org/obo/PCL_0051040	COP_39											
-http://purl.obolibrary.org/obo/PCL_0051041	Oligo_40											
-http://purl.obolibrary.org/obo/PCL_0051042	COP_41											
-http://purl.obolibrary.org/obo/PCL_0051043	COP_42											
-http://purl.obolibrary.org/obo/PCL_0051044	COP_43											
-http://purl.obolibrary.org/obo/PCL_0051045	Oligo_44											
-http://purl.obolibrary.org/obo/PCL_0051046	Oligo_45											
-http://purl.obolibrary.org/obo/PCL_0051047	Oligo_46											
-http://purl.obolibrary.org/obo/PCL_0051048	Oligo_47											
-http://purl.obolibrary.org/obo/PCL_0051049	Oligo_48											
-http://purl.obolibrary.org/obo/PCL_0051050	Oligo_49											
-http://purl.obolibrary.org/obo/PCL_0051051	Oligo_50											
-http://purl.obolibrary.org/obo/PCL_0051053	Astro_52											
-http://purl.obolibrary.org/obo/PCL_0051054	Astro_53											
-http://purl.obolibrary.org/obo/PCL_0051055	Astro_54											
-http://purl.obolibrary.org/obo/PCL_0051056	Astro_55											
-http://purl.obolibrary.org/obo/PCL_0051057	Astro_56											
-http://purl.obolibrary.org/obo/PCL_0051058	Astro_57											
-http://purl.obolibrary.org/obo/PCL_0051059	Astro_58											
-http://purl.obolibrary.org/obo/PCL_0051060	Astro_59											
-http://purl.obolibrary.org/obo/PCL_0051061	Astro_60											
-http://purl.obolibrary.org/obo/PCL_0051062	Astro_61											
-http://purl.obolibrary.org/obo/PCL_0051063	Astro_62											
-http://purl.obolibrary.org/obo/PCL_0051064	Astro_63											
-http://purl.obolibrary.org/obo/PCL_0051065	Astro_64											
-http://purl.obolibrary.org/obo/PCL_0051066	Epen_65											
-http://purl.obolibrary.org/obo/PCL_0051067	Epen_66											
-http://purl.obolibrary.org/obo/PCL_0051068	Epen_67											
-http://purl.obolibrary.org/obo/PCL_0051069	Epen_68											
-http://purl.obolibrary.org/obo/PCL_0051070	Epen_69											
-http://purl.obolibrary.org/obo/PCL_0051071	Epen_70											
-http://purl.obolibrary.org/obo/PCL_0051072	Epen_71											
-http://purl.obolibrary.org/obo/PCL_0051073	Epen_72											
-http://purl.obolibrary.org/obo/PCL_0051074	Epen_73											
-http://purl.obolibrary.org/obo/PCL_0051075	Epen_74											
-http://purl.obolibrary.org/obo/PCL_0051076	COP_75											
-http://purl.obolibrary.org/obo/PCL_0051077	Chrp_76											
-http://purl.obolibrary.org/obo/PCL_0051078	Chrp_77											
-http://purl.obolibrary.org/obo/PCL_0051079	Chrp_78											
-http://purl.obolibrary.org/obo/PCL_0051080	Chrp_79											
-http://purl.obolibrary.org/obo/PCL_0051081	Chrp_80											
-http://purl.obolibrary.org/obo/PCL_0051082	Chrp_81											
-http://purl.obolibrary.org/obo/PCL_0051083	Chrp_82											
-http://purl.obolibrary.org/obo/PCL_0051084	DLNP_83											
-http://purl.obolibrary.org/obo/PCL_0051085	DLCT6b_84											
-http://purl.obolibrary.org/obo/PCL_0051086	DLNP_85											
-http://purl.obolibrary.org/obo/PCL_0051087	DLNP_86											
-http://purl.obolibrary.org/obo/PCL_0051088	DLNP_87											
-http://purl.obolibrary.org/obo/PCL_0051089	DLNP_88											
-http://purl.obolibrary.org/obo/PCL_0051090	DLNP_89											
-http://purl.obolibrary.org/obo/PCL_0051091	DLNP_90											
-http://purl.obolibrary.org/obo/PCL_0051092	DLNP_91											
-http://purl.obolibrary.org/obo/PCL_0051093	DLNP_92											
-http://purl.obolibrary.org/obo/PCL_0051094	DLNP_93											
-http://purl.obolibrary.org/obo/PCL_0051095	DLNP_94											
-http://purl.obolibrary.org/obo/PCL_0051096	DLNP_95											
-http://purl.obolibrary.org/obo/PCL_0051097	DLNP_96											
-http://purl.obolibrary.org/obo/PCL_0051098	DLCT6b_97											
-http://purl.obolibrary.org/obo/PCL_0051099	DLCT6b_98											
-http://purl.obolibrary.org/obo/PCL_0051100	DLCT6b_99											
-http://purl.obolibrary.org/obo/PCL_0051101	DLCT6b_100											
-http://purl.obolibrary.org/obo/PCL_0051102	DLCT6b_101											
-http://purl.obolibrary.org/obo/PCL_0051103	DLCT6b_102											
-http://purl.obolibrary.org/obo/PCL_0051104	DLCT6b_103											
-http://purl.obolibrary.org/obo/PCL_0051105	DLCT6b_104											
-http://purl.obolibrary.org/obo/PCL_0051106	DLCT6b_105											
-http://purl.obolibrary.org/obo/PCL_0051107	DLCT6b_106											
-http://purl.obolibrary.org/obo/PCL_0051108	DLCT6b_107											
-http://purl.obolibrary.org/obo/PCL_0051109	DLCT6b_108											
-http://purl.obolibrary.org/obo/PCL_0051110	DLCT6b_109											
-http://purl.obolibrary.org/obo/PCL_0051111	DLCT6b_110											
-http://purl.obolibrary.org/obo/PCL_0051112	DLCT6b_111											
-http://purl.obolibrary.org/obo/PCL_0051113	DLCT6b_112											
+http://purl.obolibrary.org/obo/PCL_0051033	OPC_32	CL:0002453										
+http://purl.obolibrary.org/obo/PCL_0051034	OPC_33	CL:0002453										
+http://purl.obolibrary.org/obo/PCL_0051035	OPC_34	CL:0002453										
+http://purl.obolibrary.org/obo/PCL_0051036	OPC_35	CL:0002453										
+http://purl.obolibrary.org/obo/PCL_0051037	OPC_36	CL:0002453										
+http://purl.obolibrary.org/obo/PCL_0051038	COP_37	CL:4023059										
+http://purl.obolibrary.org/obo/PCL_0051039	COP_38	CL:4023059										
+http://purl.obolibrary.org/obo/PCL_0051040	COP_39	CL:4023059										
+http://purl.obolibrary.org/obo/PCL_0051041	Oligo_40	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051042	COP_41	CL:4023059										
+http://purl.obolibrary.org/obo/PCL_0051043	COP_42	CL:4023059										
+http://purl.obolibrary.org/obo/PCL_0051044	COP_43	CL:4023059										
+http://purl.obolibrary.org/obo/PCL_0051045	Oligo_44	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051046	Oligo_45	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051047	Oligo_46	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051048	Oligo_47	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051049	Oligo_48	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051050	Oligo_49	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051051	Oligo_50	CL:0000128										
+http://purl.obolibrary.org/obo/PCL_0051053	Astro_52	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051054	Astro_53	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051055	Astro_54	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051056	Astro_55	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051057	Astro_56	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051058	Astro_57	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051059	Astro_58	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051060	Astro_59	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051061	Astro_60	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051062	Astro_61	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051063	Astro_62	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051064	Astro_63	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051065	Astro_64	CL:0000127										
+http://purl.obolibrary.org/obo/PCL_0051066	Epen_65	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051067	Epen_66	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051068	Epen_67	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051069	Epen_68	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051070	Epen_69	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051071	Epen_70	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051072	Epen_71	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051073	Epen_72	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051074	Epen_73	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051075	Epen_74	CL:0000065										
+http://purl.obolibrary.org/obo/PCL_0051076	COP_75	CL:4023059										
+http://purl.obolibrary.org/obo/PCL_0051077	Chrp_76	CL:0000706										
+http://purl.obolibrary.org/obo/PCL_0051078	Chrp_77	CL:0000706										
+http://purl.obolibrary.org/obo/PCL_0051079	Chrp_78	CL:0000706										
+http://purl.obolibrary.org/obo/PCL_0051080	Chrp_79	CL:0000706										
+http://purl.obolibrary.org/obo/PCL_0051081	Chrp_80	CL:0000706										
+http://purl.obolibrary.org/obo/PCL_0051082	Chrp_81	CL:0000706										
+http://purl.obolibrary.org/obo/PCL_0051083	Chrp_82	CL:0000706										
+http://purl.obolibrary.org/obo/PCL_0051084	DLNP_83	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051085	DLCT6b_84	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051086	DLNP_85	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051087	DLNP_86	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051088	DLNP_87	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051089	DLNP_88	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051090	DLNP_89	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051091	DLNP_90	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051092	DLNP_91	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051093	DLNP_92	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051094	DLNP_93	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051095	DLNP_94	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051096	DLNP_95	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051097	DLNP_96	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051098	DLCT6b_97	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051099	DLCT6b_98	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051100	DLCT6b_99	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051101	DLCT6b_100	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051102	DLCT6b_101	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051103	DLCT6b_102	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051104	DLCT6b_103	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051105	DLCT6b_104	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051106	DLCT6b_105	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051107	DLCT6b_106	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051108	DLCT6b_107	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051109	DLCT6b_108	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051110	DLCT6b_109	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051111	DLCT6b_110	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051112	DLCT6b_111	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051113	DLCT6b_112	CL:0000679										
 http://purl.obolibrary.org/obo/PCL_0051114	L5ET_113	CL:4023041	Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3								
 http://purl.obolibrary.org/obo/PCL_0051115	L5ET_114	CL:4023041	Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3								
-http://purl.obolibrary.org/obo/PCL_0051116	L5ET_115											
-http://purl.obolibrary.org/obo/PCL_0051117	Misc_116											
+http://purl.obolibrary.org/obo/PCL_0051116	L5ET_115	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051117	Misc_116	CL:0010012										
 http://purl.obolibrary.org/obo/PCL_0051118	L5ET_117	CL:4030039	Inferred from expression of: FEZF2, GABRQ , ITGA4, BMP3	https://doi.org/10.1038/s41467-020-14952-3								
 http://purl.obolibrary.org/obo/PCL_0051119	L5ET_118	CL:4023041	Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3								
-http://purl.obolibrary.org/obo/PCL_0051120	CA13_119											
-http://purl.obolibrary.org/obo/PCL_0051121	ULIT_120											
-http://purl.obolibrary.org/obo/PCL_0051122	ULIT_121											
-http://purl.obolibrary.org/obo/PCL_0051123	ULIT_122											
-http://purl.obolibrary.org/obo/PCL_0051124	ULIT_123											
-http://purl.obolibrary.org/obo/PCL_0051125	ULIT_124											
-http://purl.obolibrary.org/obo/PCL_0051126	ULIT_125											
-http://purl.obolibrary.org/obo/PCL_0051127	ULIT_126											
-http://purl.obolibrary.org/obo/PCL_0051128	ULIT_127											
-http://purl.obolibrary.org/obo/PCL_0051129	ULIT_128											
-http://purl.obolibrary.org/obo/PCL_0051130	ULIT_129											
-http://purl.obolibrary.org/obo/PCL_0051131	ULIT_130											
-http://purl.obolibrary.org/obo/PCL_0051132	ULIT_131											
-http://purl.obolibrary.org/obo/PCL_0051133	Misc_132											
-http://purl.obolibrary.org/obo/PCL_0051134	ULIT_133											
-http://purl.obolibrary.org/obo/PCL_0051135	ULIT_134											
-http://purl.obolibrary.org/obo/PCL_0051136	ULIT_135											
-http://purl.obolibrary.org/obo/PCL_0051137	DLIT_136											
-http://purl.obolibrary.org/obo/PCL_0051138	DLIT_137											
-http://purl.obolibrary.org/obo/PCL_0051139	ULIT_138											
-http://purl.obolibrary.org/obo/PCL_0051140	DLIT_139											
-http://purl.obolibrary.org/obo/PCL_0051141	DLIT_140											
-http://purl.obolibrary.org/obo/PCL_0051142	DLIT_141											
-http://purl.obolibrary.org/obo/PCL_0051143	DLIT_142											
-http://purl.obolibrary.org/obo/PCL_0051144	DLIT_143											
-http://purl.obolibrary.org/obo/PCL_0051145	DLIT_144											
-http://purl.obolibrary.org/obo/PCL_0051146	DLIT_145											
-http://purl.obolibrary.org/obo/PCL_0051147	DLIT_146											
-http://purl.obolibrary.org/obo/PCL_0051148	DLIT_147											
-http://purl.obolibrary.org/obo/PCL_0051149	DLIT_148											
-http://purl.obolibrary.org/obo/PCL_0051150	DLIT_149											
-http://purl.obolibrary.org/obo/PCL_0051151	DLIT_150											
-http://purl.obolibrary.org/obo/PCL_0051152	DLIT_151											
-http://purl.obolibrary.org/obo/PCL_0051153	DLIT_152											
-http://purl.obolibrary.org/obo/PCL_0051154	Amex_153											
-http://purl.obolibrary.org/obo/PCL_0051155	Amex_154											
-http://purl.obolibrary.org/obo/PCL_0051156	Amex_155											
-http://purl.obolibrary.org/obo/PCL_0051157	Amex_156											
-http://purl.obolibrary.org/obo/PCL_0051158	Amex_157											
-http://purl.obolibrary.org/obo/PCL_0051159	Amex_158											
-http://purl.obolibrary.org/obo/PCL_0051160	Amex_159											
-http://purl.obolibrary.org/obo/PCL_0051161	Amex_160											
-http://purl.obolibrary.org/obo/PCL_0051162	Amex_161											
-http://purl.obolibrary.org/obo/PCL_0051163	Amex_162											
-http://purl.obolibrary.org/obo/PCL_0051164	CA13_163											
-http://purl.obolibrary.org/obo/PCL_0051165	Misc_164											
-http://purl.obolibrary.org/obo/PCL_0051166	Misc_165											
-http://purl.obolibrary.org/obo/PCL_0051167	Misc_166											
-http://purl.obolibrary.org/obo/PCL_0051168	Misc_167											
-http://purl.obolibrary.org/obo/PCL_0051169	Misc_168											
-http://purl.obolibrary.org/obo/PCL_0051170	CA13_169											
-http://purl.obolibrary.org/obo/PCL_0051171	Misc_170											
-http://purl.obolibrary.org/obo/PCL_0051172	Amex_171											
-http://purl.obolibrary.org/obo/PCL_0051173	Amex_172											
-http://purl.obolibrary.org/obo/PCL_0051174	Amex_173											
-http://purl.obolibrary.org/obo/PCL_0051175	Amex_174											
-http://purl.obolibrary.org/obo/PCL_0051176	Amex_175											
-http://purl.obolibrary.org/obo/PCL_0051177	Misc_176											
-http://purl.obolibrary.org/obo/PCL_0051178	Misc_177											
-http://purl.obolibrary.org/obo/PCL_0051179	Misc_178											
-http://purl.obolibrary.org/obo/PCL_0051180	CA13_179											
-http://purl.obolibrary.org/obo/PCL_0051181	CA13_180											
-http://purl.obolibrary.org/obo/PCL_0051182	CA13_181											
-http://purl.obolibrary.org/obo/PCL_0051183	CA13_182											
-http://purl.obolibrary.org/obo/PCL_0051184	CA13_183											
-http://purl.obolibrary.org/obo/PCL_0051185	CA13_184											
-http://purl.obolibrary.org/obo/PCL_0051186	CA13_185											
-http://purl.obolibrary.org/obo/PCL_0051187	CA13_186											
-http://purl.obolibrary.org/obo/PCL_0051188	CA13_187											
-http://purl.obolibrary.org/obo/PCL_0051189	CA13_188											
-http://purl.obolibrary.org/obo/PCL_0051190	CA13_189											
-http://purl.obolibrary.org/obo/PCL_0051191	CA4_190											
-http://purl.obolibrary.org/obo/PCL_0051192	CA4_191											
-http://purl.obolibrary.org/obo/PCL_0051193	CA4_192											
-http://purl.obolibrary.org/obo/PCL_0051194	CA4_193											
-http://purl.obolibrary.org/obo/PCL_0051195	CA4_194											
-http://purl.obolibrary.org/obo/PCL_0051196	CA4_195											
-http://purl.obolibrary.org/obo/PCL_0051197	CA4_196											
-http://purl.obolibrary.org/obo/PCL_0051198	CA4_197											
-http://purl.obolibrary.org/obo/PCL_0051199	CA4_198											
+http://purl.obolibrary.org/obo/PCL_0051120	CA13_119	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051121	ULIT_120	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051122	ULIT_121	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051123	ULIT_122	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051124	ULIT_123	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051125	ULIT_124	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051126	ULIT_125	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051127	ULIT_126	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051128	ULIT_127	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051129	ULIT_128	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051130	ULIT_129	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051131	ULIT_130	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051132	ULIT_131	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051133	Misc_132	CL:0010012										
+http://purl.obolibrary.org/obo/PCL_0051134	ULIT_133	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051135	ULIT_134	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051136	ULIT_135	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051137	DLIT_136	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051138	DLIT_137	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051139	ULIT_138	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051140	DLIT_139	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051141	DLIT_140	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051142	DLIT_141	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051143	DLIT_142	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051144	DLIT_143	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051145	DLIT_144	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051146	DLIT_145	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051147	DLIT_146	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051148	DLIT_147	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051149	DLIT_148	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051150	DLIT_149	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051151	DLIT_150	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051152	DLIT_151	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051153	DLIT_152	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051154	Amex_153	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051155	Amex_154	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051156	Amex_155	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051157	Amex_156	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051158	Amex_157	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051159	Amex_158	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051160	Amex_159	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051161	Amex_160	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051162	Amex_161	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051163	Amex_162	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051164	CA13_163	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051165	Misc_164	CL:0012001										
+http://purl.obolibrary.org/obo/PCL_0051166	Misc_165	CL:0010012										
+http://purl.obolibrary.org/obo/PCL_0051167	Misc_166	CL:0010012										
+http://purl.obolibrary.org/obo/PCL_0051168	Misc_167	CL:0010012										
+http://purl.obolibrary.org/obo/PCL_0051169	Misc_168	CL:0010012										
+http://purl.obolibrary.org/obo/PCL_0051170	CA13_169	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051171	Misc_170	CL:0012001										
+http://purl.obolibrary.org/obo/PCL_0051172	Amex_171	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051173	Amex_172	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051174	Amex_173	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051175	Amex_174	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051176	Amex_175	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051177	Misc_176	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051178	Misc_177	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051179	Misc_178	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051180	CA13_179	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051181	CA13_180	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051182	CA13_181	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051183	CA13_182	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051184	CA13_183	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051185	CA13_184	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051186	CA13_185	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051187	CA13_186	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051188	CA13_187	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051189	CA13_188	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051190	CA13_189	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051191	CA4_190	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051192	CA4_191	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051193	CA4_192	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051194	CA4_193	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051195	CA4_194	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051196	CA4_195	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051197	CA4_196	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051198	CA4_197	CL:4023061										
+http://purl.obolibrary.org/obo/PCL_0051199	CA4_198	CL:4023061										
 http://purl.obolibrary.org/obo/PCL_0051200	DG_199	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
 http://purl.obolibrary.org/obo/PCL_0051201	DG_200	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
 http://purl.obolibrary.org/obo/PCL_0051202	DG_201	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
@@ -204,7 +204,7 @@ http://purl.obolibrary.org/obo/PCL_0051203	DG_202	CL:2000089	Inferred from expre
 http://purl.obolibrary.org/obo/PCL_0051204	DG_203	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
 http://purl.obolibrary.org/obo/PCL_0051205	DG_204	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
 http://purl.obolibrary.org/obo/PCL_0051206	DG_205	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
-http://purl.obolibrary.org/obo/PCL_0051207	MSN_206											
+http://purl.obolibrary.org/obo/PCL_0051207	MSN_206	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051208	MSN_207	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
 http://purl.obolibrary.org/obo/PCL_0051209	MSN_208	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
 http://purl.obolibrary.org/obo/PCL_0051210	MSN_209	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
@@ -216,44 +216,44 @@ http://purl.obolibrary.org/obo/PCL_0051215	MSN_214	CL:4023026	Inferred from expr
 http://purl.obolibrary.org/obo/PCL_0051216	MSN_215	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
 http://purl.obolibrary.org/obo/PCL_0051217	MSN_216	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
 http://purl.obolibrary.org/obo/PCL_0051218	MSN_217	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051219	MSN_218											
+http://purl.obolibrary.org/obo/PCL_0051219	MSN_218	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051220	MSN_219	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
 http://purl.obolibrary.org/obo/PCL_0051221	MSN_220	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
 http://purl.obolibrary.org/obo/PCL_0051222	MSN_221	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051223	EMSN_222											
-http://purl.obolibrary.org/obo/PCL_0051224	EMSN_223											
-http://purl.obolibrary.org/obo/PCL_0051225	EMSN_224											
-http://purl.obolibrary.org/obo/PCL_0051226	EMSN_225											
-http://purl.obolibrary.org/obo/PCL_0051227	EMSN_226											
-http://purl.obolibrary.org/obo/PCL_0051228	EMSN_227											
-http://purl.obolibrary.org/obo/PCL_0051229	EMSN_228											
-http://purl.obolibrary.org/obo/PCL_0051230	EMSN_229											
-http://purl.obolibrary.org/obo/PCL_0051231	EMSN_230											
-http://purl.obolibrary.org/obo/PCL_0051232	EMSN_231											
-http://purl.obolibrary.org/obo/PCL_0051233	EMSN_232											
-http://purl.obolibrary.org/obo/PCL_0051234	EMSN_233											
-http://purl.obolibrary.org/obo/PCL_0051235	EMSN_234											
+http://purl.obolibrary.org/obo/PCL_0051223	EMSN_222	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051224	EMSN_223	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051225	EMSN_224	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051226	EMSN_225	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051227	EMSN_226	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051228	EMSN_227	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051229	EMSN_228	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051230	EMSN_229	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051231	EMSN_230	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051232	EMSN_231	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051233	EMSN_232	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051234	EMSN_233	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051235	EMSN_234	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051236	Splat_235	CL:4023025	Inferred from expression of: DLX1, SST, CHODL, TACR1, NPY, NOS1, CORT									
 http://purl.obolibrary.org/obo/PCL_0051237	MGE_236	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051238	Splat_237	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051239	Splat_238											
+http://purl.obolibrary.org/obo/PCL_0051239	Splat_238	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051240	MGE_239	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051241	MGE_240	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051242	MGE_241	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051243	MGE_242											
+http://purl.obolibrary.org/obo/PCL_0051243	MGE_242	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051244	MGE_243	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051245	MGE_244											
-http://purl.obolibrary.org/obo/PCL_0051246	MGE_245											
+http://purl.obolibrary.org/obo/PCL_0051245	MGE_244	CL:4023063										
+http://purl.obolibrary.org/obo/PCL_0051246	MGE_245	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051247	MGE_246	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051248	MGE_247											
+http://purl.obolibrary.org/obo/PCL_0051248	MGE_247	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051249	MGE_248	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051250	MGE_249	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051251	MGE_250											
-http://purl.obolibrary.org/obo/PCL_0051252	MGE_251											
+http://purl.obolibrary.org/obo/PCL_0051251	MGE_250	CL:4023063										
+http://purl.obolibrary.org/obo/PCL_0051252	MGE_251	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051253	MGE_252	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051254	MGE_253	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051255	MGE_254	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051256	MGE_255											
+http://purl.obolibrary.org/obo/PCL_0051256	MGE_255	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051257	MGE_256	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051258	MGE_257	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051259	MGE_258	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
@@ -261,27 +261,27 @@ http://purl.obolibrary.org/obo/PCL_0051260	MGE_259	CL:4023018	Inferred from expr
 http://purl.obolibrary.org/obo/PCL_0051261	MGE_260	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051262	MGE_261	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051263	MGE_262	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051264	MGE_263											
+http://purl.obolibrary.org/obo/PCL_0051264	MGE_263	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051265	LLC_264	CL:4023083	Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2									
 http://purl.obolibrary.org/obo/PCL_0051266	LLC_265	CL:4023083	Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2									
 http://purl.obolibrary.org/obo/PCL_0051267	LLC_266	CL:4023083	Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2									
-http://purl.obolibrary.org/obo/PCL_0051268	LLC_267											
-http://purl.obolibrary.org/obo/PCL_0051269	LLC_268											
-http://purl.obolibrary.org/obo/PCL_0051270	LLC_269											
-http://purl.obolibrary.org/obo/PCL_0051271	LLC_270											
-http://purl.obolibrary.org/obo/PCL_0051272	LLC_271											
-http://purl.obolibrary.org/obo/PCL_0051273	LLC_272											
-http://purl.obolibrary.org/obo/PCL_0051274	LLC_273											
-http://purl.obolibrary.org/obo/PCL_0051275	LLC_274											
-http://purl.obolibrary.org/obo/PCL_0051276	LLC_275											
+http://purl.obolibrary.org/obo/PCL_0051268	LLC_267	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051269	LLC_268	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051270	LLC_269	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051271	LLC_270	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051272	LLC_271	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051273	LLC_272	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051274	LLC_273	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051275	LLC_274	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051276	LLC_275	CL:0000402										
 http://purl.obolibrary.org/obo/PCL_0051277	CGE_276	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051278	CGE_277											
-http://purl.obolibrary.org/obo/PCL_0051279	CGE_278											
+http://purl.obolibrary.org/obo/PCL_0051278	CGE_277	CL:4023064										
+http://purl.obolibrary.org/obo/PCL_0051279	CGE_278	CL:4023064										
 http://purl.obolibrary.org/obo/PCL_0051280	CGE_279	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051281	CGE_280	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051282	CGE_281	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051283	CGE_282											
-http://purl.obolibrary.org/obo/PCL_0051284	CGE_283											
+http://purl.obolibrary.org/obo/PCL_0051283	CGE_282	CL:4023064										
+http://purl.obolibrary.org/obo/PCL_0051284	CGE_283	CL:4023064										
 http://purl.obolibrary.org/obo/PCL_0051285	CGE_284	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051286	CGE_285	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051287	CGE_286	CL:4023011	Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2	https://doi.org/10.1038/s41586-020-2781-z								
@@ -295,167 +295,179 @@ http://purl.obolibrary.org/obo/PCL_0051294	CGE_293	CL:4023016	Inferred from expr
 http://purl.obolibrary.org/obo/PCL_0051295	CGE_294	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051296	CGE_295	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
 http://purl.obolibrary.org/obo/PCL_0051297	CGE_296	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051298	URL_297											
-http://purl.obolibrary.org/obo/PCL_0051299	CBI_298											
-http://purl.obolibrary.org/obo/PCL_0051300	CBI_299											
-http://purl.obolibrary.org/obo/PCL_0051301	CBI_300											
-http://purl.obolibrary.org/obo/PCL_0051302	CBI_301											
-http://purl.obolibrary.org/obo/PCL_0051303	CBI_302											
-http://purl.obolibrary.org/obo/PCL_0051304	CBI_303											
-http://purl.obolibrary.org/obo/PCL_0051305	CBI_304											
-http://purl.obolibrary.org/obo/PCL_0051306	CBI_305											
-http://purl.obolibrary.org/obo/PCL_0051307	CBI_306											
-http://purl.obolibrary.org/obo/PCL_0051308	CBI_307											
+http://purl.obolibrary.org/obo/PCL_0051298	URL_297	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051299	CBI_298	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051300	CBI_299	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051301	CBI_300	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051302	CBI_301	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051303	CBI_302	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051304	CBI_303	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051305	CBI_304	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051306	CBI_305	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051307	CBI_306	CL:4023057										
+http://purl.obolibrary.org/obo/PCL_0051308	CBI_307	CL:4023057										
 http://purl.obolibrary.org/obo/PCL_0051309	URL_308	CL:4023161	Inferred from expression of: LMX1A, EOMES									
-http://purl.obolibrary.org/obo/PCL_0051310	URL_309											
+http://purl.obolibrary.org/obo/PCL_0051310	URL_309	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051311	URL_310	CL:0001031	Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org								
 http://purl.obolibrary.org/obo/PCL_0051312	URL_311	CL:0001031	Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org								
 http://purl.obolibrary.org/obo/PCL_0051313	URL_312	CL:0001031	Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org								
-http://purl.obolibrary.org/obo/PCL_0051314	Splat_313											
+http://purl.obolibrary.org/obo/PCL_0051314	Splat_313	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051315	Misc_314	CL:0000121	Inferred from expression of: PCP2, SKOR2, PVALB, GAD2	https://doi.org/10.1038/s41586-021-03220-z								
-http://purl.obolibrary.org/obo/PCL_0051316	LRL_315											
-http://purl.obolibrary.org/obo/PCL_0051317	LRL_316											
-http://purl.obolibrary.org/obo/PCL_0051318	LRL_317											
-http://purl.obolibrary.org/obo/PCL_0051319	LRL_318											
-http://purl.obolibrary.org/obo/PCL_0051320	LRL_319											
-http://purl.obolibrary.org/obo/PCL_0051321	LRL_320											
-http://purl.obolibrary.org/obo/PCL_0051322	LRL_321											
-http://purl.obolibrary.org/obo/PCL_0051323	LRL_322											
-http://purl.obolibrary.org/obo/PCL_0051324	Mmb_323											
-http://purl.obolibrary.org/obo/PCL_0051325	Mmb_324											
-http://purl.obolibrary.org/obo/PCL_0051326	Mmb_325											
-http://purl.obolibrary.org/obo/PCL_0051327	Mmb_326											
-http://purl.obolibrary.org/obo/PCL_0051328	Mmb_327											
-http://purl.obolibrary.org/obo/PCL_0051329	Mmb_328											
-http://purl.obolibrary.org/obo/PCL_0051330	Mmb_329											
-http://purl.obolibrary.org/obo/PCL_0051331	Mmb_330											
-http://purl.obolibrary.org/obo/PCL_0051332	Mmb_331											
-http://purl.obolibrary.org/obo/PCL_0051333	Mmb_332											
-http://purl.obolibrary.org/obo/PCL_0051334	Mmb_333											
-http://purl.obolibrary.org/obo/PCL_0051335	Splat_334											
-http://purl.obolibrary.org/obo/PCL_0051336	Splat_335											
-http://purl.obolibrary.org/obo/PCL_0051337	Splat_336											
-http://purl.obolibrary.org/obo/PCL_0051338	Splat_337											
-http://purl.obolibrary.org/obo/PCL_0051339	Splat_338											
-http://purl.obolibrary.org/obo/PCL_0051340	Splat_339											
-http://purl.obolibrary.org/obo/PCL_0051341	Splat_340											
-http://purl.obolibrary.org/obo/PCL_0051342	Splat_341											
-http://purl.obolibrary.org/obo/PCL_0051343	Splat_342											
-http://purl.obolibrary.org/obo/PCL_0051344	Splat_343											
-http://purl.obolibrary.org/obo/PCL_0051345	Splat_344											
-http://purl.obolibrary.org/obo/PCL_0051346	Splat_345											
-http://purl.obolibrary.org/obo/PCL_0051347	Splat_346											
-http://purl.obolibrary.org/obo/PCL_0051348	Splat_347											
-http://purl.obolibrary.org/obo/PCL_0051349	Splat_348											
-http://purl.obolibrary.org/obo/PCL_0051350	Splat_349											
-http://purl.obolibrary.org/obo/PCL_0051351	Splat_350											
-http://purl.obolibrary.org/obo/PCL_0051352	Splat_351											
-http://purl.obolibrary.org/obo/PCL_0051353	Splat_352											
-http://purl.obolibrary.org/obo/PCL_0051354	Splat_353											
-http://purl.obolibrary.org/obo/PCL_0051355	Splat_354											
-http://purl.obolibrary.org/obo/PCL_0051356	Splat_355											
-http://purl.obolibrary.org/obo/PCL_0051357	Splat_356											
-http://purl.obolibrary.org/obo/PCL_0051358	Splat_357											
-http://purl.obolibrary.org/obo/PCL_0051359	Splat_358											
-http://purl.obolibrary.org/obo/PCL_0051360	Splat_359											
-http://purl.obolibrary.org/obo/PCL_0051361	Splat_360											
-http://purl.obolibrary.org/obo/PCL_0051362	Splat_361											
-http://purl.obolibrary.org/obo/PCL_0051363	Splat_362											
-http://purl.obolibrary.org/obo/PCL_0051364	Splat_363											
-http://purl.obolibrary.org/obo/PCL_0051365	Splat_364											
-http://purl.obolibrary.org/obo/PCL_0051366	Splat_365											
-http://purl.obolibrary.org/obo/PCL_0051367	Splat_366											
-http://purl.obolibrary.org/obo/PCL_0051368	Splat_367											
-http://purl.obolibrary.org/obo/PCL_0051369	Splat_368											
-http://purl.obolibrary.org/obo/PCL_0051370	Splat_369											
-http://purl.obolibrary.org/obo/PCL_0051371	Splat_370											
-http://purl.obolibrary.org/obo/PCL_0051372	Splat_371											
-http://purl.obolibrary.org/obo/PCL_0051373	Thex_372											
-http://purl.obolibrary.org/obo/PCL_0051374	Splat_373											
-http://purl.obolibrary.org/obo/PCL_0051375	Splat_374											
-http://purl.obolibrary.org/obo/PCL_0051376	Splat_375											
-http://purl.obolibrary.org/obo/PCL_0051377	Splat_376											
-http://purl.obolibrary.org/obo/PCL_0051378	Splat_377											
-http://purl.obolibrary.org/obo/PCL_0051379	Splat_378											
-http://purl.obolibrary.org/obo/PCL_0051380	Splat_379											
-http://purl.obolibrary.org/obo/PCL_0051381	Splat_380											
-http://purl.obolibrary.org/obo/PCL_0051382	Splat_381											
-http://purl.obolibrary.org/obo/PCL_0051383	Splat_382											
-http://purl.obolibrary.org/obo/PCL_0051384	Splat_383											
-http://purl.obolibrary.org/obo/PCL_0051385	Splat_384											
-http://purl.obolibrary.org/obo/PCL_0051386	Splat_385											
-http://purl.obolibrary.org/obo/PCL_0051387	Splat_386											
-http://purl.obolibrary.org/obo/PCL_0051388	Splat_387											
-http://purl.obolibrary.org/obo/PCL_0051389	Splat_388											
-http://purl.obolibrary.org/obo/PCL_0051390	Splat_389											
-http://purl.obolibrary.org/obo/PCL_0051391	Splat_390											
-http://purl.obolibrary.org/obo/PCL_0051392	Splat_391											
-http://purl.obolibrary.org/obo/PCL_0051393	Splat_392											
-http://purl.obolibrary.org/obo/PCL_0051394	Splat_393											
-http://purl.obolibrary.org/obo/PCL_0051395	Splat_394											
-http://purl.obolibrary.org/obo/PCL_0051396	Splat_395											
-http://purl.obolibrary.org/obo/PCL_0051397	Splat_396											
-http://purl.obolibrary.org/obo/PCL_0051398	Splat_397											
-http://purl.obolibrary.org/obo/PCL_0051399	Splat_398											
-http://purl.obolibrary.org/obo/PCL_0051400	Splat_399											
-http://purl.obolibrary.org/obo/PCL_0051401	Splat_400											
-http://purl.obolibrary.org/obo/PCL_0051402	Misc_401											
-http://purl.obolibrary.org/obo/PCL_0051403	Splat_402											
-http://purl.obolibrary.org/obo/PCL_0051404	Splat_403											
-http://purl.obolibrary.org/obo/PCL_0051405	Misc_404											
-http://purl.obolibrary.org/obo/PCL_0051406	Amex_405											
-http://purl.obolibrary.org/obo/PCL_0051407	Amex_406											
-http://purl.obolibrary.org/obo/PCL_0051408	Amex_407											
-http://purl.obolibrary.org/obo/PCL_0051409	Amex_408											
-http://purl.obolibrary.org/obo/PCL_0051410	Splat_409											
-http://purl.obolibrary.org/obo/PCL_0051411	Splat_410											
-http://purl.obolibrary.org/obo/PCL_0051412	Splat_411											
-http://purl.obolibrary.org/obo/PCL_0051413	Splat_412											
-http://purl.obolibrary.org/obo/PCL_0051414	Splat_413											
-http://purl.obolibrary.org/obo/PCL_0051415	Splat_414											
-http://purl.obolibrary.org/obo/PCL_0051416	Splat_415											
-http://purl.obolibrary.org/obo/PCL_0051417	Splat_416											
-http://purl.obolibrary.org/obo/PCL_0051418	Splat_417											
-http://purl.obolibrary.org/obo/PCL_0051419	Splat_418											
-http://purl.obolibrary.org/obo/PCL_0051420	Amex_419											
-http://purl.obolibrary.org/obo/PCL_0051421	Splat_420											
-http://purl.obolibrary.org/obo/PCL_0051422	Splat_421											
-http://purl.obolibrary.org/obo/PCL_0051423	Splat_422											
-http://purl.obolibrary.org/obo/PCL_0051424	Splat_423											
-http://purl.obolibrary.org/obo/PCL_0051425	Splat_424											
-http://purl.obolibrary.org/obo/PCL_0051426	Splat_425											
-http://purl.obolibrary.org/obo/PCL_0051427	EMSN_426											
+http://purl.obolibrary.org/obo/PCL_0051316	LRL_315	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051317	LRL_316	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051318	LRL_317	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051319	LRL_318	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051320	LRL_319	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051321	LRL_320	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051322	LRL_321	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051323	LRL_322	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051324	Mmb_323	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051325	Mmb_324	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051326	Mmb_325	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051327	Mmb_326	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051328	Mmb_327	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051329	Mmb_328	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051330	Mmb_329	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051331	Mmb_330	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051332	Mmb_331	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051333	Mmb_332	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051334	Mmb_333	CL:4023074										
+http://purl.obolibrary.org/obo/PCL_0051335	Splat_334	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051336	Splat_335	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051337	Splat_336	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051338	Splat_337	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051339	Splat_338	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051340	Splat_339	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051341	Splat_340	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051342	Splat_341	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051343	Splat_342	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051344	Splat_343	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051345	Splat_344	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051346	Splat_345	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051347	Splat_346	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051348	Splat_347	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051349	Splat_348	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051350	Splat_349	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051351	Splat_350	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051352	Splat_351	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051353	Splat_352	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051354	Splat_353	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051355	Splat_354	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051356	Splat_355	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051357	Splat_356	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051358	Splat_357	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051359	Splat_358	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051360	Splat_359	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051361	Splat_360	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051362	Splat_361	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051363	Splat_362	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051364	Splat_363	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051365	Splat_364	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051366	Splat_365	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051367	Splat_366	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051368	Splat_367	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051369	Splat_368	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051370	Splat_369	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051371	Splat_370	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051372	Splat_371	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051373	Thex_372	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051374	Splat_373	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051375	Splat_374	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051376	Splat_375	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051377	Splat_376	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051378	Splat_377	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051379	Splat_378	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051380	Splat_379	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051381	Splat_380	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051382	Splat_381	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051383	Splat_382	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051384	Splat_383	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051385	Splat_384	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051386	Splat_385	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051387	Splat_386	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051388	Splat_387	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051389	Splat_388	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051390	Splat_389	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051391	Splat_390	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051392	Splat_391	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051393	Splat_392	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051394	Splat_393	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051395	Splat_394	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051396	Splat_395	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051397	Splat_396	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051398	Splat_397	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051399	Splat_398	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051400	Splat_399	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051401	Splat_400	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051402	Misc_401	CL:0012001										
+http://purl.obolibrary.org/obo/PCL_0051403	Splat_402	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051404	Splat_403	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051405	Misc_404	CL:0010012										
+http://purl.obolibrary.org/obo/PCL_0051406	Amex_405	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051407	Amex_406	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051408	Amex_407	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051409	Amex_408	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051410	Splat_409	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051411	Splat_410	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051412	Splat_411	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051413	Splat_412	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051414	Splat_413	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051415	Splat_414	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051416	Splat_415	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051417	Splat_416	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051418	Splat_417	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051419	Splat_418	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051420	Amex_419	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051421	Splat_420	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051422	Splat_421	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051423	Splat_422	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051424	Splat_423	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051425	Splat_424	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051426	Splat_425	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051427	EMSN_426	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051428	MSN_427	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051429	Splat_428											
-http://purl.obolibrary.org/obo/PCL_0051430	Splat_429											
-http://purl.obolibrary.org/obo/PCL_0051431	MSN_430											
-http://purl.obolibrary.org/obo/PCL_0051432	Splat_431											
-http://purl.obolibrary.org/obo/PCL_0051433	Splat_432											
-http://purl.obolibrary.org/obo/PCL_0051434	Midi_433											
-http://purl.obolibrary.org/obo/PCL_0051435	Midi_434											
-http://purl.obolibrary.org/obo/PCL_0051436	Midi_435											
-http://purl.obolibrary.org/obo/PCL_0051437	Midi_436											
-http://purl.obolibrary.org/obo/PCL_0051438	Midi_437											
-http://purl.obolibrary.org/obo/PCL_0051439	Midi_438											
-http://purl.obolibrary.org/obo/PCL_0051440	Midi_439											
-http://purl.obolibrary.org/obo/PCL_0051441	Midi_440											
-http://purl.obolibrary.org/obo/PCL_0051442	Midi_441											
-http://purl.obolibrary.org/obo/PCL_0051443	Midi_442											
-http://purl.obolibrary.org/obo/PCL_0051444	Midi_443											
-http://purl.obolibrary.org/obo/PCL_0051445	Midi_444											
-http://purl.obolibrary.org/obo/PCL_0051446	Thex_445											
-http://purl.obolibrary.org/obo/PCL_0051447	Thex_446											
-http://purl.obolibrary.org/obo/PCL_0051448	Thex_447											
-http://purl.obolibrary.org/obo/PCL_0051449	Thex_448											
-http://purl.obolibrary.org/obo/PCL_0051450	Thex_449											
-http://purl.obolibrary.org/obo/PCL_0051451	Thex_450											
-http://purl.obolibrary.org/obo/PCL_0051452	Thex_451											
-http://purl.obolibrary.org/obo/PCL_0051453	Thex_452											
-http://purl.obolibrary.org/obo/PCL_0051454	Thex_453											
-http://purl.obolibrary.org/obo/PCL_0051455	Thex_454											
-http://purl.obolibrary.org/obo/PCL_0051456	Thex_455											
-http://purl.obolibrary.org/obo/PCL_0051457	Thex_456											
-http://purl.obolibrary.org/obo/PCL_0051458	Thex_457											
-http://purl.obolibrary.org/obo/PCL_0051459	Thex_458											
-http://purl.obolibrary.org/obo/PCL_0051460	Thex_459											
-http://purl.obolibrary.org/obo/PCL_0051461	Thex_460											
+http://purl.obolibrary.org/obo/PCL_0051429	Splat_428	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051430	Splat_429	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051431	MSN_430	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051432	Splat_431	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051433	Splat_432	CL:0000540										
+http://purl.obolibrary.org/obo/PCL_0051434	Midi_433	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051435	Midi_434	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051436	Midi_435	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051437	Midi_436	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051438	Midi_437	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051439	Midi_438	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051440	Midi_439	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051441	Midi_440	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051442	Midi_441	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051443	Midi_442	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051444	Midi_443	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051445	Midi_444	CL:4023079										
+http://purl.obolibrary.org/obo/PCL_0051446	Thex_445	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051447	Thex_446	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051448	Thex_447	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051449	Thex_448	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051450	Thex_449	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051451	Thex_450	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051452	Thex_451	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051453	Thex_452	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051454	Thex_453	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051455	Thex_454	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051456	Thex_455	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051457	Thex_456	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051458	Thex_457	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051459	Thex_458	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051460	Thex_459	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051461	Thex_460	CL:4023068										
+http://purl.obolibrary.org/obo/PCL_0051473	Deep-layer near-projecting	CL:4023012										
+http://purl.obolibrary.org/obo/PCL_0051474	Deep-layer corticothalamic and 6b	CL:0000679										
+http://purl.obolibrary.org/obo/PCL_0051475	Hippocampal CA1-3	CL:4023060										
+http://purl.obolibrary.org/obo/PCL_0051476	Upper-layer intratelencephalic	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051477	Deep-layer intratelencephalic	CL:4023008										
+http://purl.obolibrary.org/obo/PCL_0051478	Amygdala excitatory	CL:4023039										
+http://purl.obolibrary.org/obo/PCL_0051480	Hippocampal dentate gyrus	CL:4023062										
+http://purl.obolibrary.org/obo/PCL_0051481	Medium spiny neuron	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051482	Eccentric medium spiny neuron	CL:1001474										
+http://purl.obolibrary.org/obo/PCL_0051484	MGE interneuron	CL:4023063										
+http://purl.obolibrary.org/obo/PCL_0051485	LAMP5-LHX6 and Chandelier	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051486	CGE interneuron	CL:4023064										
