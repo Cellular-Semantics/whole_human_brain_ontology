@@ -4569,315 +4569,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0051001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0051001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000156738"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0052501"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_1"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000028>Bcell_0 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A B cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MS4A1 (Hsap). The soma of these cells can be found in the mesencephalon, basal forebrain, pons. The reference data for this cell type is CS202210140_1.</obo:IAO_0000115>
-        <obo:PCL_0010058>MS4A1 (Hsap)</obo:PCL_0010058>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_9001"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
-        <oboInOwl:hasExactSynonym>Bcell_0</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>MS4A1 (Hsap) expressing B cell of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
-        <skos:prefLabel>Bcell_0</skos:prefLabel>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051001"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
-        <oboInOwl:hasDbXref>https://doi.org/10.1016/j.immuni.2007.05.019</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://doi.org/10.1182/blood-2004-06-2344</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://doi.org/10.4049/jimmunol.1501027</oboInOwl:hasDbXref>
-        <rdfs:comment>Inferred from expression of: DOCK8, PAX5, FCRL1</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A B cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MS4A1 (Hsap). The soma of these cells can be found in the mesencephalon, basal forebrain, pons. The reference data for this cell type is CS202210140_1.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOI:10.1101/2022.10.12.511898</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Basal forebrain: 19.0%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9001"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Midbrain: 21.0%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Pons: 14.3%.</rdfs:comment>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0051002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0051002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000116824"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000172673"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0052502"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000028>Tcell_1 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A T cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CD2 (Hsap), THEMIS (Hsap). The soma of these cells can be found in the mesencephalon, basal forebrain, pons. The reference data for this cell type is CS202210140_2.</obo:IAO_0000115>
-        <obo:PCL_0010058>CD2 (Hsap)</obo:PCL_0010058>
-        <obo:PCL_0010058>THEMIS (Hsap)</obo:PCL_0010058>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_9001"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
-        <oboInOwl:hasExactSynonym>CD2 (Hsap), THEMIS (Hsap) expressing T cell of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Tcell_1</oboInOwl:hasExactSynonym>
-        <skos:prefLabel>Tcell_1</skos:prefLabel>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051002"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
-        <oboInOwl:hasDbXref>https://doi.org/10.1038. https://doi.org/10.1038/s41593-018-0290-2</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://doi.org/10.1084%2Fjem.20110345</oboInOwl:hasDbXref>
-        <rdfs:comment>Inferred from expression of: DOCK8, CD8A, CD3G</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A T cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CD2 (Hsap), THEMIS (Hsap). The soma of these cells can be found in the mesencephalon, basal forebrain, pons. The reference data for this cell type is CS202210140_2.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOI:10.1101/2022.10.12.511898</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Basal forebrain: 14.0%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9001"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Midbrain: 15.0%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Pons: 13.2%.</rdfs:comment>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0051003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0051003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000623"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000105374"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000115523"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0052503"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000028>Nkcell_2 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A natural killer cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NKG7 (Hsap), GNLY (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_3.</obo:IAO_0000115>
-        <obo:PCL_0010058>GNLY (Hsap)</obo:PCL_0010058>
-        <obo:PCL_0010058>NKG7 (Hsap)</obo:PCL_0010058>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_4008"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_4392"/>
-        <oboInOwl:hasExactSynonym>NKG7 (Hsap), GNLY (Hsap) expressing natural killer cell of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Nkcell_2</oboInOwl:hasExactSynonym>
-        <skos:prefLabel>Nkcell_2</skos:prefLabel>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051003"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000623"/>
-        <oboInOwl:hasDbXref>https://doi.org/10.1038/s41593-018-0290-2</oboInOwl:hasDbXref>
-        <rdfs:comment>Inferred from expression of: NCAM1, GZMB</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051003"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A natural killer cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NKG7 (Hsap), GNLY (Hsap). The soma of these cells can be found in the thalamus, cerebral cortex, basal forebrain. The reference data for this cell type is CS202210140_3.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOI:10.1101/2022.10.12.511898</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051003"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4008"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Cerebral cortex: 15.5%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051003"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Basal forebrain: 14.8%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051003"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4392"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Thalamus: 17.6%.</rdfs:comment>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0051004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0051004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000085265"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0052504"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000028>Mono_3 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A monocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FCN1 (Hsap). The soma of these cells can be found in the thalamus, pons, basal forebrain. The reference data for this cell type is CS202210140_4.</obo:IAO_0000115>
-        <obo:PCL_0010058>FCN1 (Hsap)</obo:PCL_0010058>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_4392"/>
-        <obo:PCL_0010063 rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
-        <oboInOwl:hasExactSynonym>FCN1 (Hsap) expressing monocyte of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Mono_3</oboInOwl:hasExactSynonym>
-        <skos:prefLabel>Mono_3</skos:prefLabel>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051004"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
-        <oboInOwl:hasDbXref>https://doi.org/10.1038/s41467-018-04985-0</oboInOwl:hasDbXref>
-        <rdfs:comment>Inferred from expression of: TYROBP, FCN1, LYZ</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051004"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A monocyte of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FCN1 (Hsap). The soma of these cells can be found in the thalamus, pons, basal forebrain. The reference data for this cell type is CS202210140_4.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOI:10.1101/2022.10.12.511898</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051004"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Basal forebrain: 13.9%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051004"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4392"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Thalamus: 21.9%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051004"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Pons: 16.1%.</rdfs:comment>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PCL_0051005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0051005">
@@ -5179,12 +4870,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051008"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Pons: 12.5%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CX3CR1 (Hsap), OLR1 (Hsap), LINC02712 (Hsap). The soma of these cells can be found in the basal forebrain, mesencephalon, pons. The reference data for this cell type is CS202210140_8.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2022.10.12.511898</oboInOwl:hasDbXref>
@@ -5200,6 +4885,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9001"/>
         <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Midbrain: 19.4%.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9131"/>
+        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Pons: 12.5%.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -5431,18 +5122,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051011"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), P2RY12 (Hsap), LNCAROD (Hsap). The soma of these cells can be found in the basal forebrain, mesencephalon, cerebral cortex. The reference data for this cell type is CS202210140_11.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOI:10.1101/2022.10.12.511898</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051011"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4008"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Cerebral cortex: 10.3%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4300"/>
         <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Basal forebrain: 27.7%.</rdfs:comment>
@@ -5452,6 +5131,18 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_9001"/>
         <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Midbrain: 22.1%.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A microglial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), P2RY12 (Hsap), LNCAROD (Hsap). The soma of these cells can be found in the basal forebrain, mesencephalon, cerebral cortex. The reference data for this cell type is CS202210140_11.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>DOI:10.1101/2022.10.12.511898</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HBA_4008"/>
+        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Cerebral cortex: 10.3%.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -52020,12 +51711,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000236"/>
             </owl:Restriction>
         </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015002"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0051001"/>
-            </owl:Restriction>
-        </rdf:type>
         <obo:RO_0015003 rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_463"/>
         <custom:cell_set_alias_assignee>Kimberly Siletti</custom:cell_set_alias_assignee>
         <custom:cell_set_alias_citation>10.1101/2022.10.12.511898</custom:cell_set_alias_citation>
@@ -54910,12 +54595,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000084"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015002"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0051002"/>
             </owl:Restriction>
         </rdf:type>
         <obo:RO_0015003 rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_463"/>
@@ -57804,12 +57483,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000623"/>
             </owl:Restriction>
         </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015002"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0051003"/>
-            </owl:Restriction>
-        </rdf:type>
         <obo:RO_0015003 rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_463"/>
         <custom:cell_set_alias_assignee>Kimberly Siletti</custom:cell_set_alias_assignee>
         <custom:cell_set_alias_citation>10.1101/2022.10.12.511898</custom:cell_set_alias_citation>
@@ -60694,12 +60367,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002473"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
-            </owl:Restriction>
-        </rdf:type>
-        <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015002"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0051004"/>
             </owl:Restriction>
         </rdf:type>
         <obo:RO_0015003 rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_463"/>

@@ -1,8 +1,4 @@
-defined_class	prefLabel	Classification	Classification_comment	Classification_pub	Curated_synonyms	Expresses	Expresses_comment	Expresses_pub	Projection_type	Layers	Cross_species_text	Comment
-http://purl.obolibrary.org/obo/PCL_0051001	Bcell_0	CL:0000236	Inferred from expression of: DOCK8, PAX5, FCRL1	https://doi.org/10.1016/j.immuni.2007.05.019|https://doi.org/10.1182/blood-2004-06-2344|https://doi.org/10.4049/jimmunol.1501027								
-http://purl.obolibrary.org/obo/PCL_0051002	Tcell_1	CL:0000084	Inferred from expression of: DOCK8, CD8A, CD3G	https://doi.org/10.1084%2Fjem.20110345|https://doi.org/10.1038. https://doi.org/10.1038/s41593-018-0290-2								
-http://purl.obolibrary.org/obo/PCL_0051003	Nkcell_2	CL:0000623	Inferred from expression of: NCAM1, GZMB	https://doi.org/10.1038/s41593-018-0290-2								
-http://purl.obolibrary.org/obo/PCL_0051004	Mono_3	CL:0000576	Inferred from expression of: TYROBP, FCN1, LYZ	https://doi.org/10.1038/s41467-018-04985-0								
+defined_class	prefLabel	Classification	Curated_synonyms	Classification_comment	Classification_pub	Expresses	Expresses_comment	Expresses_pub	Projection_type	Layers	Cross_species_text	Comment
 http://purl.obolibrary.org/obo/PCL_0051005	Mgl_4	CL:0000129										
 http://purl.obolibrary.org/obo/PCL_0051006	Mgl_5	CL:0000129										
 http://purl.obolibrary.org/obo/PCL_0051007	Mgl_6	CL:0000129										
@@ -14,14 +10,14 @@ http://purl.obolibrary.org/obo/PCL_0051012	Mgl_11	CL:0000129
 http://purl.obolibrary.org/obo/PCL_0051013	Mgl_12	CL:0000129										
 http://purl.obolibrary.org/obo/PCL_0051014	VendPLVAP_13	CL:4023072										
 http://purl.obolibrary.org/obo/PCL_0051015	VendAC_14	CL:4023072										
-http://purl.obolibrary.org/obo/PCL_0051016	VendC_15	CL:0002144	Inferred from expression of: FLT1, CLDN5, PECAM1, MFSD2A									
+http://purl.obolibrary.org/obo/PCL_0051016	VendC_15	CL:0002144		Inferred from expression of: FLT1, CLDN5, PECAM1, MFSD2A								
 http://purl.obolibrary.org/obo/PCL_0051017	VendVC_16	CL:0002144										
 http://purl.obolibrary.org/obo/PCL_0051018	VendV_17	CL:0002543										
-http://purl.obolibrary.org/obo/PCL_0051019	VendA_18	CL:1000413	Inferred from expression of: FLT1, CLDN5, PECAM1, BMX, VEGFC, JUNB									
+http://purl.obolibrary.org/obo/PCL_0051019	VendA_18	CL:1000413		Inferred from expression of: FLT1, CLDN5, PECAM1, BMX, VEGFC, JUNB								
 http://purl.obolibrary.org/obo/PCL_0051020	Vsmc_19	CL:4023072										
-http://purl.obolibrary.org/obo/PCL_0051021	Vsmc_20	CL:0002590	Inferred from expression of: PDGFRB, ACTA2, MYH11	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200								
-http://purl.obolibrary.org/obo/PCL_0051022	Per_21	CL:0000669	Inferred from expression of: PDGFRB, CSPG4	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019								
-http://purl.obolibrary.org/obo/PCL_0051023	Per_22	CL:0000669	Inferred from expression of: PDGFRB, CSPG4	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019								
+http://purl.obolibrary.org/obo/PCL_0051021	Vsmc_20	CL:0002590		Inferred from expression of: PDGFRB, ACTA2, MYH11	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019|https://doi.org/10.1002/dvdy.1200							
+http://purl.obolibrary.org/obo/PCL_0051022	Per_21	CL:0000669		Inferred from expression of: PDGFRB, CSPG4	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019							
+http://purl.obolibrary.org/obo/PCL_0051023	Per_22	CL:0000669		Inferred from expression of: PDGFRB, CSPG4	https://doi.org/10.1096/fj.02-0340fje|https://doi.org/10.1038/nn.4288|https://doi.org/10.1016/j.celrep.2017.05.019							
 http://purl.obolibrary.org/obo/PCL_0051024	Per_23	CL:4023072										
 http://purl.obolibrary.org/obo/PCL_0051025	Fbl_24	CL:0000057										
 http://purl.obolibrary.org/obo/PCL_0051026	Fbl_25	CL:0000057										
@@ -30,7 +26,7 @@ http://purl.obolibrary.org/obo/PCL_0051028	Fbl_27	CL:0000057
 http://purl.obolibrary.org/obo/PCL_0051029	Fbl_28	CL:0000057										
 http://purl.obolibrary.org/obo/PCL_0051030	Fbl_29	CL:0000057										
 http://purl.obolibrary.org/obo/PCL_0051031	Fbl_30	CL:0000057										
-http://purl.obolibrary.org/obo/PCL_0051032	Fbl_31	CL:4023097	Inferred from expression of: AQP4, GDF10, GABRG3, WIF1, LGR6	https://doi.org/10.1016/j.devcel.2020.06.009								
+http://purl.obolibrary.org/obo/PCL_0051032	Fbl_31	CL:4023097		Inferred from expression of: AQP4, GDF10, GABRG3, WIF1, LGR6	https://doi.org/10.1016/j.devcel.2020.06.009							
 http://purl.obolibrary.org/obo/PCL_0051033	OPC_32	CL:0002453										
 http://purl.obolibrary.org/obo/PCL_0051034	OPC_33	CL:0002453										
 http://purl.obolibrary.org/obo/PCL_0051035	OPC_34	CL:0002453										
@@ -111,12 +107,12 @@ http://purl.obolibrary.org/obo/PCL_0051110	DLCT6b_109	CL:0000679
 http://purl.obolibrary.org/obo/PCL_0051111	DLCT6b_110	CL:0000679										
 http://purl.obolibrary.org/obo/PCL_0051112	DLCT6b_111	CL:0000679										
 http://purl.obolibrary.org/obo/PCL_0051113	DLCT6b_112	CL:0000679										
-http://purl.obolibrary.org/obo/PCL_0051114	L5ET_113	CL:4023041	Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3								
-http://purl.obolibrary.org/obo/PCL_0051115	L5ET_114	CL:4023041	Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3								
+http://purl.obolibrary.org/obo/PCL_0051114	L5ET_113	CL:4023041		Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3							
+http://purl.obolibrary.org/obo/PCL_0051115	L5ET_114	CL:4023041		Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3							
 http://purl.obolibrary.org/obo/PCL_0051116	L5ET_115	CL:4023060										
 http://purl.obolibrary.org/obo/PCL_0051117	Misc_116	CL:0010012										
-http://purl.obolibrary.org/obo/PCL_0051118	L5ET_117	CL:4030039	Inferred from expression of: FEZF2, GABRQ , ITGA4, BMP3	https://doi.org/10.1038/s41467-020-14952-3								
-http://purl.obolibrary.org/obo/PCL_0051119	L5ET_118	CL:4023041	Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3								
+http://purl.obolibrary.org/obo/PCL_0051118	L5ET_117	CL:4030039		Inferred from expression of: FEZF2, GABRQ , ITGA4, BMP3	https://doi.org/10.1038/s41467-020-14952-3							
+http://purl.obolibrary.org/obo/PCL_0051119	L5ET_118	CL:4023041		Inferred from expression of: FEZF2, BCL11B, POU3F1, TXK	https://doi.org/10.1038/s41467-020-14952-3							
 http://purl.obolibrary.org/obo/PCL_0051120	CA13_119	CL:4023060										
 http://purl.obolibrary.org/obo/PCL_0051121	ULIT_120	CL:4023008										
 http://purl.obolibrary.org/obo/PCL_0051122	ULIT_121	CL:4023008										
@@ -197,29 +193,29 @@ http://purl.obolibrary.org/obo/PCL_0051196	CA4_195	CL:4023061
 http://purl.obolibrary.org/obo/PCL_0051197	CA4_196	CL:4023061										
 http://purl.obolibrary.org/obo/PCL_0051198	CA4_197	CL:4023061										
 http://purl.obolibrary.org/obo/PCL_0051199	CA4_198	CL:4023061										
-http://purl.obolibrary.org/obo/PCL_0051200	DG_199	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
-http://purl.obolibrary.org/obo/PCL_0051201	DG_200	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
-http://purl.obolibrary.org/obo/PCL_0051202	DG_201	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
-http://purl.obolibrary.org/obo/PCL_0051203	DG_202	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
-http://purl.obolibrary.org/obo/PCL_0051204	DG_203	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
-http://purl.obolibrary.org/obo/PCL_0051205	DG_204	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
-http://purl.obolibrary.org/obo/PCL_0051206	DG_205	CL:2000089	Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD									
+http://purl.obolibrary.org/obo/PCL_0051200	DG_199	CL:2000089		Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD								
+http://purl.obolibrary.org/obo/PCL_0051201	DG_200	CL:2000089		Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD								
+http://purl.obolibrary.org/obo/PCL_0051202	DG_201	CL:2000089		Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD								
+http://purl.obolibrary.org/obo/PCL_0051203	DG_202	CL:2000089		Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD								
+http://purl.obolibrary.org/obo/PCL_0051204	DG_203	CL:2000089		Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD								
+http://purl.obolibrary.org/obo/PCL_0051205	DG_204	CL:2000089		Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD								
+http://purl.obolibrary.org/obo/PCL_0051206	DG_205	CL:2000089		Inferred from expression of: SLC17A7, PROX1, NR3C2, TUBGCP2, ZBTB20, DPF3, CEBPD								
 http://purl.obolibrary.org/obo/PCL_0051207	MSN_206	CL:1001474										
-http://purl.obolibrary.org/obo/PCL_0051208	MSN_207	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051209	MSN_208	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051210	MSN_209	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051211	MSN_210	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051212	MSN_211	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051213	MSN_212	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051214	MSN_213	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051215	MSN_214	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051216	MSN_215	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051217	MSN_216	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051218	MSN_217	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
+http://purl.obolibrary.org/obo/PCL_0051208	MSN_207	CL:4023029		Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051209	MSN_208	CL:4023029		Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051210	MSN_209	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051211	MSN_210	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051212	MSN_211	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051213	MSN_212	CL:4023029		Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051214	MSN_213	CL:4023029		Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051215	MSN_214	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051216	MSN_215	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051217	MSN_216	CL:4023029		Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051218	MSN_217	CL:4023029		Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88								
 http://purl.obolibrary.org/obo/PCL_0051219	MSN_218	CL:1001474										
-http://purl.obolibrary.org/obo/PCL_0051220	MSN_219	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051221	MSN_220	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
-http://purl.obolibrary.org/obo/PCL_0051222	MSN_221	CL:4023029	Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88									
+http://purl.obolibrary.org/obo/PCL_0051220	MSN_219	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051221	MSN_220	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
+http://purl.obolibrary.org/obo/PCL_0051222	MSN_221	CL:4023029		Inferred from expression of: FOXG1, SLC32A1, FOXP1, OTOF, DRD2, RGS9, GPR88								
 http://purl.obolibrary.org/obo/PCL_0051223	EMSN_222	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051224	EMSN_223	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051225	EMSN_224	CL:1001474										
@@ -233,38 +229,38 @@ http://purl.obolibrary.org/obo/PCL_0051232	EMSN_231	CL:1001474
 http://purl.obolibrary.org/obo/PCL_0051233	EMSN_232	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051234	EMSN_233	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051235	EMSN_234	CL:1001474										
-http://purl.obolibrary.org/obo/PCL_0051236	Splat_235	CL:4023025	Inferred from expression of: DLX1, SST, CHODL, TACR1, NPY, NOS1, CORT									
-http://purl.obolibrary.org/obo/PCL_0051237	MGE_236	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051238	Splat_237	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051236	Splat_235	CL:4023025		Inferred from expression of: DLX1, SST, CHODL, TACR1, NPY, NOS1, CORT								
+http://purl.obolibrary.org/obo/PCL_0051237	MGE_236	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051238	Splat_237	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051239	Splat_238	CL:0000540										
-http://purl.obolibrary.org/obo/PCL_0051240	MGE_239	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051241	MGE_240	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051242	MGE_241	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051240	MGE_239	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051241	MGE_240	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051242	MGE_241	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051243	MGE_242	CL:4023063										
-http://purl.obolibrary.org/obo/PCL_0051244	MGE_243	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051244	MGE_243	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051245	MGE_244	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051246	MGE_245	CL:4023063										
-http://purl.obolibrary.org/obo/PCL_0051247	MGE_246	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051247	MGE_246	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051248	MGE_247	CL:4023063										
-http://purl.obolibrary.org/obo/PCL_0051249	MGE_248	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051250	MGE_249	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051249	MGE_248	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051250	MGE_249	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051251	MGE_250	CL:4023063										
 http://purl.obolibrary.org/obo/PCL_0051252	MGE_251	CL:4023063										
-http://purl.obolibrary.org/obo/PCL_0051253	MGE_252	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051254	MGE_253	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051255	MGE_254	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051253	MGE_252	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051254	MGE_253	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051255	MGE_254	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051256	MGE_255	CL:4023063										
-http://purl.obolibrary.org/obo/PCL_0051257	MGE_256	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051258	MGE_257	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051259	MGE_258	CL:4023017	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051260	MGE_259	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051261	MGE_260	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051262	MGE_261	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051263	MGE_262	CL:4023018	Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051257	MGE_256	CL:4023018		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051258	MGE_257	CL:4023018		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051259	MGE_258	CL:4023017		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, SST 	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051260	MGE_259	CL:4023018		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051261	MGE_260	CL:4023018		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051262	MGE_261	CL:4023018		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051263	MGE_262	CL:4023018		Inferred from expression of: FOXG1, NR2F1, DLX1, LHX6, GAD2, PVALB	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051264	MGE_263	CL:4023063										
-http://purl.obolibrary.org/obo/PCL_0051265	LLC_264	CL:4023083	Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2									
-http://purl.obolibrary.org/obo/PCL_0051266	LLC_265	CL:4023083	Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2									
-http://purl.obolibrary.org/obo/PCL_0051267	LLC_266	CL:4023083	Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2									
+http://purl.obolibrary.org/obo/PCL_0051265	LLC_264	CL:4023083		Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2								
+http://purl.obolibrary.org/obo/PCL_0051266	LLC_265	CL:4023083		Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2								
+http://purl.obolibrary.org/obo/PCL_0051267	LLC_266	CL:4023083		Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2								
 http://purl.obolibrary.org/obo/PCL_0051268	LLC_267	CL:0000402										
 http://purl.obolibrary.org/obo/PCL_0051269	LLC_268	CL:0000402										
 http://purl.obolibrary.org/obo/PCL_0051270	LLC_269	CL:0000402										
@@ -274,27 +270,27 @@ http://purl.obolibrary.org/obo/PCL_0051273	LLC_272	CL:0000402
 http://purl.obolibrary.org/obo/PCL_0051274	LLC_273	CL:0000402										
 http://purl.obolibrary.org/obo/PCL_0051275	LLC_274	CL:0000402										
 http://purl.obolibrary.org/obo/PCL_0051276	LLC_275	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051277	CGE_276	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051277	CGE_276	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051278	CGE_277	CL:4023064										
 http://purl.obolibrary.org/obo/PCL_0051279	CGE_278	CL:4023064										
-http://purl.obolibrary.org/obo/PCL_0051280	CGE_279	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051281	CGE_280	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051282	CGE_281	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051280	CGE_279	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051281	CGE_280	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051282	CGE_281	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051283	CGE_282	CL:4023064										
 http://purl.obolibrary.org/obo/PCL_0051284	CGE_283	CL:4023064										
-http://purl.obolibrary.org/obo/PCL_0051285	CGE_284	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051286	CGE_285	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051287	CGE_286	CL:4023011	Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051288	CGE_287	CL:4023011	Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051289	CGE_288	CL:4023011	Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051290	CGE_289	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051291	CGE_290	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051292	CGE_291	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051293	CGE_292	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051294	CGE_293	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051295	CGE_294	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051296	CGE_295	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
-http://purl.obolibrary.org/obo/PCL_0051297	CGE_296	CL:4023016	Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z								
+http://purl.obolibrary.org/obo/PCL_0051285	CGE_284	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051286	CGE_285	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051287	CGE_286	CL:4023011		Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051288	CGE_287	CL:4023011		Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051289	CGE_288	CL:4023011		Inferred from expression of: FOXG1, NR2F1, DLX1, LAMP5, LHX6, GAD2	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051290	CGE_289	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051291	CGE_290	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051292	CGE_291	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051293	CGE_292	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051294	CGE_293	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051295	CGE_294	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051296	CGE_295	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
+http://purl.obolibrary.org/obo/PCL_0051297	CGE_296	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051298	URL_297	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051299	CBI_298	CL:4023057										
 http://purl.obolibrary.org/obo/PCL_0051300	CBI_299	CL:4023057										
@@ -306,13 +302,13 @@ http://purl.obolibrary.org/obo/PCL_0051305	CBI_304	CL:4023057
 http://purl.obolibrary.org/obo/PCL_0051306	CBI_305	CL:4023057										
 http://purl.obolibrary.org/obo/PCL_0051307	CBI_306	CL:4023057										
 http://purl.obolibrary.org/obo/PCL_0051308	CBI_307	CL:4023057										
-http://purl.obolibrary.org/obo/PCL_0051309	URL_308	CL:4023161	Inferred from expression of: LMX1A, EOMES									
+http://purl.obolibrary.org/obo/PCL_0051309	URL_308	CL:4023161		Inferred from expression of: LMX1A, EOMES								
 http://purl.obolibrary.org/obo/PCL_0051310	URL_309	CL:0000540										
-http://purl.obolibrary.org/obo/PCL_0051311	URL_310	CL:0001031	Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org								
-http://purl.obolibrary.org/obo/PCL_0051312	URL_311	CL:0001031	Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org								
-http://purl.obolibrary.org/obo/PCL_0051313	URL_312	CL:0001031	Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org								
+http://purl.obolibrary.org/obo/PCL_0051311	URL_310	CL:0001031		Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org							
+http://purl.obolibrary.org/obo/PCL_0051312	URL_311	CL:0001031		Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org							
+http://purl.obolibrary.org/obo/PCL_0051313	URL_312	CL:0001031		Inferred from expression of: CBLN1, CBLN3, GABRA6	mousebrain.org							
 http://purl.obolibrary.org/obo/PCL_0051314	Splat_313	CL:0000540										
-http://purl.obolibrary.org/obo/PCL_0051315	Misc_314	CL:0000121	Inferred from expression of: PCP2, SKOR2, PVALB, GAD2	https://doi.org/10.1038/s41586-021-03220-z								
+http://purl.obolibrary.org/obo/PCL_0051315	Misc_314	CL:0000121		Inferred from expression of: PCP2, SKOR2, PVALB, GAD2	https://doi.org/10.1038/s41586-021-03220-z							
 http://purl.obolibrary.org/obo/PCL_0051316	LRL_315	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051317	LRL_316	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051318	LRL_317	CL:0000540										
@@ -425,7 +421,7 @@ http://purl.obolibrary.org/obo/PCL_0051424	Splat_423	CL:0000540
 http://purl.obolibrary.org/obo/PCL_0051425	Splat_424	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051426	Splat_425	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051427	EMSN_426	CL:1001474										
-http://purl.obolibrary.org/obo/PCL_0051428	MSN_427	CL:4023026	Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88									
+http://purl.obolibrary.org/obo/PCL_0051428	MSN_427	CL:4023026		Inferred from expression of: FOXG1, SLC32A1, FOXP1, FOXP2, OTOF, DRD1, RGS9, GPR88								
 http://purl.obolibrary.org/obo/PCL_0051429	Splat_428	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051430	Splat_429	CL:0000540										
 http://purl.obolibrary.org/obo/PCL_0051431	MSN_430	CL:1001474										
