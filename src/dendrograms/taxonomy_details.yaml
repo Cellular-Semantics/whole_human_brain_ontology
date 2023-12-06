@@ -25,23 +25,24 @@
 #  Miscellaneous nodes
     - Node: CS202210140_1
       Cell_type: CL:0000236
-      Location_relation: has_soma_location
-      Create_class: Yes
+      Location_relation: located_in
+      Create_class: No
       # B cell
     - Node: CS202210140_2
       Cell_type: CL:0000084
-      Location_relation: has_soma_location
-      Create_class: Yes
+      Location_relation: located_in
+      Create_class: No
       # T cell
     - Node: CS202210140_3
       Cell_type: CL:0000623
-      Location_relation: has_soma_location
-      Create_class: Yes
+      Location_relation: located_in
+      Create_class: No
       # natural killer cell
     - Node: CS202210140_4
       Cell_type: CL:0000576
-      Location_relation: has_soma_location
-      Create_class: Yes
+      Location_relation: located_ing
+      Create_class: No
+      # leukocyte
     - Node: CS202210140_114
       Cell_type: CL:4023009
       Location_relation: has_soma_location
@@ -169,32 +170,38 @@
       Location_relation: part_of
       # Ependymal
     - Node: CS202210140_472
-      Cell_type: CL:4023073
+      Cell_type: CL:0000706
       Location_relation: part_of
-      # Choroid plexus
+      # Choroid plexus epithelial cell
     - Node: CS202210140_473
       Cell_type: CL:4023012
       Location_relation: has_soma_location
+      Create_class: Yes
       # Deep-layer near-projecting
     - Node: CS202210140_474
       Cell_type: CL:0000679
       Location_relation: has_soma_location
+      Create_class: Yes
       # Deep-layer corticothalamic and 6b  Glutamatergic
     - Node: CS202210140_475
       Cell_type: CL:4023060
       Location_relation: has_soma_location
+      Create_class: Yes
       # Hippocampal CA1-3
     - Node: CS202210140_476
       Cell_type: CL:4023008
       Location_relation: has_soma_location
+      Create_class: Yes
       # Upper-layer intratelencephalic
     - Node: CS202210140_477
       Cell_type: CL:4023008
       Location_relation: has_soma_location
+      Create_class: Yes
       # Deep-layer intratelencephalic
     - Node: CS202210140_478
       Cell_type: CL:4023039
       Location_relation: has_soma_location
+      Create_class: Yes
       # Amygdala excitatory
     - Node: CS202210140_479
       Cell_type: CL:4023061
@@ -203,30 +210,37 @@
     - Node: CS202210140_480
       Cell_type: CL:4023062
       Location_relation: has_soma_location
+      Create_class: Yes
       # Hippocampal dentate gyrus
     - Node: CS202210140_481
       Cell_type: CL:1001474
       Location_relation: has_soma_location
+      Create_class: Yes
       # Medium spiny neuron
     - Node: CS202210140_482
       Cell_type: CL:1001474
       Location_relation: has_soma_location
+      Create_class: Yes
       # Eccentric medium spiny neuron
     - Node: CS202210140_483
       Cell_type: CL:0000540
       Location_relation: has_soma_location
       # Splatter -> Neuron  ???????????????
+      Create_class: No
     - Node: CS202210140_484
       Cell_type: CL:4023063
       Location_relation: has_soma_location
       # MGE interneuron
+      Create_class: Yes
     - Node: CS202210140_485
       Cell_type: CL:0000402
       Location_relation: has_soma_location
+      Create_class: Yes
       # LAMP5-LHX6 and Chandelier
     - Node: CS202210140_486
       Cell_type: CL:4023064
       Location_relation: has_soma_location
+      Create_class: Yes
       # CGE interneuron
     - Node: CS202210140_487
       Cell_type: CL:0000540

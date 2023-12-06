@@ -18,7 +18,7 @@ Import(<http://purl.obolibrary.org/obo/whbo/patterns/definitions.owl>)
 Import(<http://purl.obolibrary.org/obo/components/all_templates.owl>)
 Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Whole Human Brain Ontology")
-
+Annotation(dce:description "A data-driven cell-type ontology of the human brain")
 
 # Declaration(Class(<http://purl.obolibrary.org/obo/WHBO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
@@ -44,6 +44,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015004>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0015003>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002473>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/PCL_0010051>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/PCL_0010052>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/PCL_0010053>))
@@ -150,6 +151,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000028> "sym
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0015001> "has exemplar data")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0015002> "exemplar data of")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0015003> "subcluster of")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002473> "composed primarily of")
 
 ############################
 #   Classes

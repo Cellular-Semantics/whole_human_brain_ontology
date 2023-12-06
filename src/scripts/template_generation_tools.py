@@ -30,6 +30,7 @@ CLUSTER_ANNOTATIONS_PATH = os.path.join(os.path.dirname(os.path.realpath(__file_
                                         '../dendrograms/supplementary/cluster_annotation_{}.tsv')
 NT_SYMBOLS_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/Neurotransmitter_symbols_mapping.tsv")
 BRAIN_REGION_MAPPING = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/Brain_region_mapping.tsv")
+MANUAL_CURATIONS = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../dendrograms/supplementary/Siletti_for review - all_clusters.tsv")
 
 CROSS_SPECIES_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)),
                                   "../dendrograms/nomenclature_table_CCN202002270.csv")
@@ -82,6 +83,7 @@ def generate_ind_template(taxonomy_file_path, centralized_data_folder, output_fi
                            'cell_set_alias_citation': "A n2o:cell_set_alias_citation SPLIT=|",
                            'Metadata': "A n2o:node_metadata",
                            'Exemplar_of': "TI 'exemplar data of' some %",
+                           'Composed_primarily_of': "TI 'composed primarily of' some %",
                            'Comment': "A rdfs:comment",
                            'Aliases': "A oboInOwl:hasRelatedSynonym SPLIT=|",
                            'Rank': "A 'cell_type_rank' SPLIT=|"
@@ -116,6 +118,11 @@ def generate_ind_template(taxonomy_file_path, centralized_data_folder, output_fi
         d['Clustering_Reference'] = "https://purl.brain-bican.org/taxonomy/CCN202210140/cell_to_cell_set_assignments.csv"
         if o['cell_set_accession'] in set().union(*subtrees) and o['cell_set_preferred_alias']:
             d['Exemplar_of'] = PCL_BASE + get_class_id(o['cell_set_accession'])
+
+        for root_node in taxonomy_config['Root_nodes']:
+            if o['cell_set_accession'] == root_node["Node"]:
+                if not ('Create_class' in root_node and root_node['Create_class']):
+                    d['Composed_primarily_of'] = root_node["Cell_type"]
 
         if "cell_type_card" in o:
             d['Rank'] = '|'.join([cell_type.strip().replace("No", "None")
@@ -229,12 +236,13 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                 # CS202210140_242 -> 241
                 cluster_index = str(int(str(o['cell_set_accession']).replace(taxon + "_", "")) - 1)
                 if cluster_index in cluster_annotations:
-                    nt_symbols = cluster_annotations[cluster_index]["Neurotransmitter auto-annotation"].split(" ")
-                    # TODO add evidence comment "inferred to be {x}-ergic based on expression of {y}"
-                    if nt_symbols:
-                        d['Neurotransmitter'] = "|".join([nt_symbols_mapping[nt_symbol]["CELL TYPE NEUROTRANSMISSION ID"] if nt_symbol else "" for nt_symbol in nt_symbols])
-                    else:
-                        d['Neurotransmitter'] = ""
+                    # nt_symbols = cluster_annotations[cluster_index]["Neurotransmitter auto-annotation"].split(" ")
+                    # # TODO add evidence comment "inferred to be {x}-ergic based on expression of {y}"
+                    # if nt_symbols:
+                    #     d['Neurotransmitter'] = "|".join([nt_symbols_mapping[nt_symbol]["CELL TYPE NEUROTRANSMISSION ID"] if nt_symbol else "" for nt_symbol in nt_symbols])
+                    # else:
+                    #     d['Neurotransmitter'] = ""
+                    d['Neurotransmitter'] = ""
 
                     brain_regions = cluster_annotations[cluster_index]["Top three regions"].strip()
                     if brain_regions:
@@ -280,6 +288,8 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
         dend_tree = generate_dendrogram_tree(dend)
         subtrees = get_subtrees(dend_tree, taxonomy_config)
 
+        curations = read_csv_to_dict(MANUAL_CURATIONS.format(taxon), id_column_name="Cluster name", delimiter="\t")[1]
+
         class_curation_seed = ['defined_class',
                                'Curated_synonyms',
                                'Classification',
@@ -304,6 +314,18 @@ def generate_curated_class_template(taxonomy_file_path, output_filepath):
                     d['prefLabel'] = o['cell_set_preferred_alias']
                 elif o['cell_set_additional_aliases']:
                     d['prefLabel'] = str(o['cell_set_additional_aliases']).split(EXPRESSION_SEPARATOR)[0]
+
+                if (d['prefLabel'] in curations and "CELL_ONTOLOGY_TERM_ID" in curations[d['prefLabel']] and
+                        curations[d['prefLabel']]["CELL_ONTOLOGY_TERM_ID"]):
+                    curation_record = curations[d['prefLabel']]
+                    d['Classification'] = curation_record["CELL_ONTOLOGY_TERM_ID"]
+                    if "POSITIVE_GENE_EVIDENCE" in curation_record and curation_record["POSITIVE_GENE_EVIDENCE"]:
+                        d['Classification_comment'] = "Inferred from expression of: " + curation_record["POSITIVE_GENE_EVIDENCE"]
+                    if "RATIONALE_DOI" in curation_record and curation_record["RATIONALE_DOI"]:
+                        d['Classification_pub'] = "|".join([doi.strip() for doi in curation_record["RATIONALE_DOI"].split(",")])
+                else:
+                    # curation not found, use gross classification
+                    d['Classification'] = get_gross_cell_type(o['cell_set_accession'], subtrees, taxonomy_config)
 
                 for k in class_curation_seed:
                     if not (k in d.keys()):

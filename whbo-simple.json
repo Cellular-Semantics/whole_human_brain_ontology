@@ -3,6 +3,9 @@
     "id" : "http://purl.obolibrary.org/obo/pcl/whbo-simple.json",
     "meta" : {
       "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/description",
+        "val" : "A data-driven cell-type ontology of the human brain"
+      }, {
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       }, {
@@ -10,9 +13,9 @@
         "val" : "Whole Human Brain Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-06-27"
+        "val" : "2023-12-01"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2023-06-27/whbo-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2023-12-01/whbo-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -95,6 +98,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://www.obofoundry.org/ro/#OBO_REL:part_of"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "https://wiki.geneontology.org/Part_of"
         } ]
       }
     }, {
@@ -216,7 +222,7 @@
       "type" : "PROPERTY",
       "meta" : {
         "definition" : {
-          "val" : "Relation between a neuron and an anatomical structure that its soma is part of."
+          "val" : "Relation between a neuron and a material anatomical entity that its soma is part of."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
@@ -321,7 +327,7 @@
       "type" : "PROPERTY",
       "meta" : {
         "definition" : {
-          "val" : "Inverse of 'expressed in'"
+          "val" : "y expresses x if and only if there is a gene expression process (GO:0010467) that occurs in y, and one of the following holds: (i) x is a gene, and x is transcribed into a transcript as part of the gene expression process (ii) x is a transcript, and x was transcribed from a gene as part of the gene expression process (iii) x is a mature gene product (protein or RNA), and x was translated or otherwise processed from a transcript that was transcribed as part of the gene expression process."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
@@ -329,6 +335,38 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-6601-2165"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002473",
+      "lbl" : "composed primarily of",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y."
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/ro/subsets#ro-eco" ],
+        "xrefs" : [ {
+          "val" : "RO:0002473"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "'otolith organ' SubClassOf 'composed primarily of' some 'calcium carbonate'"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "https://orcid.org/0000-0002-6601-2165"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "http://www.ncbi.nlm.nih.gov/pubmed/22293552"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0001900",
+          "val" : "http://purl.obolibrary.org/obo/RO_0001901"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "composed_primarily_of"
         } ]
       }
     }, {
@@ -410,24 +448,8 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
           "val" : "This relation is not meant for cases where set of genes/proteins are only useful as markers in some specific context - e.g. in some specific location. In these cases it is recommended to make a more specific cell class restricted to the relevant context."
         }, {
-          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "pred" : "http://purl.org/dc/terms/contributor",
           "val" : "https://orcid.org/0000-0001-7258-9596"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.org/dc/elements/1.1/contributor",
-      "lbl" : "contributor",
-      "type" : "PROPERTY",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "http://purl.org/dc/elements/1.1/contributor"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
-          "val" : "true"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
-          "val" : "dc-contributor"
         } ]
       }
     }, {
@@ -497,6 +519,10 @@
       "type" : "PROPERTY"
     } ],
     "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002473",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0015003",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"

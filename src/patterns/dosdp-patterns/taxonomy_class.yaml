@@ -110,7 +110,7 @@ name:
    text: "%s %s (%s)"
    vars:
       - prefLabel
-      - Gross_cell_type
+      - Classification
       - Taxon_abbv
 
 def:
@@ -120,7 +120,7 @@ def:
     clauses:
       - text: 'A %s of the %s %s.'
         vars:
-          - Gross_cell_type
+          - Classification
           - Taxon
           - Brain_region
         sub_clauses:
@@ -150,7 +150,7 @@ generated_synonyms:
    - text: "%s expressing %s of %s (%s)"
      vars:
         - Minimal_markers_cat
-        - Gross_cell_type
+        - Classification
         - Brain_region
         - Taxon
 
@@ -222,7 +222,7 @@ logical_axioms:
      vars:
         - Individual
    - axiom_type: equivalentTo
-     text: "'native_cell' and 'has_exemplar_data' value %s"
+     text: "'cell' and 'has_exemplar_data' value %s"
      vars:
         - Individual
    - axiom_type: subClassOf
