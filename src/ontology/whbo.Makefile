@@ -212,31 +212,6 @@ components/%_marker_set.owl: $(PATTERNDIR)/data/default/%_marker_set.tsv $(SRC) 
 #    		convert --format ofn --output $@ \
 
 
-## Release additional artifacts
-#$(ONT).owl: $(ONT)-full.owl $(ONT)-allen.owl $(ONT)-pcl-comp.owl $(ONT)-pcl-comp.obo $(ONT)-pcl-comp.json
-#	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-#		convert -o $@.tmp.owl && mv $@.tmp.owl $@
-#
-## Allen app specific ontology (with color information etc.) (Used for Solr dump)
-#$(ONT)-allen.owl: $(ONT)-full.owl allen_helper.owl
-#	$(ROBOT) merge -i $< -i allen_helper.owl $(patsubst %, -i %, $(OWL_APP_SPECIFIC_FILES)) \
-#			 annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-#		 	 --output $(RELEASEDIR)/$@
-#
-## Artifact that extends base with gene ontologies (used by PCL)
-#$(ONT)-pcl-comp.owl:  $(ONT)-base.owl $(GENE_FILES)
-#	$(ROBOT) merge -i $< $(patsubst %, -i %, $(GENE_FILES)) \
-#	query --update ../sparql/remove_preflabels.ru \
-#			 annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-#		 	 --output $(RELEASEDIR)/$@
-#$(ONT)-pcl-comp.obo: $(RELEASEDIR)/$(ONT)-pcl-comp.owl
-#	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $(RELEASEDIR)/$@ && rm $@.tmp.obo
-#$(ONT)-pcl-comp.json: $(RELEASEDIR)/$(ONT)-pcl-comp.owl
-#	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
-#		convert --check false -f json -o $@.tmp.json &&\
-#	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $(RELEASEDIR)/$@ && rm $@.tmp.json
-
-
 # skip schema checks for now, because odk using the wrong validator
 #.PHONY: pattern_schema_checks
 #pattern_schema_checks: update_patterns
@@ -269,3 +244,44 @@ mirror-hba_uberon_bridge: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.owl -o $@.tmp.owl &&\
 		robot query -i $@.tmp.owl --update ../sparql/remove_hba_inf_equals.ru -o $@.tmp.owl && \
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+## ONTOLOGY: hba_uberon_bridge (Only equivalent classes that have been asserted are allowed. Inferred equivalencies are forbidden. HBA:9219 vs 9230)
+$(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
+	$(ROBOT_RELEASE_IMPORT_MODE) \
+		reason --reasoner ELK --exclude-tautologies structural \
+		relax \
+		reduce -r ELK \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+## ONTOLOGY: hba_uberon_bridge (Only equivalent classes that have been asserted are allowed. Inferred equivalencies are forbidden. HBA:9219 vs 9230)
+# foo-simple: (edit->reason,relax,reduce,drop imports, drop every axiom which contains an entity outside the "namespaces of interest")
+# drop every axiom: filter --term-file keep_terms.txt --trim true
+#	remove --select imports --trim false
+$(ONT)-simple.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILES)
+	$(ROBOT_RELEASE_IMPORT_MODE) \
+		reason --reasoner ELK --exclude-tautologies structural \
+		relax \
+		remove --axioms equivalent \
+		relax \
+		filter --term-file $(SIMPLESEED) --select "annotations ontology anonymous self" --trim true --signature true \
+		reduce -r ELK \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+
+# Release additional artifacts
+$(ONT).owl: $(ONT)-full.owl $(ONT)-pcl-comp.owl $(ONT)-pcl-comp.obo $(ONT)-pcl-comp.json
+	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert -o $@.tmp.owl && mv $@.tmp.owl $@
+
+# Artifact that extends base with gene ontologies (used by PCL)
+$(ONT)-pcl-comp.owl:  $(ONT)-base.owl $(GENE_FILES)
+	$(ROBOT) merge -i $< $(patsubst %, -i %, $(GENE_FILES)) \
+	 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		--output $(RELEASEDIR)/$@
+$(ONT)-pcl-comp.obo: $(RELEASEDIR)/$(ONT)-pcl-comp.owl
+	$(ROBOT) convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $(RELEASEDIR)/$@ && rm $@.tmp.obo
+$(ONT)-pcl-comp.json: $(RELEASEDIR)/$(ONT)-pcl-comp.owl
+	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
+		convert --check false -f json -o $@.tmp.json &&\
+	jq -S 'walk(if type == "array" then sort else . end)' $@.tmp.json > $(RELEASEDIR)/$@ && rm $@.tmp.json
