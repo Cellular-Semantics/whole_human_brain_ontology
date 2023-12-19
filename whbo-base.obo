@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: pcl/releases/2023-12-01/whbo-base.owl
+data-version: pcl/releases/2023-12-19/whbo-base.owl
 ontology: pcl/whbo-base
 property_value: http://purl.org/dc/elements/1.1/description "A data-driven cell-type ontology of the human brain" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2023-12-01" xsd:string
+property_value: owl:versionInfo "2023-12-19" xsd:string
 
 [Term]
 id: PCL:0051005
