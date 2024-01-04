@@ -491,6 +491,10 @@
         } ]
       }
     }, {
+      "id" : "http://purl.org/dc/terms/description",
+      "lbl" : "description",
+      "type" : "PROPERTY"
+    }, {
       "id" : "http://purl.org/dc/terms/license",
       "lbl" : "license",
       "type" : "PROPERTY",
@@ -509,6 +513,10 @@
           "val" : "dcterms-license"
         } ]
       }
+    }, {
+      "id" : "http://purl.org/dc/terms/title",
+      "lbl" : "title",
+      "type" : "PROPERTY"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
       "lbl" : "database_cross_reference",

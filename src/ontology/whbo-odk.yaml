@@ -47,12 +47,9 @@ import_group:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
     - id: hba
-      mirror_from: https://raw.githubusercontent.com/obophenotype/ABA_Uberon/uberon_inconsistency/src/ontology/sources/10.ofn
+      mirror_from: https://raw.githubusercontent.com/brain-bican/human_brain_atlas_ontology/main/hbao-base.owl
     - id: simple_human
       make_base: TRUE
-    - id: hba_uberon_bridge
-#      mirror_from: https://github.com/obophenotype/ABA_Uberon/blob/master/src/ontology/sources/uberon-bridge-to-hba.obo
-      mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.owl
 
 components:
   products:

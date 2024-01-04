@@ -238,14 +238,6 @@ mirror-ro: | $(TMPDIR)
 
 
 ## ONTOLOGY: hba_uberon_bridge (Only equivalent classes that have been asserted are allowed. Inferred equivalencies are forbidden. HBA:9219 vs 9230)
-.PHONY: mirror-hba_uberon_bridge
-.PRECIOUS: $(MIRRORDIR)/hba_uberon_bridge.owl
-mirror-hba_uberon_bridge: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.owl -o $@.tmp.owl &&\
-		robot query -i $@.tmp.owl --update ../sparql/remove_hba_inf_equals.ru -o $@.tmp.owl && \
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-
-## ONTOLOGY: hba_uberon_bridge (Only equivalent classes that have been asserted are allowed. Inferred equivalencies are forbidden. HBA:9219 vs 9230)
 $(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
 		reason --reasoner ELK --exclude-tautologies structural \

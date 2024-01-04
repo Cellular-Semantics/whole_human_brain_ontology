@@ -113,7 +113,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  pr go ro uberon pato cl ncbitaxon hba simple_human hba_uberon_bridge
+IMPORTS =  pr go ro uberon pato cl ncbitaxon hba simple_human
 
 IMPORT_ROOTS =  $(IMPORTDIR)/merged_import
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -468,7 +468,7 @@ mirror-ncbitaxon: | $(TMPDIR)
 .PHONY: mirror-hba
 .PRECIOUS: $(MIRRORDIR)/hba.owl
 mirror-hba: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/ABA_Uberon/uberon_inconsistency/src/ontology/sources/10.ofn -o $@.tmp.owl &&\
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/brain-bican/human_brain_atlas_ontology/main/hbao-base.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
@@ -479,14 +479,6 @@ mirror-simple_human: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/simple_human.owl --create-dirs -o $(MIRRORDIR)/simple_human.owl --retry 4 --max-time 200 &&\
 		$(ROBOT) convert -i $(MIRRORDIR)/simple_human.owl -o $@.tmp.owl && \
 		$(ROBOT) remove -i $@.tmp.owl --base-iri $(URIBASE)/SIMPLE_HUMAN --axioms external --preserve-structure false --trim false -o $@.tmp.owl &&\
-		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
-
-
-## ONTOLOGY: hba_uberon_bridge
-.PHONY: mirror-hba_uberon_bridge
-.PRECIOUS: $(MIRRORDIR)/hba_uberon_bridge.owl
-mirror-hba_uberon_bridge: | $(TMPDIR)
-	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 ALL_MIRRORS = $(patsubst %, $(MIRRORDIR)/%.owl, $(IMPORTS))
