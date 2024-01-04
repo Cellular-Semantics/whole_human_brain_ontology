@@ -128,6 +128,8 @@ def generate_ind_template(taxonomy_file_path, centralized_data_folder, output_fi
             d['Rank'] = '|'.join([cell_type.strip().replace("No", "None")
                                   for cell_type in str(o["cell_type_card"]).split(",")])
 
+        d['cell_set_alias_citation'] = d['cell_set_alias_citation'].replace("10.1101/2022.10.12.511898", "10.1126/science.add7046")
+
         # if o['cell_set_accession'] in allen_descriptions:
         #     allen_data = allen_descriptions[o['cell_set_accession']]
         #     d['Comment'] = allen_data["summary"][0]
@@ -205,6 +207,9 @@ def generate_base_class_template(taxonomy_file_path, output_filepath):
                     alias_citations = [citation.strip() for citation in str(o["cell_set_alias_citation"]).split("|")
                                        if citation and citation.strip()]
                     alias_citations = [citation if citation.lower().startswith("doi:") else 'DOI:' + citation for citation in alias_citations]
+                    deprecated_citation = "10.1101/2022.10.12.511898"
+                    new_citation = "10.1126/science.add7046"
+                    alias_citations = [citation if deprecated_citation not in citation else citation.replace(deprecated_citation, new_citation) for citation in alias_citations]
                     d["Alias_citations"] = "|".join(alias_citations)
                 if o['cell_set_accession'] in minimal_markers:
                     d['Minimal_markers'] = minimal_markers[o['cell_set_accession']]
