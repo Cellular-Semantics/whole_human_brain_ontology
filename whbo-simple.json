@@ -13,9 +13,9 @@
         "val" : "Whole Human Brain Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-12-19"
+        "val" : "2024-01-04"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2023-12-19/whbo-simple.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2024-01-04/whbo-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
