@@ -13,11 +13,11 @@
      xmlns:custom="http://n2o.neo/custom/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/whbo-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2024-01-04/whbo-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2024-05-01/whbo-simple-non-classified.owl"/>
         <dc:description>A data-driven cell-type ontology of the human brain</dc:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Whole Human Brain Ontology</terms:title>
-        <owl:versionInfo>2024-01-04</owl:versionInfo>
+        <owl:versionInfo>2024-05-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -687,12 +687,6 @@
     
 
 
-    <!-- http://identifiers.org/ensembl/ENSG00000085265 -->
-
-    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000085265"/>
-    
-
-
     <!-- http://identifiers.org/ensembl/ENSG00000085276 -->
 
     <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000085276"/>
@@ -828,12 +822,6 @@
     <!-- http://identifiers.org/ensembl/ENSG00000104419 -->
 
     <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000104419"/>
-    
-
-
-    <!-- http://identifiers.org/ensembl/ENSG00000105374 -->
-
-    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000105374"/>
     
 
 
@@ -1119,12 +1107,6 @@
     
 
 
-    <!-- http://identifiers.org/ensembl/ENSG00000115523 -->
-
-    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000115523"/>
-    
-
-
     <!-- http://identifiers.org/ensembl/ENSG00000115594 -->
 
     <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000115594"/>
@@ -1152,12 +1134,6 @@
     <!-- http://identifiers.org/ensembl/ENSG00000116711 -->
 
     <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000116711"/>
-    
-
-
-    <!-- http://identifiers.org/ensembl/ENSG00000116824 -->
-
-    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000116824"/>
     
 
 
@@ -2028,12 +2004,6 @@
     <!-- http://identifiers.org/ensembl/ENSG00000156463 -->
 
     <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000156463"/>
-    
-
-
-    <!-- http://identifiers.org/ensembl/ENSG00000156738 -->
-
-    <owl:Class rdf:about="http://identifiers.org/ensembl/ENSG00000156738"/>
     
 
 
@@ -8350,6 +8320,71 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PCL_0051052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0051052">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000196569"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000279082"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0052552"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015001"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000028>Bgl_51 (Human)</obo:IAO_0000028>
+        <obo:IAO_0000115>A Bergmann glial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA2 (Hsap), LINC01727 (Hsap). The soma of these cells can be found in the cerebellum. The reference data for this cell type is CS202210140_52.</obo:IAO_0000115>
+        <obo:PCL_0010058>LAMA2 (Hsap)</obo:PCL_0010058>
+        <obo:PCL_0010058>LINC01727 (Hsap)</obo:PCL_0010058>
+        <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4696"/>
+        <oboInOwl:hasExactSynonym>Bgl_51</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LAMA2 (Hsap), LINC01727 (Hsap) expressing Bergmann glial cell of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <skos:prefLabel>Bgl_51</skos:prefLabel>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A Bergmann glial cell of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA2 (Hsap), LINC01727 (Hsap). The soma of these cells can be found in the cerebellum. The reference data for this cell type is CS202210140_52.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4696"/>
+        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Cerebellum: 95.8%.</rdfs:comment>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PCL_0051053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0051053">
@@ -10214,18 +10249,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051076"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the myelencephalon, basal forebrain, thalamus. The reference data for this cell type is CS202210140_76.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051076"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
-        <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4300"/>
-        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Basal forebrain: 32.9%.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4392"/>
         <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Thalamus: 15.7%.</rdfs:comment>
@@ -10235,6 +10258,18 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
         <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_9512"/>
         <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Medulla: 38.6%.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051076"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the myelencephalon, basal forebrain, thalamus. The reference data for this cell type is CS202210140_76.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051076"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/PCL_0010063"/>
+        <owl:annotatedTarget rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4300"/>
+        <rdfs:comment>Location assignment based on origin of cells in brain dissections with a cut-off of 10% to account for dissection errors Basal forebrain: 32.9%.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -39717,78 +39752,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PCL_0052501 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0052501">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000156738"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:PCL_0010062>0.8115942028985508</obo:PCL_0010062>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0052502 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0052502">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000116824"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000172673"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:PCL_0010062>0.7773972602739725</obo:PCL_0010062>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0052503 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0052503">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000105374"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000115523"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <obo:PCL_0010062>0.8333333333333333</obo:PCL_0010062>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PCL_0052504 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0052504">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000085265"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:PCL_0010062>0.7611731843575418</obo:PCL_0010062>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PCL_0052505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0052505">
@@ -40919,6 +40882,28 @@
             </owl:Class>
         </rdfs:subClassOf>
         <obo:PCL_0010062>0.8675166297117516</obo:PCL_0010062>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCL_0052552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCL_0052552">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000196569"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://identifiers.org/ensembl/ENSG00000279082"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:PCL_0010062>0.8806209850107065</obo:PCL_0010062>
     </owl:Class>
     
 
@@ -63132,6 +63117,12 @@
     <!-- http://purl.obolibrary.org/obo/pcl/CS202210140_52 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/pcl/CS202210140_52">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCL_0051052"/>
+            </owl:Restriction>
+        </rdf:type>
         <obo:RO_0015003 rdf:resource="http://purl.obolibrary.org/obo/pcl/CS202210140_462"/>
         <custom:cell_set_alias_assignee>Kimberly Siletti</custom:cell_set_alias_assignee>
         <custom:cell_set_alias_citation>10.1126/science.add7046</custom:cell_set_alias_citation>

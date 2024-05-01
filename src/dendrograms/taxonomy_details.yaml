@@ -43,6 +43,11 @@
       Location_relation: located_ing
       Create_class: No
       # leukocyte
+    - Node: CS202210140_52
+      Cell_type: CL:0000644
+      Location_relation: part_of
+      Create_class: Yes
+      # Bergmann glial cell
     - Node: CS202210140_114
       Cell_type: CL:4023009
       Location_relation: has_soma_location
