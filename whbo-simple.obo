@@ -1,15 +1,15 @@
 format-version: 1.2
-data-version: pcl/releases/2024-01-04/whbo-simple.owl
+data-version: pcl/releases/2024-05-01/whbo-simple.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
 subsetdef: ro-eco ""
 ontology: pcl/whbo-simple
-property_value: dc-description "A data-driven cell-type ontology of the human brain" xsd:string
-property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
+property_value: http://purl.org/dc/elements/1.1/description "A data-driven cell-type ontology of the human brain" xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2024-01-04" xsd:string
+property_value: owl:versionInfo "2024-05-01" xsd:string
 
 [Typedef]
 id: RO:0002100
@@ -22,11 +22,38 @@ transitive_over: part_of ! part_of
 expand_expression_to: "BFO_0000051 some (\n   GO_0043025 and   BFO_0000050 some ?Y)" []
 
 [Typedef]
+id: RO:0002162
+name: in taxon
+def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
+comment: Connects a biological entity to its taxon of origin.
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0001-9227-417X
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
+holds_over_chain: capable_of RO:0002162
+holds_over_chain: has_part RO:0002162
+holds_over_chain: part_of RO:0002162
+
+[Typedef]
 id: RO:0002292
 name: expresses
 def: "y expresses x if and only if there is a gene expression process (GO:0010467) that occurs in y, and one of the following holds: (i) x is a gene, and x is transcribed into a transcript as part of the gene expression process (ii) x is a transcript, and x was transcribed from a gene as part of the gene expression process (iii) x is a mature gene product (protein or RNA), and x was translated or otherwise processed from a transcript that was transcribed as part of the gene expression process." []
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+
+[Typedef]
+id: RO:0002473
+name: composed primarily of
+def: "x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y." []
+subset: ro-eco
+property_value: IAO:0000112 "'otolith organ' SubClassOf 'composed primarily of' some 'calcium carbonate'" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
+property_value: RO:0001900 RO:0001901
+is_a: has_part ! has part
 
 [Typedef]
 id: RO:0015001
@@ -70,7 +97,6 @@ property_value: IAO:0000232 "This relation is not meant for cases where set of g
 id: capable_of
 name: capable of
 namespace: external
-namespace: uberon
 def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
 subset: ro-eco
 xref: RO:0002215
@@ -83,46 +109,11 @@ property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/21208450
 property_value: IAO:0000232 "For compatibility with BFO, this relation has a shortcut definition in which the expression \"capable of some P\" expands to \"bearer_of (some realized_by only P)\"." xsd:string
 
 [Typedef]
-id: composed_primarily_of
-name: composed primarily of
-namespace: uberon
-def: "x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y." []
-subset: ro-eco
-xref: RO:0002473
-property_value: IAO:0000112 "'otolith organ' SubClassOf 'composed primarily of' some 'calcium carbonate'" xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
-property_value: RO:0001900 RO:0001901
-is_a: has_part ! has part
-
-[Typedef]
-id: dc-description
-name: description
-namespace: uberon
-xref: http://purl.org/dc/elements/1.1/description
-is_metadata_tag: true
-
-[Typedef]
-id: dc-title
-name: title
-namespace: uberon
-xref: http://purl.org/dc/elements/1.1/title
-is_metadata_tag: true
-
-[Typedef]
-id: dcterms-license
-name: license
-namespace: uberon
-xref: http://purl.org/dc/terms/license
-is_metadata_tag: true
-
-[Typedef]
 id: has_part
 name: has part
 name: has_part
 namespace: external
 namespace: quality
-namespace: uberon
 def: "a core relation that holds between a whole and its part" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
@@ -140,30 +131,11 @@ property_value: RO:0001900 RO:0001901
 is_transitive: true
 
 [Typedef]
-id: in_taxon
-name: in taxon
-namespace: uberon
-def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
-comment: Connects a biological entity to its taxon of origin.
-subset: ro-eco
-xref: RO:0002162
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 https://orcid.org/0000-0001-9227-417X
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
-property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
-holds_over_chain: capable_of in_taxon
-holds_over_chain: has_part in_taxon
-holds_over_chain: part_of in_taxon
-
-[Typedef]
 id: part_of
 name: part of
 name: part_of
 namespace: external
 namespace: quality
-namespace: uberon
 def: "a core relation that holds between a part and its whole" []
 subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term

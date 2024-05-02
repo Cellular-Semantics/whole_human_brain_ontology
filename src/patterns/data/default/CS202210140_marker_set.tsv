@@ -1,8 +1,4 @@
 defined_class	Marker_set_of	Minimal_markers	Brain_region_abbv	Species_abbv	Brain_region	Parent	FBeta_confidence_score
-http://purl.obolibrary.org/obo/PCL_0052501	Bcell_0	ensembl:ENSG00000156738	Hsap	Human	HBA:4005	SO:0001260	0.8115942028985508
-http://purl.obolibrary.org/obo/PCL_0052502	Tcell_1	ensembl:ENSG00000116824|ensembl:ENSG00000172673	Hsap	Human	HBA:4005	SO:0001260	0.7773972602739725
-http://purl.obolibrary.org/obo/PCL_0052503	Nkcell_2	ensembl:ENSG00000105374|ensembl:ENSG00000115523	Hsap	Human	HBA:4005	SO:0001260	0.8333333333333333
-http://purl.obolibrary.org/obo/PCL_0052504	Mono_3	ensembl:ENSG00000085265	Hsap	Human	HBA:4005	SO:0001260	0.7611731843575418
 http://purl.obolibrary.org/obo/PCL_0052505	Mgl_4	ensembl:ENSG00000122862|ensembl:ENSG00000258667	Hsap	Human	HBA:4005	SO:0001260	0.7273391812865497
 http://purl.obolibrary.org/obo/PCL_0052506	Mgl_5	ensembl:ENSG00000077420|ensembl:ENSG00000118271	Hsap	Human	HBA:4005	SO:0001260	0.6982942430703625
 http://purl.obolibrary.org/obo/PCL_0052507	Mgl_6	ensembl:ENSG00000006747|ensembl:ENSG00000140678|ensembl:ENSG00000231535	Hsap	Human	HBA:4005	SO:0001260	0.34090909090909094
@@ -50,6 +46,7 @@ http://purl.obolibrary.org/obo/PCL_0052548	Oligo_47	ensembl:ENSG00000123560|ense
 http://purl.obolibrary.org/obo/PCL_0052549	Oligo_48	ensembl:ENSG00000197430|ensembl:ENSG00000287069	Hsap	Human	HBA:4005	SO:0001260	0.6759259259259258
 http://purl.obolibrary.org/obo/PCL_0052550	Oligo_49	ensembl:ENSG00000091513|ensembl:ENSG00000109846|ensembl:ENSG00000158865|ensembl:ENSG00000172508|ensembl:ENSG00000227088	Hsap	Human	HBA:4005	SO:0001260	0.41883116883116883
 http://purl.obolibrary.org/obo/PCL_0052551	Oligo_50	ensembl:ENSG00000158865|ensembl:ENSG00000259104	Hsap	Human	HBA:4005	SO:0001260	0.8675166297117516
+http://purl.obolibrary.org/obo/PCL_0052552	Bgl_51	ensembl:ENSG00000196569|ensembl:ENSG00000279082	Hsap	Human	HBA:4005	SO:0001260	0.8806209850107065
 http://purl.obolibrary.org/obo/PCL_0052553	Astro_52	ensembl:ENSG00000080573|ensembl:ENSG00000279082	Hsap	Human	HBA:4005	SO:0001260	0.49010791366906475
 http://purl.obolibrary.org/obo/PCL_0052554	Astro_53	ensembl:ENSG00000080573|ensembl:ENSG00000106571	Hsap	Human	HBA:4005	SO:0001260	0.4132443531827516
 http://purl.obolibrary.org/obo/PCL_0052555	Astro_54	ensembl:ENSG00000106571|ensembl:ENSG00000164089|ensembl:ENSG00000234377|ensembl:ENSG00000251165	Hsap	Human	HBA:4005	SO:0001260	0.22321428571428573
