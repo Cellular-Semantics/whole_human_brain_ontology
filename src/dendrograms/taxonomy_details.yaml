@@ -238,7 +238,7 @@
       # MGE interneuron
       Create_class: Yes
     - Node: CS202210140_485
-      Cell_type: CL:0000402
+      Cell_type: CL:0000099
       Location_relation: has_soma_location
       Create_class: Yes
       # LAMP5-LHX6 and Chandelier
