@@ -13,11 +13,11 @@
      xmlns:custom="http://n2o.neo/custom/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pcl/whbo-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2024-05-01/whbo-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pcl/releases/2025-01-06/whbo-simple-non-classified.owl"/>
         <dc:description>A data-driven cell-type ontology of the human brain</dc:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Whole Human Brain Ontology</terms:title>
-        <owl:versionInfo>2024-05-01</owl:versionInfo>
+        <owl:versionInfo>2025-01-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -24752,20 +24752,20 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_267 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MET (Hsap), CHST9 (Hsap), DDR2 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_268.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MET (Hsap), CHST9 (Hsap), DDR2 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_268.</obo:IAO_0000115>
         <obo:PCL_0010058>CHST9 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>DDR2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>MET (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <oboInOwl:hasExactSynonym>LLC_267</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>MET (Hsap), CHST9 (Hsap), DDR2 (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MET (Hsap), CHST9 (Hsap), DDR2 (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_267</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051268"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MET (Hsap), CHST9 (Hsap), DDR2 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_268.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of MET (Hsap), CHST9 (Hsap), DDR2 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_268.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -24833,20 +24833,20 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_268 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), TACR1 (Hsap), CHST9 (Hsap), CMTM8 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_269.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), TACR1 (Hsap), CHST9 (Hsap), CMTM8 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_269.</obo:IAO_0000115>
         <obo:PCL_0010058>CHST9 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>CMTM8 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>EYA4 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>TACR1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
-        <oboInOwl:hasExactSynonym>EYA4 (Hsap), TACR1 (Hsap), CHST9 (Hsap), CMTM8 (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EYA4 (Hsap), TACR1 (Hsap), CHST9 (Hsap), CMTM8 (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>LLC_268</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_268</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051269"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), TACR1 (Hsap), CHST9 (Hsap), CMTM8 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_269.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EYA4 (Hsap), TACR1 (Hsap), CHST9 (Hsap), CMTM8 (Hsap). The soma of these cells can be found in the hippocampal formation. The reference data for this cell type is CS202210140_269.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -24904,21 +24904,21 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_269 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISM1 (Hsap), IFI44 (Hsap), CHST9 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_270.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISM1 (Hsap), IFI44 (Hsap), CHST9 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_270.</obo:IAO_0000115>
         <obo:PCL_0010058>CHST9 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>IFI44 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>ISM1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
-        <oboInOwl:hasExactSynonym>ISM1 (Hsap), IFI44 (Hsap), CHST9 (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ISM1 (Hsap), IFI44 (Hsap), CHST9 (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>LLC_269</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_269</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051270"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISM1 (Hsap), IFI44 (Hsap), CHST9 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_270.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ISM1 (Hsap), IFI44 (Hsap), CHST9 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_270.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -24996,7 +24996,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_270 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), NOS1 (Hsap), PREX2 (Hsap), ADAMTS9-AS2 (Hsap), ARHGAP6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_271.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), NOS1 (Hsap), PREX2 (Hsap), ADAMTS9-AS2 (Hsap), ARHGAP6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_271.</obo:IAO_0000115>
         <obo:PCL_0010058>ADAMTS9-AS2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>ARHGAP6 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>NOS1 (Hsap)</obo:PCL_0010058>
@@ -25004,13 +25004,13 @@
         <obo:PCL_0010058>TAC1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <oboInOwl:hasExactSynonym>LLC_270</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>TAC1 (Hsap), NOS1 (Hsap), PREX2 (Hsap), ADAMTS9-AS2 (Hsap), ARHGAP6 (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TAC1 (Hsap), NOS1 (Hsap), PREX2 (Hsap), ADAMTS9-AS2 (Hsap), ARHGAP6 (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_270</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051271"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), NOS1 (Hsap), PREX2 (Hsap), ADAMTS9-AS2 (Hsap), ARHGAP6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_271.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC1 (Hsap), NOS1 (Hsap), PREX2 (Hsap), ADAMTS9-AS2 (Hsap), ARHGAP6 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_271.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25068,20 +25068,20 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_271 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), ADGRG6 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_272.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), ADGRG6 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_272.</obo:IAO_0000115>
         <obo:PCL_0010058>ADGRG6 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>RP11-563D10.1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>SFRP1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>LLC_271</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>SFRP1 (Hsap), ADGRG6 (Hsap), RP11-563D10.1 (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SFRP1 (Hsap), ADGRG6 (Hsap), RP11-563D10.1 (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_271</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051272"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), ADGRG6 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_272.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), ADGRG6 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_272.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25149,7 +25149,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_272 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), LAMP5 (Hsap), FREM2 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_273.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), LAMP5 (Hsap), FREM2 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_273.</obo:IAO_0000115>
         <obo:PCL_0010058>FREM2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>LAMP5 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>PDGFD (Hsap)</obo:PCL_0010058>
@@ -25157,13 +25157,13 @@
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>LLC_272</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>SFRP1 (Hsap), LAMP5 (Hsap), FREM2 (Hsap), PDGFD (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SFRP1 (Hsap), LAMP5 (Hsap), FREM2 (Hsap), PDGFD (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_272</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051273"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), LAMP5 (Hsap), FREM2 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_273.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SFRP1 (Hsap), LAMP5 (Hsap), FREM2 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_273.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25231,7 +25231,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_273 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), FBN2 (Hsap), CHST9 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_274.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), FBN2 (Hsap), CHST9 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_274.</obo:IAO_0000115>
         <obo:PCL_0010058>CHST9 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>FBN2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>LRP2 (Hsap)</obo:PCL_0010058>
@@ -25239,13 +25239,13 @@
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>LLC_273</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>LRP2 (Hsap), FBN2 (Hsap), CHST9 (Hsap), RP11-563D10.1 (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LRP2 (Hsap), FBN2 (Hsap), CHST9 (Hsap), RP11-563D10.1 (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_273</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051274"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), FBN2 (Hsap), CHST9 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_274.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LRP2 (Hsap), FBN2 (Hsap), CHST9 (Hsap), RP11-563D10.1 (Hsap). The soma of these cells can be found in the amygdala, cerebral cortex. The reference data for this cell type is CS202210140_274.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25309,19 +25309,19 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_274 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FBN2 (Hsap), NFIA-AS2 (Hsap), CTC-806A22.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_275.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FBN2 (Hsap), NFIA-AS2 (Hsap), CTC-806A22.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_275.</obo:IAO_0000115>
         <obo:PCL_0010058>CTC-806A22.1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>FBN2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>NFIA-AS2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
-        <oboInOwl:hasExactSynonym>FBN2 (Hsap), NFIA-AS2 (Hsap), CTC-806A22.1 (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FBN2 (Hsap), NFIA-AS2 (Hsap), CTC-806A22.1 (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>LLC_274</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_274</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051275"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FBN2 (Hsap), NFIA-AS2 (Hsap), CTC-806A22.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_275.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FBN2 (Hsap), NFIA-AS2 (Hsap), CTC-806A22.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_275.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25383,21 +25383,21 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LLC_275 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), SFRP1 (Hsap), CXCL14 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_276.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), SFRP1 (Hsap), CXCL14 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_276.</obo:IAO_0000115>
         <obo:PCL_0010058>CA2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>CXCL14 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>PDGFD (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>SFRP1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
-        <oboInOwl:hasExactSynonym>CA2 (Hsap), SFRP1 (Hsap), CXCL14 (Hsap), PDGFD (Hsap) expressing CNS interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CA2 (Hsap), SFRP1 (Hsap), CXCL14 (Hsap), PDGFD (Hsap) expressing interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>LLC_275</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LLC_275</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051276"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), SFRP1 (Hsap), CXCL14 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_276.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CA2 (Hsap), SFRP1 (Hsap), CXCL14 (Hsap), PDGFD (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_276.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25458,14 +25458,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_276 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277.</obo:IAO_0000115>
         <obo:PCL_0010058>SVEP1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>VIP (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_276</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>VIP (Hsap), SVEP1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VIP (Hsap), SVEP1 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_276</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -25478,7 +25478,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051277"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), SVEP1 (Hsap). The soma of these cells can be found in the hippocampal formation, amygdala, cerebral cortex. The reference data for this cell type is CS202210140_277.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25544,19 +25544,19 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_277 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SCGN (Hsap), DDR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_278.</obo:IAO_0000115>
+        <obo:IAO_0000115>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SCGN (Hsap), DDR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_278.</obo:IAO_0000115>
         <obo:PCL_0010058>DDR2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>SCGN (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_277</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>SCGN (Hsap), DDR2 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SCGN (Hsap), DDR2 (Hsap) expressing caudal ganglionic eminence derived cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_277</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051278"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SCGN (Hsap), DDR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_278.</owl:annotatedTarget>
+        <owl:annotatedTarget>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SCGN (Hsap), DDR2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_278.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25620,20 +25620,20 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_278 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WIF1 (Hsap), DDR2 (Hsap), CHRNA7 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_279.</obo:IAO_0000115>
+        <obo:IAO_0000115>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WIF1 (Hsap), DDR2 (Hsap), CHRNA7 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_279.</obo:IAO_0000115>
         <obo:PCL_0010058>CHRNA7 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>DDR2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>WIF1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_278</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>WIF1 (Hsap), DDR2 (Hsap), CHRNA7 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>WIF1 (Hsap), DDR2 (Hsap), CHRNA7 (Hsap) expressing caudal ganglionic eminence derived cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_278</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051279"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WIF1 (Hsap), DDR2 (Hsap), CHRNA7 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_279.</owl:annotatedTarget>
+        <owl:annotatedTarget>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of WIF1 (Hsap), DDR2 (Hsap), CHRNA7 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_279.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25698,7 +25698,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_279 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280.</obo:IAO_0000115>
         <obo:PCL_0010058>CXCL14 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>DOCK8 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>FREM2 (Hsap)</obo:PCL_0010058>
@@ -25706,7 +25706,7 @@
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_279</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_279</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -25719,7 +25719,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051280"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of DOCK8 (Hsap), CXCL14 (Hsap), FREM2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_280.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25786,13 +25786,13 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_280 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281.</obo:IAO_0000115>
         <obo:PCL_0010058>CTD-2008L17.2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>LAMA3 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_280</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>LAMA3 (Hsap), CTD-2008L17.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LAMA3 (Hsap), CTD-2008L17.2 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_280</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -25805,7 +25805,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051281"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of LAMA3 (Hsap), CTD-2008L17.2 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_281.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25866,14 +25866,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_281 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282.</obo:IAO_0000115>
         <obo:PCL_0010058>EDNRA (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>HTR3A (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_281</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>EDNRA (Hsap), HTR3A (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EDNRA (Hsap), HTR3A (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_281</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -25886,7 +25886,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051282"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of EDNRA (Hsap), HTR3A (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala, hippocampal formation. The reference data for this cell type is CS202210140_282.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -25952,19 +25952,19 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_282 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAM33 (Hsap), CTC-367F4.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_283.</obo:IAO_0000115>
+        <obo:IAO_0000115>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAM33 (Hsap), CTC-367F4.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_283.</obo:IAO_0000115>
         <obo:PCL_0010058>ADAM33 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>CTC-367F4.1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
-        <oboInOwl:hasExactSynonym>ADAM33 (Hsap), CTC-367F4.1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ADAM33 (Hsap), CTC-367F4.1 (Hsap) expressing caudal ganglionic eminence derived cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CGE_282</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_282</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051283"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAM33 (Hsap), CTC-367F4.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_283.</owl:annotatedTarget>
+        <owl:annotatedTarget>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of ADAM33 (Hsap), CTC-367F4.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_283.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26032,20 +26032,20 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_283 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SEMA3C (Hsap), SYT10 (Hsap), CXCL14 (Hsap), SGO1-AS1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_284.</obo:IAO_0000115>
+        <obo:IAO_0000115>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SEMA3C (Hsap), SYT10 (Hsap), CXCL14 (Hsap), SGO1-AS1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_284.</obo:IAO_0000115>
         <obo:PCL_0010058>CXCL14 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>SEMA3C (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>SGO1-AS1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>SYT10 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <oboInOwl:hasExactSynonym>CGE_283</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>SEMA3C (Hsap), SYT10 (Hsap), CXCL14 (Hsap), SGO1-AS1 (Hsap) expressing caudal ganglionic eminence derived interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SEMA3C (Hsap), SYT10 (Hsap), CXCL14 (Hsap), SGO1-AS1 (Hsap) expressing caudal ganglionic eminence derived cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_283</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051284"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SEMA3C (Hsap), SYT10 (Hsap), CXCL14 (Hsap), SGO1-AS1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_284.</owl:annotatedTarget>
+        <owl:annotatedTarget>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SEMA3C (Hsap), SYT10 (Hsap), CXCL14 (Hsap), SGO1-AS1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_284.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26108,13 +26108,13 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_284 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285.</obo:IAO_0000115>
         <obo:PCL_0010058>CCN2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>CXCL14 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>PCDH18 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>RP1-35C21.2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
-        <oboInOwl:hasExactSynonym>CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CGE_284</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_284</skos:prefLabel>
     </owl:Class>
@@ -26128,7 +26128,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051285"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CCN2 (Hsap), CXCL14 (Hsap), PCDH18 (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_285.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26183,13 +26183,13 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_285 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286.</obo:IAO_0000115>
         <obo:PCL_0010058>PENK (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>VIP (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <oboInOwl:hasExactSynonym>CGE_285</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>VIP (Hsap), PENK (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VIP (Hsap), PENK (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_285</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -26202,7 +26202,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051286"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), PENK (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_286.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26541,13 +26541,13 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_289 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290.</obo:IAO_0000115>
         <obo:PCL_0010058>AC133680.1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>AJ006995.3 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>TAC3 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <oboInOwl:hasExactSynonym>CGE_289</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_289</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -26560,7 +26560,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051290"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TAC3 (Hsap), AJ006995.3 (Hsap), AC133680.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_290.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26619,13 +26619,13 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_290 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291.</obo:IAO_0000115>
         <obo:PCL_0010058>CHRM2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>FLT1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>VIP (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <oboInOwl:hasExactSynonym>CGE_290</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_290</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -26638,7 +26638,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051291"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FLT1 (Hsap), VIP (Hsap), CHRM2 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_291.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26697,14 +26697,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_291 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292.</obo:IAO_0000115>
         <obo:PCL_0010058>EDNRA (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>NPR3 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>RP1-35C21.2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <oboInOwl:hasExactSynonym>CGE_291</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_291</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -26717,7 +26717,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051292"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), EDNRA (Hsap), RP1-35C21.2 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_292.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26786,14 +26786,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_292 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293.</obo:IAO_0000115>
         <obo:PCL_0010058>CRH (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>NPR3 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>PPP1R1C (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>RP11-197H3.1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <oboInOwl:hasExactSynonym>CGE_292</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_292</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -26806,7 +26806,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051293"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of NPR3 (Hsap), CRH (Hsap), PPP1R1C (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex. The reference data for this cell type is CS202210140_293.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26865,14 +26865,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_293 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294.</obo:IAO_0000115>
         <obo:PCL_0010058>HS3ST3A1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>IQGAP2 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>RP11-197H3.1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <oboInOwl:hasExactSynonym>CGE_293</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_293</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -26885,7 +26885,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051294"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of IQGAP2 (Hsap), HS3ST3A1 (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_294.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -26946,14 +26946,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_294 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295.</obo:IAO_0000115>
         <obo:PCL_0010058>ABI3BP (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>VIP (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4249"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_294</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>VIP (Hsap), ABI3BP (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VIP (Hsap), ABI3BP (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_294</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -26966,7 +26966,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051295"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of VIP (Hsap), ABI3BP (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_295.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -27041,7 +27041,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_295 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296.</obo:IAO_0000115>
         <obo:PCL_0010058>CRH (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>RP11-197H3.1 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>RXRG (Hsap)</obo:PCL_0010058>
@@ -27049,7 +27049,7 @@
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_295</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_295</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -27062,7 +27062,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051296"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of RXRG (Hsap), VIP (Hsap), CRH (Hsap), RP11-197H3.1 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_296.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -27131,7 +27131,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE_296 (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297.</obo:IAO_0000115>
+        <obo:IAO_0000115>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297.</obo:IAO_0000115>
         <obo:PCL_0010058>CMTM8 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>CXCL14 (Hsap)</obo:PCL_0010058>
         <obo:PCL_0010058>LYPD6 (Hsap)</obo:PCL_0010058>
@@ -27139,7 +27139,7 @@
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4008"/>
         <obo:PCL_0010063 rdf:resource="https://purl.brain-bican.org/ontology/hbao/HBA_4327"/>
         <oboInOwl:hasExactSynonym>CGE_296</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap) expressing vip GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap) expressing VIP GABAergic cortical interneuron of brain (Homo sapiens)</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE_296</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
@@ -27152,7 +27152,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051297"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vip GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297.</owl:annotatedTarget>
+        <owl:annotatedTarget>A VIP GABAergic cortical interneuron of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CXCL14 (Hsap), TAC3 (Hsap), CMTM8 (Hsap), LYPD6 (Hsap). The soma of these cells can be found in the cerebral cortex, amygdala. The reference data for this cell type is CS202210140_297.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -39704,14 +39704,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>LAMP5-LHX6 and Chandelier (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A CNS interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_485.</obo:IAO_0000115>
+        <obo:IAO_0000115>A interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_485.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>LAMP5-LHX6 and Chandelier</oboInOwl:hasExactSynonym>
         <skos:prefLabel>LAMP5-LHX6 and Chandelier</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051485"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A CNS interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_485.</owl:annotatedTarget>
+        <owl:annotatedTarget>A interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_485.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -39739,14 +39739,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000028>CGE interneuron (Human)</obo:IAO_0000028>
-        <obo:IAO_0000115>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_486.</obo:IAO_0000115>
+        <obo:IAO_0000115>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_486.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CGE interneuron</oboInOwl:hasExactSynonym>
         <skos:prefLabel>CGE interneuron</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PCL_0051486"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A caudal ganglionic eminence derived interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_486.</owl:annotatedTarget>
+        <owl:annotatedTarget>A caudal ganglionic eminence derived cortical interneuron of the Homo sapiens brain. The reference data for this cell type is CS202210140_486.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1126/science.add7046</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -64467,5 +64467,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

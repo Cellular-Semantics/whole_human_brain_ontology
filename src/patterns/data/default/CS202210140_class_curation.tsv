@@ -262,15 +262,15 @@ http://purl.obolibrary.org/obo/PCL_0051264	MGE_263	CL:4023063
 http://purl.obolibrary.org/obo/PCL_0051265	LLC_264	CL:4023083		Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2								
 http://purl.obolibrary.org/obo/PCL_0051266	LLC_265	CL:4023083		Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2								
 http://purl.obolibrary.org/obo/PCL_0051267	LLC_266	CL:4023083		Inferred from expression of: FOXG1, GAD1, UNC5B, RORA, TRPS1, NFIB, CA8, PLEKHH2								
-http://purl.obolibrary.org/obo/PCL_0051268	LLC_267	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051269	LLC_268	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051270	LLC_269	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051271	LLC_270	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051272	LLC_271	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051273	LLC_272	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051274	LLC_273	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051275	LLC_274	CL:0000402										
-http://purl.obolibrary.org/obo/PCL_0051276	LLC_275	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051268	LLC_267	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051269	LLC_268	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051270	LLC_269	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051271	LLC_270	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051272	LLC_271	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051273	LLC_272	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051274	LLC_273	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051275	LLC_274	CL:0000099										
+http://purl.obolibrary.org/obo/PCL_0051276	LLC_275	CL:0000099										
 http://purl.obolibrary.org/obo/PCL_0051277	CGE_276	CL:4023016		Inferred from expression of: FOXG1, NR2F1, DLX1, ADARB2, CXCL14, GAD2, VIP	https://doi.org/10.1038/s41586-020-2781-z							
 http://purl.obolibrary.org/obo/PCL_0051278	CGE_277	CL:4023064										
 http://purl.obolibrary.org/obo/PCL_0051279	CGE_278	CL:4023064										
@@ -466,5 +466,5 @@ http://purl.obolibrary.org/obo/PCL_0051480	Hippocampal dentate gyrus	CL:4023062
 http://purl.obolibrary.org/obo/PCL_0051481	Medium spiny neuron	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051482	Eccentric medium spiny neuron	CL:1001474										
 http://purl.obolibrary.org/obo/PCL_0051484	MGE interneuron	CL:4023063										
-http://purl.obolibrary.org/obo/PCL_0051485	LAMP5-LHX6 and Chandelier	CL:0000402										
+http://purl.obolibrary.org/obo/PCL_0051485	LAMP5-LHX6 and Chandelier	CL:0000099										
 http://purl.obolibrary.org/obo/PCL_0051486	CGE interneuron	CL:4023064										
