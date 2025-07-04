@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pcl/releases/2025-01-06/whbo-base.owl
+data-version: pcl/releases/2025-07-04/whbo-base.owl
 idspace: custom http://n2o.neo/custom/ 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
@@ -10,7 +10,7 @@ property_value: dce:description "A data-driven cell-type ontology of the human b
 property_value: dce:type IAO:8000001
 property_value: dcterms:license http://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Whole Human Brain Ontology" xsd:string
-property_value: owl:versionInfo "2025-01-06" xsd:string
+property_value: owl:versionInfo "2025-07-04" xsd:string
 
 [Term]
 id: PCL:0051005
@@ -702,9 +702,9 @@ property_value: skos:prefLabel "OPC_36" xsd:string
 
 [Term]
 id: PCL:0051038
-name: COP_37 differentiation-committed oligodendrocyte precursor (Hsap)
-def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_38." [DOI:10.1126/science.add7046]
-synonym: "BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
+name: COP_37 committed oligodendrocyte precursor (Hsap)
+def: "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_38." [DOI:10.1126/science.add7046]
+synonym: "BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_37" EXACT []
 is_a: CL:4023059
 relationship: BFO:0000050 HBA:4005
@@ -723,9 +723,9 @@ property_value: skos:prefLabel "COP_37" xsd:string
 
 [Term]
 id: PCL:0051039
-name: COP_38 differentiation-committed oligodendrocyte precursor (Hsap)
-def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), RP11-89N17.4 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_39." [DOI:10.1126/science.add7046]
-synonym: "BCAS1 (Hsap), RP11-89N17.4 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
+name: COP_38 committed oligodendrocyte precursor (Hsap)
+def: "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), RP11-89N17.4 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_39." [DOI:10.1126/science.add7046]
+synonym: "BCAS1 (Hsap), RP11-89N17.4 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_38" EXACT []
 is_a: CL:4023059
 relationship: BFO:0000050 HBA:4005
@@ -742,10 +742,10 @@ property_value: skos:prefLabel "COP_38" xsd:string
 
 [Term]
 id: PCL:0051040
-name: COP_39 differentiation-committed oligodendrocyte precursor (Hsap)
-def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TF (Hsap), CTD-2545M3.8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_40." [DOI:10.1126/science.add7046]
+name: COP_39 committed oligodendrocyte precursor (Hsap)
+def: "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TF (Hsap), CTD-2545M3.8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_40." [DOI:10.1126/science.add7046]
 synonym: "COP_39" EXACT []
-synonym: "TF (Hsap), CTD-2545M3.8 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
+synonym: "TF (Hsap), CTD-2545M3.8 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
@@ -784,10 +784,10 @@ property_value: skos:prefLabel "Oligo_40" xsd:string
 
 [Term]
 id: PCL:0051042
-name: COP_41 differentiation-committed oligodendrocyte precursor (Hsap)
-def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OPALIN (Hsap), AC084149.2 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, basal forebrain. The reference data for this cell type is CS202210140_42." [DOI:10.1126/science.add7046]
+name: COP_41 committed oligodendrocyte precursor (Hsap)
+def: "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OPALIN (Hsap), AC084149.2 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, basal forebrain. The reference data for this cell type is CS202210140_42." [DOI:10.1126/science.add7046]
 synonym: "COP_41" EXACT []
-synonym: "OPALIN (Hsap), AC084149.2 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
+synonym: "OPALIN (Hsap), AC084149.2 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
@@ -804,9 +804,9 @@ property_value: skos:prefLabel "COP_41" xsd:string
 
 [Term]
 id: PCL:0051043
-name: COP_42 differentiation-committed oligodendrocyte precursor (Hsap)
-def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap). The soma of these cells can be found in the thalamus. The reference data for this cell type is CS202210140_43." [DOI:10.1126/science.add7046]
-synonym: "CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
+name: COP_42 committed oligodendrocyte precursor (Hsap)
+def: "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap). The soma of these cells can be found in the thalamus. The reference data for this cell type is CS202210140_43." [DOI:10.1126/science.add7046]
+synonym: "CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 synonym: "COP_42" EXACT []
 is_a: CL:4023059
 relationship: BFO:0000050 HBA:4005
@@ -824,10 +824,10 @@ property_value: skos:prefLabel "COP_42" xsd:string
 
 [Term]
 id: PCL:0051044
-name: COP_43 differentiation-committed oligodendrocyte precursor (Hsap)
-def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A11 (Hsap), MOBP (Hsap). The soma of these cells can be found in the thalamus, hypothalamus, amygdala. The reference data for this cell type is CS202210140_44." [DOI:10.1126/science.add7046]
+name: COP_43 committed oligodendrocyte precursor (Hsap)
+def: "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A11 (Hsap), MOBP (Hsap). The soma of these cells can be found in the thalamus, hypothalamus, amygdala. The reference data for this cell type is CS202210140_44." [DOI:10.1126/science.add7046]
 synonym: "COP_43" EXACT []
-synonym: "SLC5A11 (Hsap), MOBP (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
+synonym: "SLC5A11 (Hsap), MOBP (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606
@@ -1505,10 +1505,10 @@ property_value: skos:prefLabel "Epen_74" xsd:string
 
 [Term]
 id: PCL:0051076
-name: COP_75 differentiation-committed oligodendrocyte precursor (Hsap)
-def: "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the myelencephalon, basal forebrain, thalamus. The reference data for this cell type is CS202210140_76." [DOI:10.1126/science.add7046]
+name: COP_75 committed oligodendrocyte precursor (Hsap)
+def: "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the myelencephalon, basal forebrain, thalamus. The reference data for this cell type is CS202210140_76." [DOI:10.1126/science.add7046]
 synonym: "COP_75" EXACT []
-synonym: "FOLR1 (Hsap), C1QTNF5 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
+synonym: "FOLR1 (Hsap), C1QTNF5 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)" EXACT []
 is_a: CL:4023059
 relationship: BFO:0000050 HBA:4005
 relationship: RO:0002162 NCBITaxon:9606

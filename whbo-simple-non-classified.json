@@ -13,9 +13,9 @@
         "val" : "Whole Human Brain Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2025-01-06"
+        "val" : "2025-07-04"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-01-06/whbo-simple-non-classified.json"
+      "version" : "http://purl.obolibrary.org/obo/pcl/releases/2025-07-04/whbo-simple-non-classified.json"
     },
     "nodes" : [ {
       "id" : "http://identifiers.org/ensembl/ENSG00000002745",
@@ -3388,12 +3388,12 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_38.",
+          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation. The reference data for this cell type is CS202210140_38.",
           "xrefs" : [ "DOI:10.1126/science.add7046" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)"
+          "val" : "BCAS1 (Hsap), PRRX1 (Hsap), GPR17 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "COP_37"
@@ -3426,12 +3426,12 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), RP11-89N17.4 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_39.",
+          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of BCAS1 (Hsap), RP11-89N17.4 (Hsap). The soma of these cells can be found in the hippocampal formation, cerebral cortex. The reference data for this cell type is CS202210140_39.",
           "xrefs" : [ "DOI:10.1126/science.add7046" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "BCAS1 (Hsap), RP11-89N17.4 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)"
+          "val" : "BCAS1 (Hsap), RP11-89N17.4 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "COP_38"
@@ -3461,7 +3461,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TF (Hsap), CTD-2545M3.8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_40.",
+          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of TF (Hsap), CTD-2545M3.8 (Hsap). The soma of these cells can be found in the cerebral cortex, hippocampal formation, amygdala. The reference data for this cell type is CS202210140_40.",
           "xrefs" : [ "DOI:10.1126/science.add7046" ]
         },
         "synonyms" : [ {
@@ -3469,7 +3469,7 @@
           "val" : "COP_39"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "TF (Hsap), CTD-2545M3.8 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)"
+          "val" : "TF (Hsap), CTD-2545M3.8 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -3540,7 +3540,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OPALIN (Hsap), AC084149.2 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, basal forebrain. The reference data for this cell type is CS202210140_42.",
+          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of OPALIN (Hsap), AC084149.2 (Hsap). The soma of these cells can be found in the amygdala, hypothalamus, basal forebrain. The reference data for this cell type is CS202210140_42.",
           "xrefs" : [ "DOI:10.1126/science.add7046" ]
         },
         "synonyms" : [ {
@@ -3548,7 +3548,7 @@
           "val" : "COP_41"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "OPALIN (Hsap), AC084149.2 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)"
+          "val" : "OPALIN (Hsap), AC084149.2 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -3578,12 +3578,12 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap). The soma of these cells can be found in the thalamus. The reference data for this cell type is CS202210140_43.",
+          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap). The soma of these cells can be found in the thalamus. The reference data for this cell type is CS202210140_43.",
           "xrefs" : [ "DOI:10.1126/science.add7046" ]
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)"
+          "val" : "CNDP1 (Hsap), NTNG1 (Hsap), LINC01608 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "COP_42"
@@ -3613,7 +3613,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A11 (Hsap), MOBP (Hsap). The soma of these cells can be found in the thalamus, hypothalamus, amygdala. The reference data for this cell type is CS202210140_44.",
+          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of SLC5A11 (Hsap), MOBP (Hsap). The soma of these cells can be found in the thalamus, hypothalamus, amygdala. The reference data for this cell type is CS202210140_44.",
           "xrefs" : [ "DOI:10.1126/science.add7046" ]
         },
         "synonyms" : [ {
@@ -3621,7 +3621,7 @@
           "val" : "COP_43"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "SLC5A11 (Hsap), MOBP (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)"
+          "val" : "SLC5A11 (Hsap), MOBP (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
@@ -4859,7 +4859,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A differentiation-committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the myelencephalon, basal forebrain, thalamus. The reference data for this cell type is CS202210140_76.",
+          "val" : "A committed oligodendrocyte precursor of the Homo sapiens brain. These cells can be distinguished from other cells in the brain by their selective expression of FOLR1 (Hsap), C1QTNF5 (Hsap). The soma of these cells can be found in the myelencephalon, basal forebrain, thalamus. The reference data for this cell type is CS202210140_76.",
           "xrefs" : [ "DOI:10.1126/science.add7046" ]
         },
         "synonyms" : [ {
@@ -4867,7 +4867,7 @@
           "val" : "COP_75"
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "FOLR1 (Hsap), C1QTNF5 (Hsap) expressing differentiation-committed oligodendrocyte precursor of brain (Homo sapiens)"
+          "val" : "FOLR1 (Hsap), C1QTNF5 (Hsap) expressing committed oligodendrocyte precursor of brain (Homo sapiens)"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000028",
