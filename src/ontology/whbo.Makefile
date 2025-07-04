@@ -266,9 +266,16 @@ $(ONT).owl: $(ONT)-full.owl $(ONT)-pcl-comp.owl $(ONT)-pcl-comp.obo $(ONT)-pcl-c
 	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		convert -o $@.tmp.owl && mv $@.tmp.owl $@
 
+$(TMPDIR)/used_genes.txt: $(ONT)-base.owl
+	$(ROBOT) query --input $< --query ../sparql/pcl-used-genes.sparql $@
+
+$(TMPDIR)/all_genes.owl: $(GENE_FILES) $(TMPDIR)/used_genes.txt
+	$(ROBOT) merge $(patsubst %, -i %, $(GENE_FILES)) \
+	extract -T $(TMPDIR)/used_genes.txt --force true --copy-ontology-annotations false --individuals exclude --method BOT -o $@
+
 # Artifact that extends base with gene ontologies (used by PCL)
-$(ONT)-pcl-comp.owl:  $(ONT)-base.owl $(GENE_FILES)
-	$(ROBOT) merge -i $< $(patsubst %, -i %, $(GENE_FILES)) \
+$(ONT)-pcl-comp.owl:  $(ONT)-base.owl $(TMPDIR)/all_genes.owl
+	$(ROBOT) merge -i $< -i $(TMPDIR)/all_genes.owl \
 	 	annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) \
 		--output $(RELEASEDIR)/$@
 $(ONT)-pcl-comp.obo: $(RELEASEDIR)/$(ONT)-pcl-comp.owl
